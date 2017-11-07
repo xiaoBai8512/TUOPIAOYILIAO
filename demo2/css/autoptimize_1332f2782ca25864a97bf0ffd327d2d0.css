@@ -1,0 +1,103 @@
+@media print {
+    .tt-recipe-wrapper {
+        position: relative
+    }
+
+    .recipe-title h3 {
+        font-size: 25px
+    }
+
+    .recipe-time ul {
+        padding: 0;
+        margin: 0 -10px
+    }
+
+    .recipe-time ul li {
+        width: 33.3333%;
+        list-style: none;
+        padding: 0 10px;
+        margin-bottom: 20px;
+        font-size: 13px;
+        line-height: 18px
+    }
+
+    .recipe-time-content {
+        border: 1px solid #dcdbdb;
+        padding: 20px;
+        border-radius: 3px
+    }
+
+    .recipe-time ul li span {
+        display: block;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #212121
+    }
+
+    .recipe-time ul li span {
+        font-family: Poppins, sans-serif
+    }
+
+    .recipe-content {
+        margin-top: 10px
+    }
+
+    .recipe-content h3 {
+        font-size: 18px;
+        padding-bottom: 7px;
+        border-bottom: 1px solid #dcdbdb
+    }
+
+    .nutrition-amount h4, .recipe-content h4 {
+        margin: 0 0 5px;
+        font-size: 12px;
+        text-transform: uppercase
+    }
+
+    .recipe-content ul {
+        margin: 0 0 20px;
+        padding: 0;
+        list-style: none
+    }
+
+    .nutrition-amount ul {
+        margin: 0 -5px;
+        padding: 0;
+        list-style: none
+    }
+
+    .nutrition-amount ul li {
+        float: left;
+        width: 14%;
+        padding: 0 5px;
+        margin-bottom: 10px
+    }
+
+    .nutrition-content {
+        border: 1px solid #dcdbdb;
+        text-align: center;
+        padding: 10px 0 2px
+    }
+
+    .nutrition-content span, .nutrition-content strong {
+        display: block;
+        padding: 0 5px
+    }
+
+    .nutrition-content strong {
+        font-size: 19px;
+        color: #212121
+    }
+
+    .nutrition-content span:first-child {
+        font-size: 14px;
+        border-bottom: 1px solid #e6e6e6;
+        padding-bottom: 10px;
+        margin-bottom: 2px
+    }
+
+    .nutrition-content span:last-child {
+        font-size: 14px
+    }
+}
