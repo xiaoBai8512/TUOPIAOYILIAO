@@ -1,5 +1,5 @@
 .zilla-likes {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/tt-plugin/inc/post-likes/styles/../images/heart.png) no-repeat 0 49%;
+    background: url(./images/s-images/heart.png) no-repeat 0 49%;
     border: 0 !important;
     display: inline-block;
     margin-bottom: 10px;
@@ -9,7 +9,7 @@
 }
 
 .zilla-likes:hover, .zilla-likes.active {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/tt-plugin/inc/post-likes/styles/../images/heart_active.png) no-repeat 0 49%;
+    background: url(./images/s-images/heart_active.png) no-repeat 0 49%;
     border: 0 !important;
     margin: 0 0 10px 0 !important;
     padding-left: 18px !important;
@@ -94,7 +94,7 @@ span.wpcf7-list-item-label::before, span.wpcf7-list-item-label::after {
 div.wpcf7 .ajax-loader {
     visibility: hidden;
     display: inline-block;
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/contact-form-7/includes/css/../../images/ajax-loader.gif);
+    background-image: url(./images/s-images/ajax-loader.gif);
     width: 16px;
     height: 16px;
     border: 0;
@@ -201,8 +201,11 @@ div.wpcf7 input[type="file"]:disabled {
 
 @font-face {
     font-family: revicons;
-    src: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/revslider/public/assets/css/../fonts/revicons/revicons.eot?5510888);
-    src: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/revslider/public/assets/css/../fonts/revicons/revicons.eot?5510888#iefix) format('embedded-opentype'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/revslider/public/assets/css/../fonts/revicons/revicons.woff?5510888) format('woff'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/revslider/public/assets/css/../fonts/revicons/revicons.ttf?5510888) format('truetype'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/revslider/public/assets/css/../fonts/revicons/revicons.svg?5510888#revicons) format('svg');
+    src: url(/demo2/fonts/eot-font/revicons/revicons.eot?5510888);
+    src: url(/demo2/fonts/eot-font/revicons/revicons.eot?5510888#iefix) format('embedded-opentype'),
+    url(/demo2/fonts/woff-font/revicons.woff?5510888) format('woff'),
+    url(/demo2/fonts/revicons.ttf?5510888) format('truetype'),
+    url(/demo2/images/svg/revicons.svg?5510888#revicons) format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -923,19 +926,19 @@ img.tp-slider-alternative-image {
 }
 
 .tp-dottedoverlay.twoxtwo {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/revslider/public/assets/css/../assets/gridtile.png)
+    background: url(./images/s-images/gridtile.png)
 }
 
 .tp-dottedoverlay.twoxtwowhite {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/revslider/public/assets/css/../assets/gridtile_white.png)
+    background: url(./images/s-images/gridtile_white.png)
 }
 
 .tp-dottedoverlay.threexthree {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/revslider/public/assets/css/../assets/gridtile_3x3.png)
+    background: url(./images/s-images/gridtile_3x3.png)
 }
 
 .tp-dottedoverlay.threexthreewhite {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/revslider/public/assets/css/../assets/gridtile_3x3_white.png)
+    background: url(./images/s-images/assets/gridtile_3x3_white.png)
 }
 
 .tp-shadowcover {
@@ -1349,15 +1352,15 @@ img.tp-slider-alternative-image {
 .caption.slidelink a div, .tp-caption.slidelink a div {
     width: 3000px;
     height: 1500px;
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/revslider/public/assets/css/../assets/coloredbg.png)
+    background: url(./images/s-images/coloredbg.png)
 }
 
 .tp-caption.slidelink a span {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/revslider/public/assets/css/../assets/coloredbg.png)
+    background: url(./images/s-images/coloredbg.png)
 }
 
 .tp-loader.spinner0, .tp-loader.spinner5 {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/revslider/public/assets/css/../assets/loader.gif);
+    background-image: url(./images/s-images/loader.gif);
     background-repeat: no-repeat
 }
 
@@ -1972,8 +1975,12 @@ body.rtl .tp-kbimg {
 
 @font-face {
     font-family: FontAwesome;
-    src: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/../fonts/fontawesome-webfont.eot?v=4.6.3);
-    src: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3) format('embedded-opentype'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/../fonts/fontawesome-webfont.woff2?v=4.6.3) format('woff2'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/../fonts/fontawesome-webfont.woff?v=4.6.3) format('woff'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/../fonts/fontawesome-webfont.ttf?v=4.6.3) format('truetype'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular) format('svg');
+    src: url(/demo2/fonts/eot-font/fontawesome-webfont.eot?v=4.6.3);
+    src: url(/demo2/fonts/eot-font/fontawesome-webfont.eot?#iefix&v=4.6.3) format('embedded-opentype'),
+    url(/demo2/fonts/woff-font/fontawesome-webfont.woff2?v=4.6.3) format('woff2'),
+    url(/demo2/fonts/woff-font/fontawesome-webfont.woff?v=4.6.3) format('woff'),
+    url(/demo2/fonts/fontawesome-webfont.ttf?v=4.6.3) format('truetype'),
+    url(/demo2/images/svg/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular) format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -4981,8 +4988,12 @@ td, th {
 
 @font-face {
     font-family: 'Glyphicons Halflings';
-    src: url(//104.131.177.38/demo2/wp/trendymag/wp-content/themes/trendymag/css/../fonts/glyphicons-halflings-regular.eot);
-    src: url(//104.131.177.38/demo2/wp/trendymag/wp-content/themes/trendymag/css/../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/themes/trendymag/css/../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/themes/trendymag/css/../fonts/glyphicons-halflings-regular.woff) format('woff'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/themes/trendymag/css/../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/themes/trendymag/css/../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+    src: url(/demo2/fonts/eot-font/glyphicons-halflings-regular.eot);
+    src: url(/demo2/fonts/eot-font/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),
+    url(/demo2/fonts/woff-font/glyphicons-halflings-regular.woff2) format('woff2'),
+    url(/demo2/fonts/woff-font/glyphicons-halflings-regular.woff) format('woff'),
+    url(/demo2/fonts/glyphicons-halflings-regular.ttf) format('truetype'),
+    url(/demo2/images/svg/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
 
 .glyphicon {
@@ -16245,7 +16256,7 @@ body.blog #wrapper, body.archive #wrapper, body.search #wrapper {
 
 .widget.widget_mc4wp_form_widget::after {
     content: "";
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/themes/trendymag/images/newsletter-bg.png);
+    background-image: url(./images/s-images/newsletter-bg.png);
     position: absolute;
     bottom: 0;
     right: 0;
@@ -19384,152 +19395,154 @@ div.wpcf7 img.ajax-loader {
 }
 
 .vc_pixel_icon-alert {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../vc/alert.png)
+    background-image: url(./images/s-images/alert.png)
 }
 
 .vc_pixel_icon-info {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../vc/info.png)
+    background-image: url(./images/s-images/info.png)
 }
 
 .vc_pixel_icon-tick {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../vc/tick.png)
+    background-image: url(./images/s-images/tick.png)
 }
 
 .vc_pixel_icon-explanation {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../vc/exclamation.png)
+    background-image: url(./images/s-images/exclamation.png)
 }
 
 .vc_pixel_icon-address_book {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/address-book.png)
+    background-image: url(./images/s-images/address-book.png)
 }
 
 .vc_pixel_icon-alarm_clock {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/alarm-clock.png)
+    background-image: url(./images/s-images/alarm-clock.png)
 }
 
 .vc_pixel_icon-anchor {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/anchor.png)
+    background-image: url(./images/s-images/anchor.png)
 }
 
 .vc_pixel_icon-application_image {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/application-image.png)
+    background-image: url(./images/s-images/application-image.png)
 }
 
 .vc_pixel_icon-arrow {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/arrow.png)
+    background-image: url(./images/s-images/arrow.png)
 }
 
 .vc_pixel_icon-asterisk {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/asterisk.png)
+    background-image: url(./images/s-images/asterisk.png)
 }
 
 .vc_pixel_icon-hammer {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/auction-hammer.png)
+    background-image: url(./images/s-images/auction-hammer.png)
 }
 
 .vc_pixel_icon-balloon {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/balloon.png)
+    background-image: url(./images/s-images/balloon.png)
 }
 
 .vc_pixel_icon-balloon_buzz {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/balloon-buzz.png)
+    background-image: url(./images/s-images/balloon-buzz.png)
 }
 
 .vc_pixel_icon-balloon_facebook {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/balloon-facebook.png)
+    background-image: url(./images/s-images/balloon-facebook.png)
 }
 
 .vc_pixel_icon-balloon_twitter {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/balloon-twitter.png)
+    background-image: url(./images/s-images/balloon-twitter.png)
 }
 
 .vc_pixel_icon-battery {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/battery-full.png)
+    background-image: url(./images/s-images/battery-full.png)
 }
 
 .vc_pixel_icon-binocular {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/binocular.png)
+    background-image: url(./images/s-images/binocular.png)
 }
 
 .vc_pixel_icon-document_excel {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-excel.png)
+    background-image: url(./images/s-images/blue-document-excel.png)
 }
 
 .vc_pixel_icon-document_image {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-image.png)
+    background-image: url(./images/s-images/blue-document-image.png)
 }
 
 .vc_pixel_icon-document_music {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-music.png)
+    background-image: url(./images/s-images/blue-document-music.png)
 }
 
 .vc_pixel_icon-document_office {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-office.png)
+    background-image: url(./images/s-images/blue-document-office.png)
 }
 
 .vc_pixel_icon-document_pdf {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-pdf.png)
+    background-image: url(./images/s-images/blue-document-pdf.png)
 }
 
 .vc_pixel_icon-document_powerpoint {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-powerpoint.png)
+    background-image: url(./images/s-images/blue-document-powerpoint.png)
 }
 
 .vc_pixel_icon-document_word {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-word.png)
+    background-image: url(./images/s-images/blue-document-word.png)
 }
 
 .vc_pixel_icon-bookmark {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/bookmark.png)
+    background-image: url(./images/s-images/bookmark.png)
 }
 
 .vc_pixel_icon-camcorder {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/camcorder.png)
+    background-image: url(./images/s-images/camcorder.png)
 }
 
 .vc_pixel_icon-camera {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/camera.png)
+    background-image: url(./images/s-images/camera.png)
 }
 
 .vc_pixel_icon-chart {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/chart.png)
+    background-image: url(./images/s-images/chart.png)
 }
 
 .vc_pixel_icon-chart_pie {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/chart-pie.png)
+    background-image: url(./images/s-images/chart-pie.png)
 }
 
 .vc_pixel_icon-clock {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/clock.png)
+    background-image: url(./images/s-images/clock.png)
 }
 
 .vc_pixel_icon-play {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/control.png)
+    background-image: url(./images/s-images/control.png)
 }
 
 .vc_pixel_icon-fire {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/fire.png)
+    background-image: url(./images/s-images/fire.png)
 }
 
 .vc_pixel_icon-heart {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/heart.png)
+    background-image: url(./images/s-images/heart.png)
 }
 
 .vc_pixel_icon-mail {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/mail.png)
+    background-image: url(./images/s-images/mail.png)
 }
 
 .vc_pixel_icon-shield {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/plus-shield.png)
+    background-image: url(./images/s-images/plus-shield.png)
 }
 
 .vc_pixel_icon-video {
-    background-image: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/video.png)
+    background-image: url(./images/s-images/video.png)
 }
 
 @font-face {
     font-family: VC-Icons;
-    src: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../fonts/vc_icons/fonts/VC-Icons.ttf?otu1sf) format('truetype'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../fonts/vc_icons/fonts/VC-Icons.woff?otu1sf) format('woff'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../fonts/vc_icons/fonts/VC-Icons.svg?otu1sf#VC-Icons) format('svg');
+    src: url(/demo2/fonts/VC-Icons.ttf?otu1sf) format('truetype'),
+    url(/demo2/fonts/woff-font/VC-Icons.woff?otu1sf) format('woff'),
+    url(/demo2/images/svg/VC-Icons.svg?otu1sf#VC-Icons) format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -20709,131 +20722,131 @@ i.icon {
 }
 
 .wpb_address_book i.icon, option.wpb_address_book {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/address-book.png) right center no-repeat
+    background: url(./images/s-images/address-book.png) right center no-repeat
 }
 
 .wpb_alarm_clock i.icon, option.wpb_alarm_clock {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/alarm-clock.png) right center no-repeat
+    background: url(./images/s-images/alarm-clock.png) right center no-repeat
 }
 
 .wpb_anchor i.icon, option.wpb_anchor {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/anchor.png) right center no-repeat
+    background: url(./images/s-images/anchor.png) right center no-repeat
 }
 
 .wpb_application_image i.icon, option.wpb_application_image {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/application-image.png) right center no-repeat
+    background: url(./images/s-images/application-image.png) right center no-repeat
 }
 
 .wpb_arrow i.icon, option.wpb_arrow {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/arrow.png) right center no-repeat
+    background: url(./images/s-images/arrow.png) right center no-repeat
 }
 
 .wpb_asterisk i.icon, option.wpb_asterisk {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/asterisk.png) right center no-repeat
+    background: url(./images/s-images/asterisk.png) right center no-repeat
 }
 
 .wpb_hammer i.icon, option.wpb_hammer {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/auction-hammer.png) right center no-repeat
+    background: url(./images/s-images/auction-hammer.png) right center no-repeat
 }
 
 .wpb_balloon i.icon, option.wpb_balloon {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/balloon.png) right center no-repeat
+    background: url(./images/s-images/balloon.png) right center no-repeat
 }
 
 .wpb_balloon_buzz i.icon, option.wpb_balloon_buzz {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/balloon-buzz.png) right center no-repeat
+    background: url(./images/s-images/balloon-buzz.png) right center no-repeat
 }
 
 .wpb_balloon_facebook i.icon, option.wpb_balloon_facebook {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/balloon-facebook.png) right center no-repeat
+    background: url(./images/s-images/balloon-facebook.png) right center no-repeat
 }
 
 .wpb_balloon_twitter i.icon, option.wpb_balloon_twitter {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/balloon-twitter.png) right center no-repeat
+    background: url(./images/s-images/balloon-twitter.png) right center no-repeat
 }
 
 .wpb_battery i.icon, option.wpb_battery {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/battery-full.png) right center no-repeat
+    background: url(./images/s-images/battery-full.png) right center no-repeat
 }
 
 .wpb_binocular i.icon, option.wpb_binocular {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/binocular.png) right center no-repeat
+    background: url(./images/s-images/binocular.png) right center no-repeat
 }
 
 .wpb_document_excel i.icon, option.wpb_document_excel {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-excel.png) right center no-repeat
+    background: url(./images/s-images/blue-document-excel.png) right center no-repeat
 }
 
 .wpb_document_image i.icon, option.wpb_document_image {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-image.png) right center no-repeat
+    background: url(./images/s-images/blue-document-image.png) right center no-repeat
 }
 
 .wpb_document_music i.icon, option.wpb_document_music {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-music.png) right center no-repeat
+    background: url(./images/s-images/blue-document-music.png) right center no-repeat
 }
 
 .wpb_document_office i.icon, option.wpb_document_office {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-office.png) right center no-repeat
+    background: url(./images/s-images/blue-document-office.png) right center no-repeat
 }
 
 .wpb_document_pdf i.icon, option.wpb_document_pdf {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-pdf.png) right center no-repeat
+    background: url(./images/s-images/blue-document-pdf.png) right center no-repeat
 }
 
 .wpb_document_powerpoint i.icon, option.wpb_document_powerpoint {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-powerpoint.png) right center no-repeat
+    background: url(./images/s-images/blue-document-powerpoint.png) right center no-repeat
 }
 
 .wpb_document_word i.icon, option.wpb_document_word {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/blue-document-word.png) right center no-repeat
+    background: url(./images/s-images/blue-document-word.png) right center no-repeat
 }
 
 .wpb_bookmark i.icon, option.wpb_bookmark {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/bookmark.png) right center no-repeat
+    background: url(./images/s-images/bookmark.png) right center no-repeat
 }
 
 .wpb_camcorder i.icon, option.wpb_camcorder {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/camcorder.png) right center no-repeat
+    background: url(./images/s-images/camcorder.png) right center no-repeat
 }
 
 .wpb_camera i.icon, option.wpb_camera {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/camera.png) right center no-repeat
+    background: url(./images/s-images/camera.png) right center no-repeat
 }
 
 .wpb_chart i.icon, option.wpb_chart {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/chart.png) right center no-repeat
+    background: url(./images/s-images/chart.png) right center no-repeat
 }
 
 .wpb_chart_pie i.icon, option.wpb_chart_pie {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/chart-pie.png) right center no-repeat
+    background: url(./images/s-images/chart-pie.png) right center no-repeat
 }
 
 .wpb_clock i.icon, option.wpb_clock {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/clock.png) right center no-repeat
+    background: url(./images/s-images/clock.png) right center no-repeat
 }
 
 .wpb_play i.icon, option.wpb_play {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/control.png) right center no-repeat
+    background: url(./images/s-images/control.png) right center no-repeat
 }
 
 .wpb_fire i.icon, option.wpb_fire {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/fire.png) right center no-repeat
+    background: url(./images/s-images/fire.png) right center no-repeat
 }
 
 .wpb_heart i.icon, option.wpb_heart {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/heart.png) right center no-repeat
+    background: url(./images/s-images/heart.png) right center no-repeat
 }
 
 .wpb_mail i.icon, option.wpb_mail {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/mail.png) right center no-repeat
+    background: url(./images/s-images/mail.png) right center no-repeat
 }
 
 .wpb_shield i.icon, option.wpb_shield {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/plus-shield.png) right center no-repeat
+    background: url(./images/s-images/plus-shield.png) right center no-repeat
 }
 
 .wpb_video i.icon, option.wpb_video {
-    background: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../images/icons/video.png) right center no-repeat
+    background: url(./images/s-images/video.png) right center no-repeat
 }
 
 .vc_column_container .vc_btn, .vc_column_container .wpb_button {
@@ -33619,8 +33632,11 @@ body ul.wpb_thumbnails-fluid li:after, body ul.wpb_thumbnails-fluid li:before {
 
 @font-face {
     font-family: vc_grid_v1;
-    src: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.eot?-9hbgac);
-    src: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.eot?#iefix-9hbgac) format('embedded-opentype'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.woff?-9hbgac) format('woff'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.ttf?-9hbgac) format('truetype'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/js_composer/assets/css/../fonts/vc_grid/vc_grid_v1.svg?-9hbgac#vc_grid_v1) format('svg');
+    src: url(/demo2/fonts/eot-font/vc_grid/vc_grid_v1.eot?-9hbgac);
+    src: url(/demo2/fonts/eot-font/vc_grid_v1.eot?#iefix-9hbgac) format('embedded-opentype'),
+    url(/demo2/fonts/woff-font/vc_grid_v1.woff?-9hbgac) format('woff'),
+    url(/demo2/fonts/vc_grid_v1.ttf?-9hbgac) format('truetype'),
+    url(/demo2/images/svg/vc_grid_v1.svg?-9hbgac#vc_grid_v1) format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -34186,8 +34202,11 @@ body ul.wpb_thumbnails-fluid li:after, body ul.wpb_thumbnails-fluid li:before {
 
 @font-face {
     font-family: 'trendyicon';
-    src: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/tt-plugin/css/../fonts/trendyicon.eot?dkroz8);
-    src: url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/tt-plugin/css/../fonts/trendyicon.eot?dkroz8#iefix) format('embedded-opentype'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/tt-plugin/css/../fonts/trendyicon.ttf?dkroz8) format('truetype'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/tt-plugin/css/../fonts/trendyicon.woff?dkroz8) format('woff'), url(//104.131.177.38/demo2/wp/trendymag/wp-content/plugins/tt-plugin/css/../fonts/trendyicon.svg?dkroz8#trendyicon) format('svg');
+    src: url(/demo2/fonts/eot-font/trendyicon.eot?dkroz8);
+    src: url(/demo2/fonts/eot-font/trendyicon.eot?dkroz8#iefix) format('embedded-opentype'),
+    url(/demo2/fonts/trendyicon.ttf?dkroz8) format('truetype'),
+    url(/demo2/fonts/woff-font/trendyicon.woff?dkroz8) format('woff'),
+    url(/demo2/images/svg/trendyicon.svg?dkroz8#trendyicon) format('svg');
     font-weight: normal;
     font-style: normal
 }
@@ -34712,7 +34731,7 @@ body ul.wpb_thumbnails-fluid li:after, body ul.wpb_thumbnails-fluid li:before {
 }
 
 .vc_custom_1501582258956 {
-    background-image: url(http://104.131.177.38/demo2/wp/trendymag/wp-content/uploads/2017/07/mega-menu-full.png?id=1412) !important;
+    background-image: url(./images/s-images/mega-menu-full.png?id=1412) !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important
@@ -34812,7 +34831,7 @@ body {
     margin-bottom: 30px !important
 }
 
-.image-overlay.tt_btn-gradient-bg-5a01179c82e1d {
+.image-overlay.tt_btn-gradient-bg-5a012b58bd070 {
     background-color: rgba(42, 42, 42, .3);
     background-image: -moz-linear-gradient(top, rgba(42, 42, 42, .3) 30%, rgba(42, 42, 42, 1));
     background-image: -webkit-gradient(left top, left bottom, color-stop(30%, rgba(42, 42, 42, .3)), color-stop(100%, rgba(42, 42, 42, 1)));
@@ -34823,7 +34842,7 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=rgba(42, 42, 42, .3), endColorstr=rgba(42, 42, 42, 1), GradientType=0)
 }
 
-.image-overlay.tt_banner-gradient-bg-5a01179caafb7 {
+.image-overlay.tt_banner-gradient-bg-5a012b58e7019 {
     background-color: rgba(0, 193, 207, .6);
     background-image: -moz-linear-gradient(top, rgba(0, 193, 207, .6) 30%, rgba(84, 114, 210, .6));
     background-image: -webkit-gradient(left top, left bottom, color-stop(30%, rgba(0, 193, 207, .6)), color-stop(100%, rgba(84, 114, 210, .6)));
@@ -34834,7 +34853,7 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=rgba(0, 193, 207, .6), endColorstr=rgba(84, 114, 210, .6), GradientType=0)
 }
 
-.image-overlay.tt_banner-gradient-bg-5a01179cabc5d {
+.image-overlay.tt_banner-gradient-bg-5a012b58e7ec3 {
     background-color: rgba(244, 82, 77, .6);
     background-image: -moz-linear-gradient(top, rgba(244, 82, 77, .6) 30%, rgba(247, 190, 104, .6));
     background-image: -webkit-gradient(left top, left bottom, color-stop(30%, rgba(244, 82, 77, .6)), color-stop(100%, rgba(247, 190, 104, .6)));
@@ -34845,7 +34864,7 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=rgba(244, 82, 77, .6), endColorstr=rgba(247, 190, 104, .6), GradientType=0)
 }
 
-.image-overlay.tt_banner-gradient-bg-5a01179cac893 {
+.image-overlay.tt_banner-gradient-bg-5a012b58e8d8a {
     background-color: rgba(152, 7, 242, 0.6);
     background-image: -moz-linear-gradient(top, rgba(152, 7, 242, 0.6) 30%, rgba(0, 62, 249, 0.6));
     background-image: -webkit-gradient(left top, left bottom, color-stop(30%, rgba(152, 7, 242, 0.6)), color-stop(100%, rgba(0, 62, 249, 0.6)));
