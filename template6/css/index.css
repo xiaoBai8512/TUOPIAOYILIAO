@@ -1,0 +1,106 @@
+/* ::::: http://res.bio1000.com/style/common.css ::::: */
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0px; padding: 0px; }
+body, button, input, select, textarea { font: 12px/1.5 helvetica,tahoma,arial,宋体,sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var, i { font-style: normal; }
+ul, ol { list-style: outside none none; }
+:focus { outline: 0px none; }
+.clearfix {  }
+.clearfix::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+a { text-decoration: none; color: rgb(51, 51, 51); }
+a:hover { text-decoration: underline; color: rgb(192, 0, 0); }
+fieldset, img { vertical-align: middle; border: 0px none; }
+/* ::::: http://res.bio1000.com/style/new_917.css ::::: */
+
+#header { width: 1000px; margin: 0px auto 10px; }
+#header .top { height: 25px; width: 995px; padding-right: 5px; line-height: 25px; color: rgb(102, 102, 102); border-bottom: 1px solid rgb(204, 204, 204); }
+#header .top a { margin: 0px 5px; color: rgb(102, 102, 102); }
+#header .top_l { padding-top: 3px; }
+#header .top_l li { float: left; display: inline-block; height: 18px; line-height: 22px; position: relative; z-index: 1000; margin-left: -1px; }
+#header .top_l li a { border-right: 1px solid rgb(221, 221, 221); padding: 0px 8px; color: rgb(0, 0, 0); margin: 0px; }
+#header .top a:hover, #header .top .top_r a:hover { color: rgb(255, 51, 0); }
+#header .top .top_r { float: right; display: inline; text-align: right; color: rgb(0, 0, 0); height: 22px; overflow: hidden; padding-top: 3px; width: 300px; }
+.top_mid { overflow: hidden; }
+.top_mid .logo { padding: 10px 20px 10px 0px; float: left; }
+.top_mid .soso { padding: 4px; height: 32px; width: 475px; float: left; margin: 25px 0px 0px; }
+.top_mid .h_ad { float: right; width: 240px; height: 70px; padding: 10px 0px; }
+#header .menu { height: 35px; background: rgba(0, 0, 0, 0) url('new_917.gif') repeat-x scroll 0px 0px; border-radius: 3px 3px 0px 0px; padding-left: 100px; width: 900px; position: relative; z-index: 55; }
+#header .menu .ul_menu { height: 35px; }
+#header .menu .ul_menu li { float: left; margin-right: 1px; height: 35px; }
+#header .menu .ul_menu li a { display: block; float: left; padding: 5px 20px; line-height: 25px; color: rgb(255, 255, 255); font-size: 14px; font-family: "Microsoft YaHei"; font-weight: bold; }
+#header .menu .ul_menu li a:hover, #header .menu .ul_menu .hover a, #header .menu .ul_menu .sect a { background: rgba(0, 0, 0, 0) url('new_917.gif') repeat-x scroll 0px -39px; text-decoration: none; }
+#header .sec_div { margin-bottom: 10px; background: rgb(235, 246, 255) none repeat scroll 0% 0%; line-height: 18px; padding: 6px 10px; }
+#header .sec_div a { border-right: 1px solid rgb(153, 153, 153); color: rgb(0, 92, 172); padding: 0px 8px; }
+#header .sec_div a:hover { color: rgb(192, 0, 0); text-decoration: none; }
+#header .sec_div .onhere { color: rgb(192, 0, 0); }
+.menu .newmap { position: absolute; left: 0px; top: 0px; z-index: 56; width: 100px; }
+.newmap .maph {  }
+.newmap .maph a { display: block; background: rgb(0, 81, 150) none repeat scroll 0% 0%; width: 75px; text-align: right; padding-right: 25px; position: relative; z-index: 1; height: 35px; line-height: 35px; color: rgb(255, 255, 255); font-family: "Microsoft YaHei"; font-weight: bold; font-size: 14px; border-radius: 5px 0px 0px; cursor: pointer; }
+.newmap .maph a s { position: absolute; display: block; width: 10px; height: 10px; right: 7px; top: 15px; background: rgba(0, 0, 0, 0) url('new_917.gif') no-repeat scroll -100px -175px; }
+.newmap .maph a:hover { text-decoration: none; }
+.menu .newmap .mapcont { width: 708px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor rgb(0, 81, 150) rgb(0, 81, 150); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 10px; display: none; }
+.mapcont dl { border-bottom: 1px solid rgb(238, 238, 238); padding: 5px 0px; }
+.mapcont dl dt { width: 70px; padding-right: 5px; float: left; color: rgb(0, 92, 172); font-size: 14px; }
+.mapcont dl dt a { color: rgb(0, 92, 172); font-weight: bold; font-family: "Microsoft YaHei"; }
+.mapcont dl dd { width: 630px; float: left; overflow: hidden; }
+.mapcont dl dd a { border-left: 1px solid rgb(170, 170, 170); line-height: 14px; margin: 3px 10px 5px -12px; float: left; color: rgb(51, 51, 51); word-break: keep-all; padding: 0px 12px; }
+.mapcont dl dd a:hover { color: rgb(255, 51, 0); }
+.main { width: 1000px; margin: 0px auto; }
+.main .fl { float: left; }
+.main .fr { float: right; }
+.main h1, h2 { font-size: 15px; font-family: "Microsoft YaHei"; line-height: 22px; }
+.ul_list { overflow: hidden; }
+.ul_list li { background: rgba(0, 0, 0, 0) url('new_917.gif') no-repeat scroll -175px -116px; padding-left: 10px; line-height: 32px; height: 32px; overflow: hidden; }
+.firstnew a, a:hover { color: rgb(230, 85, 49); }
+.hs { line-height: 22px; padding: 0px 0px 5px 15px; }
+.hs a { color: rgb(102, 102, 102); }
+.hs a:hover { color: rgb(255, 51, 0); }
+.list270 { width: 266px; border: 1px solid rgb(238, 238, 238); background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 1px; margin-bottom: 15px; }
+.list270 .r_cont { background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 10px; }
+.list270 .r_cont .hs { border-bottom: 1px solid rgb(221, 221, 221); padding-left: 0px; }
+.r_cont .glw, .right_270 .zyph { border-left: 1px solid rgb(221, 221, 221); height: 27px; margin-top: 15px; border-bottom: 1px solid rgb(221, 221, 221); }
+.glw li, .right_270 .zyph li { float: left; border-right: 1px solid rgb(221, 221, 221); padding: 1px; text-align: center; background: rgb(247, 247, 247) none repeat scroll 0% 0%; border-bottom: 1px solid rgb(221, 221, 221); }
+.glw li em { background: rgb(238, 238, 238) none repeat scroll 0% 0%; display: block; width: 78px; height: 24px; line-height: 24px; color: rgb(0, 0, 0); }
+.glw .hover em, .right_270 .zyph .hover em { font-weight: bold; background: rgb(247, 247, 247) none repeat scroll 0% 0%; }
+.glw .hover, .right_270 .zyph .hover { border-bottom: 1px solid rgb(247, 247, 247); }
+#con_glw_0, #con_glw_1, #con_glw_2 { padding-bottom: 15px; }
+.main_list .left_list { width: 710px; overflow: hidden; }
+.left_list .first_l { border: 2px solid rgb(0, 92, 172); margin-bottom: 15px; }
+.first_l .hot_tag { width: 100px; float: left; }
+.first_l .hot_tag dt { background: rgb(0, 81, 150) none repeat scroll 0% 0%; height: 30px; color: rgb(255, 255, 255); font-family: "Microsoft YaHei"; line-height: 30px; font-size: 15px; font-weight: bold; text-align: center; }
+.first_l .hot_tag .dd_cont { background: rgba(0, 0, 0, 0) url('hot_bq.gif') repeat scroll 0% 0%; width: 98px; height: 190px; padding: 8px 0px 8px 2px; position: relative; z-index: 10; }
+.first_l .hot_tag dd a { height: 27px; line-height: 27px; display: block; color: rgb(255, 255, 255); padding-left: 10px; }
+.first_l .hot_tag dd dl dt { background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; height: 27px; font-size: 12px; line-height: 27px; cursor: pointer; font-weight: normal; text-align: left; padding-left: 10px; }
+.first_l .hot_tag dd dl dd { display: none; background: rgb(255, 255, 255) none repeat scroll 0% 0%; position: absolute; overflow: hidden; z-index: 11; padding: 10px; bottom: 0px; left: 100px; width: 586px; border-top: 1px solid rgb(0, 92, 172); }
+.first_l .hot_tag dd dl dd a { border-left: 1px solid rgb(170, 170, 170); line-height: 14px; height: 14px; margin: 3px 10px 5px -12px; float: left; color: rgb(51, 51, 51); word-break: keep-all; padding: 0px 12px; }
+.first_l .hot_tag dd dl dd a:hover { color: rgb(255, 51, 0); }
+.first_l .nnew { padding: 13px 20px 20px; width: 566px; float: left; height: 203px; overflow: hidden; }
+.first_l .nnew .hs { padding: 0px 0px 10px; }
+.first_l .nnew .ihp img { width: 220px; height: 165px; float: left; margin-right: 25px; }
+.first_l .nnew .ihp h3 { line-height: 25px; padding-bottom: 5px; font-size: 14px; }
+.first_l .nnew .ihp h3 a { color: rgb(0, 92, 172); }
+.first_l .nnew .ihp h3 a:hover { color: rgb(255, 51, 0); }
+.first_l .nnew .ihp { height: 165px; overflow: hidden; }
+.first_l .nnew .ihp p { color: rgb(102, 102, 102); line-height: 22px; text-indent: 2em; }
+.first_l .nnew .ihp .ul_list { float: left; width: 315px; padding-top: 0px; }
+.left_list .list_cont { padding-bottom: 15px; }
+.list_cont .lc { padding: 15px 0px; border-bottom: 1px solid rgb(221, 221, 221); overflow: hidden; }
+.list_cont .lc img { float: left; margin-right: 15px; width: 120px; height: 90px; padding: 2px; border: 1px solid rgb(221, 221, 221); }
+.list_cont .lc a:hover img { border: 2px solid rgb(255, 51, 0); padding: 1px; }
+.list_cont .lc h3 img { border: medium none; width: 26px; height: 21px; padding: 0px; margin-right: 5px; }
+.list_cont .lc h3 { font-size: 14px; line-height: 25px; }
+.list_cont .lc h3 a { color: rgb(0, 92, 172); }
+.list_cont .lc h3 a:hover { color: rgb(255, 51, 0); }
+.list_cont .lc h6 { font-weight: normal; color: rgb(102, 102, 102); padding-bottom: 5px; }
+.list_cont .lc h6 a { padding: 0px 5px; }
+.list_cont .lc h3 span { font-weight: normal; float: right; font-size: 12px; color: rgb(102, 102, 102); }
+.list_cont .lc p { text-indent: 2em; color: rgb(102, 102, 102); line-height: 25px; overflow: hidden; }
+.page { color: rgb(102, 102, 102); text-align: center; margin: 0px; width: 710px; float: left; }
+.page ul { display: inline; }
+.page ul li { margin: 0px 2px; display: inline; border: 1px solid rgb(231, 236, 240); padding: 4px 5px; border-radius: 4px; color: rgb(102, 102, 102); line-height: 15px; }
+.page a { display: inline; }
+.page ul .thisclass { border: medium none; color: rgb(255, 51, 0); }
+#footer { width: 1000px; margin: 0px auto; }
+#footer p { text-align: center; padding-bottom: 3px; color: rgb(102, 102, 102); line-height: 18px; }
+#footer p a { color: rgb(102, 102, 102); }

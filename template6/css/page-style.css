@@ -1,0 +1,935 @@
+/* ::::: http://res.bio1000.com/style/common.css ::::: */
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, button, input, select, textarea {
+    font: 12px/1.5 helvetica, tahoma, arial, 宋体, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+address, cite, dfn, em, var, i {
+    font-style: normal;
+}
+
+ul, ol {
+    list-style: outside none none;
+}
+
+:focus {
+    outline: 0px none;
+}
+
+.clearfix {
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0px;
+    clear: both;
+    visibility: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(192, 0, 0);
+}
+
+fieldset, img {
+    vertical-align: middle;
+    border: 0px none;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+}
+
+input, button, select, textarea {
+    outline: medium none;
+}
+
+/* ::::: http://res.bio1000.com/style/new_20140430.css ::::: */
+
+#header {
+    width: 1000px;
+    margin: 0px auto 10px;
+}
+
+#header .top {
+    height: 25px;
+    width: 995px;
+    padding-right: 5px;
+    line-height: 25px;
+    color: rgb(102, 102, 102);
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+#header .top a {
+    margin: 0px 5px;
+    color: rgb(102, 102, 102);
+}
+
+#header .top_l {
+    padding-top: 3px;
+}
+
+#header .top_l li {
+    float: left;
+    display: inline-block;
+    height: 18px;
+    line-height: 22px;
+    position: relative;
+    z-index: 1000;
+    margin-left: -1px;
+}
+
+#header .top_l li a {
+    border-right: 1px solid rgb(221, 221, 221);
+    padding: 0px 8px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+}
+
+#header .top a:hover, #header .top .top_r a:hover {
+    color: rgb(255, 51, 0);
+}
+
+#header .top .top_r {
+    float: right;
+    display: inline;
+    text-align: right;
+    color: rgb(0, 0, 0);
+    height: 22px;
+    overflow: hidden;
+    padding-top: 3px;
+    width: 300px;
+}
+
+.top_mid {
+    overflow: hidden;
+}
+
+.top_mid .logo {
+    padding: 10px 20px 10px 0px;
+    float: left;
+}
+
+.top_mid .soso {
+    padding: 4px;
+    height: 32px;
+    width: 475px;
+    float: left;
+    margin: 25px 0px 0px;
+}
+
+.top_mid .h_ad {
+    float: right;
+    width: 240px;
+    height: 70px;
+    padding: 10px 0px;
+}
+
+#header .menu {
+    height: 35px;
+    background: rgba(0, 0, 0, 0) url('/template6/images/new_917.gif') repeat-x scroll 0px 0px;
+    border-radius: 3px 3px 0px 0px;
+    padding-left: 100px;
+    width: 900px;
+    position: relative;
+    z-index: 55;
+}
+
+#header .menu .ul_menu {
+    height: 35px;
+}
+
+#header .menu .ul_menu li {
+    float: left;
+    margin-right: 1px;
+    height: 35px;
+}
+
+#header .menu .ul_menu li a {
+    display: block;
+    float: left;
+    padding: 5px 20px;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+}
+
+#header .menu .ul_menu li a:hover, #header .menu .ul_menu .hover a, #header .menu .ul_menu .sect a {
+    background: rgba(0, 0, 0, 0) url('/template6/images/new_917.gif') repeat-x scroll 0px -39px;
+    text-decoration: none;
+}
+
+#header .sec_div {
+    margin-bottom: 10px;
+    background: rgb(235, 246, 255) none repeat scroll 0% 0%;
+    line-height: 18px;
+    padding: 6px 10px;
+}
+
+#header .sec_div a {
+    border-right: 1px solid rgb(153, 153, 153);
+    color: rgb(0, 92, 172);
+    padding: 0px 8px;
+}
+
+#header .sec_div a:hover {
+    color: rgb(192, 0, 0);
+    text-decoration: none;
+}
+
+#header .sec_div .onhere {
+    color: rgb(192, 0, 0);
+}
+
+.menu .newmap {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 56;
+    width: 100px;
+}
+
+.newmap .maph {
+}
+
+.newmap .maph a {
+    display: block;
+    background: rgb(0, 81, 150) none repeat scroll 0% 0%;
+    width: 75px;
+    text-align: right;
+    padding-right: 25px;
+    position: relative;
+    z-index: 1;
+    height: 35px;
+    line-height: 35px;
+    color: rgb(255, 255, 255);
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px 0px 0px;
+    cursor: pointer;
+}
+
+.newmap .maph a s {
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    right: 7px;
+    top: 15px;
+    background: rgba(0, 0, 0, 0) url('/template6/images/new_917.gif') no-repeat scroll -100px -175px;
+}
+
+.newmap .maph a:hover {
+    text-decoration: none;
+}
+
+.menu .newmap .mapcont {
+    width: 708px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    border-width: medium 1px 1px;
+    border-style: none solid solid;
+    border-color: currentcolor rgb(0, 81, 150) rgb(0, 81, 150);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    padding: 10px;
+    display: none;
+}
+
+.mapcont dl {
+    border-bottom: 1px solid rgb(238, 238, 238);
+    padding: 5px 0px;
+}
+
+.mapcont dl dt {
+    width: 70px;
+    padding-right: 5px;
+    float: left;
+    color: rgb(0, 92, 172);
+    font-size: 14px;
+}
+
+.mapcont dl dt a {
+    color: rgb(0, 92, 172);
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+}
+
+.mapcont dl dd {
+    width: 630px;
+    float: left;
+    overflow: hidden;
+}
+
+.mapcont dl dd a {
+    border-left: 1px solid rgb(170, 170, 170);
+    line-height: 14px;
+    margin: 3px 10px 5px -12px;
+    float: left;
+    color: rgb(51, 51, 51);
+    word-break: keep-all;
+    padding: 0px 12px;
+}
+
+.mapcont dl dd a:hover {
+    color: rgb(255, 51, 0);
+}
+
+.main {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.main .fl {
+    float: left;
+}
+
+.main .fr {
+    float: right;
+}
+
+.main h1, h2 {
+    font-size: 15px;
+    font-family: "Microsoft YaHei";
+    line-height: 22px;
+}
+
+.ul_list {
+    overflow: hidden;
+}
+
+.ul_list li {
+    background: rgba(0, 0, 0, 0) url('new_917.gif') no-repeat scroll -175px -116px;
+    padding-left: 10px;
+    line-height: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+
+.right_250 .cont_i h2, .tgry h2 {
+    line-height: 20px;
+    padding: 5px 0px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.right_250 .cont_i p, .tgry p {
+    text-indent: 2em;
+    line-height: 22px;
+    color: rgb(0, 0, 0);
+    padding: 5px 0px;
+}
+
+.right_250 .cont_i .tg, .tgry .tg {
+    background: rgba(0, 0, 0, 0) url('new_917.gif') no-repeat scroll -100px -80px;
+    float: right;
+    width: 84px;
+    height: 29px;
+    text-align: center;
+    line-height: 29px;
+    color: rgb(255, 255, 255);
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+
+.tgry {
+    padding-bottom: 15px;
+}
+
+.firstnew a, a:hover {
+    color: rgb(230, 85, 49);
+}
+
+.list270 {
+    width: 266px;
+    border: 1px solid rgb(238, 238, 238);
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    padding: 1px;
+    margin-bottom: 15px;
+}
+
+.list270 .r_cont {
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    padding: 0px 10px;
+}
+
+.cont_new {
+    width: 710px;
+    overflow: hidden;
+}
+
+.content_head {
+    width: 710px;
+    overflow: hidden;
+}
+
+.content_head h1 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    color: rgb(51, 51, 51);
+    padding-left: 0px;
+    border-left: 0px none;
+    margin: 10px 0px 5px;
+}
+
+.content_head_left {
+    float: left;
+    width: 450px;
+    margin-right: 10px;
+}
+
+.content_head_right {
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+.article-info {
+    width: 450px;
+    color: rgb(102, 102, 102);
+    float: left;
+}
+
+.article-info span {
+    line-height: 25px;
+}
+
+.content_head blockquote {
+    float: left;
+    width: 428px;
+    max-height: 165px;
+    text-indent: 0px;
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    line-height: 25px;
+    padding: 10px;
+    border: 1px dashed rgb(234, 234, 234);
+    background: rgb(251, 251, 251) none repeat scroll 0% 0%;
+    overflow: hidden;
+}
+
+.keytags {
+    float: left;
+    width: 450px;
+    line-height: 30px;
+}
+
+.keytags a {
+    margin: 0px 10px 0px 0px;
+}
+
+.cont_new .wzq {
+    overflow: hidden;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    margin-top: 5px;
+}
+
+.cont_new .wzq a {
+    color: rgb(0, 92, 172);
+}
+
+.cont_new .wzq a:hover {
+    color: rgb(255, 51, 0);
+}
+
+.cont_new .wzq p {
+    line-height: 25px;
+    margin: 10px 0px;
+    text-indent: 2em;
+}
+
+.pr_new {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.r_cont .glw, .right_270 .zyph {
+    border-left: 1px solid rgb(221, 221, 221);
+    height: 27px;
+    margin-top: 15px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.glw li, .right_270 .zyph li {
+    float: left;
+    border-right: 1px solid rgb(221, 221, 221);
+    padding: 1px;
+    text-align: center;
+    background: rgb(247, 247, 247) none repeat scroll 0% 0%;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.glw li em {
+    background: rgb(238, 238, 238) none repeat scroll 0% 0%;
+    display: block;
+    width: 78px;
+    height: 24px;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.glw .hover em, .right_270 .zyph .hover em {
+    font-weight: bold;
+    background: rgb(247, 247, 247) none repeat scroll 0% 0%;
+}
+
+.glw .hover, .right_270 .zyph .hover {
+    border-bottom: 1px solid rgb(247, 247, 247);
+}
+
+#con_glw_0, #con_glw_1, #con_glw_2 {
+    padding-bottom: 10px;
+}
+
+.ul_noww {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    width: 1000px;
+    margin: 0px auto;
+    color: rgb(153, 153, 153);
+}
+
+.ul_noww a {
+    padding: 0px 8px;
+    color: rgb(0, 92, 172);
+    white-space: nowrap;
+}
+
+.ul_noww em {
+    padding-left: 8px;
+    color: rgb(51, 51, 51);
+}
+
+.ul_noww a:hover {
+    color: rgb(230, 85, 49);
+}
+
+.page {
+    color: rgb(102, 102, 102);
+    text-align: center;
+    margin: 0px;
+    width: 710px;
+    float: left;
+}
+
+.page ul {
+    display: inline;
+}
+
+#footer {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#footer p {
+    text-align: center;
+    padding-bottom: 3px;
+    color: rgb(102, 102, 102);
+    line-height: 18px;
+}
+
+#footer p a {
+    color: rgb(102, 102, 102);
+}
+
+.hot_art {
+    border-left: 3px solid rgb(12, 77, 162);
+    color: rgb(51, 51, 51);
+    height: 20px;
+    padding-left: 10px;
+    margin: 0px 0px 5px 10px;
+    font: 18px/19px "Times New Roman";
+}
+
+a.bshareDiv, #bsPanel, #bsMorePanel, #bshareF {
+    border: medium none;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+    padding: 0px;
+    margin: 0px;
+    font: 12px/14px Helvetica, Calibri, Tahoma, Arial, 宋体, sans-serif;
+}
+
+#bsPanel div, #bsMorePanel div, #bshareF div {
+    display: block;
+}
+
+div.buzzButton {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.bshareDiv .bsPromo, div.bshare-custom .bsPromo {
+    display: none;
+    position: absolute;
+    z-index: 100;
+}
+
+div.bshare-custom .bsPromo.bsPromo2 {
+    background: rgba(0, 0, 0, 0) url('bshare_promo_sprite.gif') no-repeat scroll 0% 0%;
+    cursor: pointer;
+}
+
+.bsBox {
+    display: none;
+    z-index: 100000001;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0) url('background-opaque-dark.gif') repeat scroll 0% 0% !important;
+    padding: 6px !important;
+    border-radius: 5px;
+}
+
+.bsClose {
+    cursor: pointer;
+    position: absolute;
+    z-index: 10000000;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    font-family: Helvetica, Arial;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.bsTop {
+    color: rgb(102, 102, 102);
+    background: rgb(242, 242, 242) none repeat scroll 0% 0%;
+    height: 24px;
+    line-height: 24px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+
+.bsTop span {
+    float: left;
+}
+
+.bsFrameDiv, #bsMorePanel {
+    border: medium none;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+}
+
+.bsReturn {
+    float: right;
+    margin-right: 36px;
+    text-align: right;
+    cursor: pointer;
+    line-height: 24px;
+    color: rgb(102, 102, 102);
+    opacity: 0.5;
+}
+
+.bshare-custom {
+    font-size: 13px;
+    line-height: 16px !important;
+}
+
+.bshare-custom.icon-medium {
+    font-size: 14px;
+    line-height: 20px !important;
+}
+
+.bshare-custom a {
+    padding-left: 19px;
+    height: 16px;
+    text-decoration: none;
+    display: none;
+    vertical-align: middle;
+    cursor: pointer;
+    color: rgb(51, 51, 51);
+    margin-right: 3px;
+    opacity: 1;
+}
+
+.bshare-custom a:hover {
+    text-decoration: underline;
+    opacity: 0.75;
+}
+
+.bshare-custom.icon-medium a {
+    padding-left: 27px;
+    height: 24px;
+}
+
+.bshare-custom .bshare-more {
+    padding-left: 0px !important;
+    color: rgb(51, 51, 51) !important;
+    display: inline-block;
+}
+
+.bshare-custom .bshare-neteasemb {
+    background: rgba(0, 0, 0, 0) url('top_logos_sprite.png') no-repeat scroll 0px -162px;
+    display: inline-block;
+}
+
+.bshare-custom.icon-medium .bshare-neteasemb {
+    background: rgba(0, 0, 0, 0) url('top_logos_sprite.gif') no-repeat scroll 0px -234px;
+    display: inline-block;
+}
+
+.bshare-custom .bshare-qqmb {
+    background: rgba(0, 0, 0, 0) url('top_logos_sprite.png') no-repeat scroll 0px -198px;
+    display: inline-block;
+}
+
+.bshare-custom.icon-medium .bshare-qqmb {
+    background: rgba(0, 0, 0, 0) url('top_logos_sprite.gif') no-repeat scroll 0px -286px;
+    display: inline-block;
+}
+
+.bshare-custom .bshare-qzone {
+    background: rgba(0, 0, 0, 0) url('top_logos_sprite.png') no-repeat scroll 0px -234px;
+    display: inline-block;
+}
+
+.bshare-custom.icon-medium .bshare-qzone {
+    background: rgba(0, 0, 0, 0) url('top_logos_sprite.gif') no-repeat scroll 0px -338px;
+    display: inline-block;
+}
+
+.bshare-custom .bshare-renren {
+    background: rgba(0, 0, 0, 0) url('top_logos_sprite.png') no-repeat scroll 0px -252px;
+    display: inline-block;
+}
+
+.bshare-custom.icon-medium .bshare-renren {
+    background: rgba(0, 0, 0, 0) url('top_logos_sprite.gif') no-repeat scroll 0px -364px;
+    display: inline-block;
+}
+
+.bshare-custom .bshare-sinaminiblog {
+    background: rgba(0, 0, 0, 0) url('top_logos_sprite.png') no-repeat scroll 0px -270px;
+    display: inline-block;
+}
+
+.bshare-custom.icon-medium .bshare-sinaminiblog {
+    background: rgba(0, 0, 0, 0) url('top_logos_sprite.gif') no-repeat scroll 0px -390px;
+    display: inline-block;
+}
+
+.bshare-custom #bshare-more-icon, .bshare-custom .bshare-more-icon {
+    background: rgba(0, 0, 0, 0) url('more.png') no-repeat scroll 0% 0%;
+    padding-left: 19px !important;
+}
+
+.bshare-custom.icon-medium #bshare-more-icon, .bshare-custom.icon-medium .bshare-more-icon {
+    background: rgba(0, 0, 0, 0) url('more.gif') no-repeat scroll 0% 0%;
+    padding-left: 27px !important;
+}
+
+.bshare-custom .bshare-more.more-style-addthis {
+    background: rgba(0, 0, 0, 0) url('more-style-addthis.png') no-repeat scroll 0% 0%;
+}
+
+.bshare-custom.icon-medium a.bshare-more.more-style-addthis {
+    background: rgba(0, 0, 0, 0) url('more-style-addthis.gif') no-repeat scroll 0% 0%;
+}
+
+div.bsClear {
+    clear: both;
+    height: 0px;
+    line-height: 0;
+    overflow: hidden;
+    font-size: 0px;
+}
+
+.bsLogoLink:hover {
+    text-decoration: underline;
+}
+
+a.bsSiteLink {
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+}
+
+a.bsSiteLink:hover {
+    text-decoration: underline;
+}
+
+div.bsTitle {
+    padding: 0px 8px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+    color: rgb(102, 102, 102);
+    background: rgb(242, 242, 242) none repeat scroll 0% 0%;
+    text-align: left;
+}
+
+div.buzzButton {
+    cursor: pointer;
+}
+
+div.bsRlogo, div.bsRlogoSel {
+    width: 68px;
+    float: left;
+    margin: 0px;
+    padding: 2px 0px;
+}
+
+div.bsRlogo a, div.bsRlogoSel a {
+    float: left;
+}
+
+div.bsLogo, div.bsLogoSel {
+    float: left;
+    width: 111px;
+    text-align: left;
+    height: auto;
+    padding: 2px 4px;
+    margin: 2px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+div.bsLogo, div.bsRlogo {
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+}
+
+div.bsLogo a, div.bsLogoSel a {
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    padding: 0px 0px 0px 24px;
+    text-decoration: none;
+    float: left;
+    overflow: hidden;
+}
+
+div.bsLogo a, div.bsRlogo a {
+    color: rgb(102, 102, 102);
+    border: medium none;
+}
+
+div.bsLogoLink {
+    width: 121px;
+    overflow: hidden;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    float: left;
+    margin: 3px 0px;
+}
+
+#bsPanel {
+    position: absolute;
+    z-index: 100000000;
+    font-size: 12px;
+    width: 258px;
+    background: rgba(0, 0, 0, 0) url('background-opaque-dark.png') repeat scroll 0% 0%;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+div.bsClear {
+    clear: both;
+    height: 0px;
+    line-height: 0;
+    font-size: 0px;
+    overflow: hidden;
+}
+
+a.bsSiteLink {
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+}
+
+a.bsSiteLink:hover {
+    text-decoration: underline;
+}
+
+div.bsTitle {
+    padding: 0px 8px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+    color: rgb(102, 102, 102);
+    background: rgb(242, 242, 242) none repeat scroll 0% 0%;
+    text-align: left;
+}
+
+div.buzzButton {
+    cursor: pointer;
+}
+
+div.bsRlogo, div.bsRlogoSel {
+    width: 68px;
+    float: left;
+    margin: 0px;
+    padding: 2px 0px;
+}
+
+div.bsRlogo a, div.bsRlogoSel a {
+    float: left;
+}
+
+div.bsLogo, div.bsLogoSel {
+    float: left;
+    width: 111px;
+    text-align: left;
+    height: auto;
+    padding: 2px 4px;
+    margin: 2px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+div.bsLogo, div.bsRlogo {
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+}
+
+div.bsLogo a, div.bsLogoSel a {
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    padding: 0px 0px 0px 24px;
+    text-decoration: none;
+    float: left;
+    overflow: hidden;
+}
+
+div.bsLogo a, div.bsRlogo a {
+    color: rgb(102, 102, 102);
+    border: medium none;
+}
+
+div.bsLogoLink {
+    width: 121px;
+    overflow: hidden;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    float: left;
+    margin: 3px 0px;
+}
+
+#bsPanel {
+    position: absolute;
+    z-index: 100000000;
+    font-size: 12px;
+    width: 258px;
+    background: rgba(0, 0, 0, 0) url('background-opaque-dark.png') repeat scroll 0% 0%;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+div.bsClear {
+    clear: both;
+    height: 0px;
+    line-height: 0;
+    font-size: 0px;
+    overflow: hidden;
+}

@@ -1,0 +1,1292 @@
+/* ::::: http://news.cdn.medlive.cn/img/medinfo.css ::::: */
+
+.put_out {
+    margin: 0px 10px;
+}
+
+.put_out li {
+    height: 100%;
+    overflow: hidden;
+    padding: 0px 5px 10px;
+}
+
+.phiz input, .s_p input, .phiz img {
+    float: left;
+}
+
+.phiz img {
+    margin-right: 10px;
+}
+
+.put_text {
+    width: 100%;
+    height: 70px;
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+}
+
+.put_border {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(102, 102, 102) rgb(187, 187, 187) rgb(187, 187, 187) rgb(102, 102, 102);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+}
+
+/* ::::: http://news.cdn.medlive.cn/img/webres_basic.css ::::: */
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, textarea, p, blockquote, th, td, cite, q {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font: 12px/1.5 Arial, "����", Helvetica, sans_serif;
+    color: rgb(62, 62, 62);
+    background-color: rgb(255, 255, 255);
+    overflow-wrap: break-word;
+}
+
+fieldset, img, legend {
+    border: 0px none;
+}
+
+q::before, q::after {
+    content: "";
+}
+
+ul, ol, li {
+    list-style: outside none none;
+}
+
+input:focus {
+    outline: medium none;
+}
+
+a {
+    color: rgb(29, 75, 135);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+a:hover, a:active {
+    color: rgb(29, 75, 135);
+    text-decoration: underline;
+    outline: 0px none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.last {
+    border: medium none;
+}
+
+.en {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0px;
+    font-size: 0px;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+.clearfix {
+    display: block;
+}
+
+#content {
+    width: 950px;
+    margin: 0px auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main {
+    float: left;
+    width: 655px;
+    overflow: hidden;
+}
+
+.sideBar {
+    float: right;
+    width: 285px;
+    overflow: hidden;
+}
+
+.part {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.part .hd, .part .rc-tp, .part .rc-tp span, .part .rc-bt, .part .rc-bt span, .userLogin h4 {
+    background: transparent url('/template7/images/rc.png') no-repeat scroll 0px 0px;
+}
+
+.part .rc-tp, .part .rc-bt {
+    display: block;
+    height: 6px;
+    position: relative;
+}
+
+.part .rc-tp span, .part .rc-bt span {
+    float: right;
+    height: 6px;
+    width: 6px;
+}
+
+.part .rc-tp {
+    background-position: -5px 0px;
+    margin-bottom: -6px;
+}
+
+.part .rc-bt {
+    background-position: -5px -5px;
+    margin-top: -6px;
+}
+
+.part .rc-bt span {
+    background-position: 0px -5px;
+}
+
+.part .hd {
+    background-color: rgb(247, 247, 247);
+    background-position: 0px -11px;
+    background-repeat: repeat-x;
+    border-color: rgb(217, 217, 217);
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    height: 28px;
+    padding-left: 10px;
+}
+
+.side .hd {
+    background-position: 0px -39px;
+}
+
+.part .hd h3 {
+    line-height: 28px;
+}
+
+.side .hd h3, .side .hd h3 a {
+    font-size: 14px;
+    color: rgb(28, 77, 133);
+    font-weight: bold;
+}
+
+.part .bd {
+    border: 1px solid rgb(217, 217, 217);
+    padding: 10px;
+}
+
+.side .bd {
+    border-top: medium none;
+}
+
+.crumbTool {
+    width: 950px;
+    height: 28px;
+    background: rgba(0, 0, 0, 0) url('/template7/images/crumbtool_bg.jpg') repeat-x scroll left bottom;
+    margin: 5px auto;
+    line-height: 28px;
+    overflow: hidden;
+}
+
+.crumbNav {
+    float: left;
+    padding: 2px 0px 0px 12px;
+}
+
+.channel, a.channel:hover {
+    font: 14px "Microsoft YaHei", "����", sans_serif;
+    color: rgb(62, 62, 62);
+    display: inline;
+}
+
+.maskLayer {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(62, 62, 62);
+    z-index: 100000;
+    opacity: 0.25;
+}
+
+.popWindow {
+    position: fixed;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    z-index: 300000;
+    color: rgb(62, 62, 62);
+    text-align: left;
+    width: 500px;
+    border: 3px solid rgb(146, 146, 146);
+    overflow: hidden;
+}
+
+.k_p {
+    width: 630px;
+    margin: 0px auto 15px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.zmWindow {
+}
+
+/* ::::: http://news.cdn.medlive.cn/img/webres_common.css ::::: */
+
+body {
+    line-height: 22px;
+}
+
+a {
+    color: rgb(40, 78, 158);
+}
+
+.page_bottom {
+    height: 30px;
+    margin: 0px auto 10px;
+    background-color: rgb(59, 97, 175);
+    text-align: center;
+}
+
+.page_bottom ul {
+    width: 570px;
+    padding-left: 40px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0px auto;
+}
+
+.page_bottom ul li {
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.page_bottom ul li a {
+    color: rgb(255, 255, 255);
+    margin: 0px 5px;
+    display: inline-block;
+}
+
+.page_copyright {
+    width: 960px;
+    margin: 0px auto 10px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.maskLayer {
+    background-color: rgb(204, 204, 204);
+    height: 100%;
+    left: 0px;
+    opacity: 0.25;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100000;
+}
+
+/* ::::: http://news.cdn.medlive.cn/img/webres_components.css ::::: */
+
+.t_title h1 {
+    color: rgb(39, 77, 160);
+}
+
+.inc_c {
+    width: 652px;
+    border-left: 1px solid rgb(217, 217, 217);
+    border-right: 1px solid rgb(217, 217, 217);
+    height: 100%;
+    overflow: hidden;
+}
+
+.t_title {
+    background: rgb(241, 241, 241) none repeat scroll 0% 0%;
+    padding: 5px 15px;
+    height: 22px;
+    margin-bottom: 10px;
+}
+
+.t_title h1 {
+    float: left;
+}
+
+.put_out {
+    margin: 0px auto;
+    width: 630px;
+}
+
+.put_out li {
+    height: 100%;
+    overflow: hidden;
+    padding: 0px 5px 10px;
+    width: 620px;
+}
+
+.phiz input, .s_p input, .phiz img {
+    float: left;
+}
+
+.phiz img {
+    margin-right: 10px;
+}
+
+.put_text {
+    width: 620px;
+    height: 70px;
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+}
+
+.put_border {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(102, 102, 102) rgb(187, 187, 187) rgb(187, 187, 187) rgb(102, 102, 102);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+}
+
+/* ::::: http://news.cdn.medlive.cn/img/webres_message.css ::::: */
+
+/* ::::: http://news.cdn.medlive.cn/img/webres_search.css ::::: */
+
+/* ::::: http://news.medlive.cn/img/m_css.css ::::: */
+
+/* ::::: http://news.medlive.cn/img/webres_common.css ::::: */
+
+body {
+    line-height: 22px;
+}
+
+a {
+    color: rgb(40, 78, 158);
+}
+
+.page_bottom {
+    height: 30px;
+    margin: 0px auto 10px;
+    background-color: rgb(59, 97, 175);
+    text-align: center;
+}
+
+.page_bottom ul {
+    width: 570px;
+    padding-left: 40px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0px auto;
+}
+
+.page_bottom ul li {
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.page_bottom ul li a {
+    color: rgb(255, 255, 255);
+    margin: 0px 5px;
+    display: inline-block;
+}
+
+.page_copyright {
+    width: 960px;
+    margin: 0px auto 10px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.maskLayer {
+    background-color: rgb(204, 204, 204);
+    height: 100%;
+    left: 0px;
+    opacity: 0.25;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100000;
+}
+
+body {
+    font: 12px/1.5 Arial, "宋体", Helvetica, sans_serif;
+    color: rgb(62, 62, 62);
+    background-color: rgb(255, 255, 255);
+    overflow-wrap: break-word;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+fieldset, img, legend {
+    border: 0px none;
+}
+
+q::before, q::after {
+    content: "";
+}
+
+ul, ol, li {
+    list-style: outside none none;
+}
+
+input:focus {
+    outline: medium none;
+}
+
+a {
+    color: rgb(29, 75, 135);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.in_c {
+    width: 654px;
+    margin: 0px auto;
+    position: relative;
+    height: 100%;
+}
+
+.emr_top {
+    background-color: rgb(214, 214, 214);
+}
+
+.emr_top_body {
+    width: 950px;
+    height: 28px;
+    margin: 0px auto;
+}
+
+.emr_top_body a {
+    line-height: 28px;
+    color: rgb(86, 86, 86);
+    display: inline-block;
+}
+
+.emr_top_l {
+    float: left;
+}
+
+.emr_top_l li.icon, .emr_top_r li.icon {
+    background: rgba(0, 0, 0, 0) url('/template7/images/header_bd.png') no-repeat scroll 0% 0%;
+    height: 28px;
+    line-height: 28px;
+    float: left;
+    margin-left: 27px;
+    padding-left: 23px;
+}
+
+.emr_top_l li.index {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.emr_top_l li.mobile {
+    background-position: -5px 0px;
+}
+
+.emr_top_l li.nav {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+    position: relative;
+    width: 90px;
+    margin-left: 14px;
+    padding-left: 0px;
+    z-index: 9999;
+}
+
+.emr_top_l li.nav a {
+    width: 77px;
+    padding-left: 13px;
+}
+
+.emr_top_l li.nav a:hover, .emr_top_r li.user a.name:hover {
+    background-color: rgb(234, 234, 234);
+}
+
+.down {
+    background: rgba(0, 0, 0, 0) url('/template7/images/nav_bd.png') no-repeat scroll 0% 0%;
+    width: 9px;
+    height: 5px;
+    display: inline-block;
+    position: absolute;
+    top: 11px;
+    right: 14px;
+}
+
+.nav_list {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 27px;
+    right: -1px;
+    width: 90px;
+    border-top: 1px solid rgb(214, 214, 214);
+    border-right: 1px solid rgb(214, 214, 214);
+    border-left: 1px solid rgb(214, 214, 214);
+    z-index: 9999;
+}
+
+.nav_list li {
+    background-color: rgb(255, 255, 255);
+    height: 28px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.emr_top_l li.nav .nav_list li a, .emr_top_r li.user .nav_list li a {
+    width: 80px;
+    line-height: 28px;
+    padding-left: 11px;
+}
+
+.emr_top_body .nav_list li a:hover, .emr_top_body .nav_list li a.current {
+    background-color: rgb(213, 228, 251);
+}
+
+.emr_top_r {
+    float: right;
+}
+
+.emr_top_r li.login {
+    background-position: -5px -59px;
+}
+
+.emr_top_r li.regist {
+    background-position: -5px -89px;
+}
+
+.c_top {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+    height: 33px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.in_top h1, .btn_xx {
+    background: rgba(0, 0, 0, 0) url('/template7/images/bg_infor.jpg') no-repeat scroll 0% 0%;
+}
+
+.in_d {
+    height: 100%;
+    overflow: hidden;
+}
+
+.p_new {
+    position: relative;
+    margin-bottom: 15px;
+    height: 24px;
+    padding: 0px 15px;
+}
+
+.in_c .h_p_t {
+    display: block;
+    padding: 20px 15px 7px;
+    margin: 0px auto;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.p_n {
+    margin-bottom: 12px;
+    font-size: 14px;
+    height: 100%;
+    overflow: hidden;
+    line-height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.b_p {
+    background: rgba(0, 0, 0, 0) url('/template7/images/p_b.jpg') no-repeat scroll left bottom;
+    position: relative;
+}
+
+.in_c h1 {
+    font-size: 14px;
+    min-height: 25px;
+}
+
+.in_c_y, .in_c_h {
+    font-size: 12px;
+}
+
+.t_title h1 {
+    color: rgb(39, 77, 160);
+}
+
+.in_new dd ul li b, .p_n, .p_img, .key_list, .in_f, .ul_p_t2 {
+    color: black;
+}
+
+.in_top a, .in_d_left dl a, .in_top .h_b, .l_k, .l_a, .inc_c a, .b_m_t2 b, .blue_bar span.right a, .l_d a, .new_nav a, .c_blue, .dl_c h1 a, .dl_c h3, .dl_c h3 a, .dl_r h1 a, .dl_r .dl_r_img2 a, .dl_r .d_d a, .in_nav a, .ind_left h1 a, .mlist_lt a, .sw5 a, .p_sc, .in_ul_l li a, .in_d_r li a {
+    color: rgb(29, 76, 134);
+}
+
+.in_top a:hover, .in_d_left dl a:hover, .in_ul_l a:hover, .l_a:hover, .l_k:hover, .inc_c a:hover, .blue_bar span.right a:hover, .l_d a:hover, .new_nav a:hover, .dl_c h1 a:hover, .dl_r .dl_r_img2:hover, .dl_r .d_d a:hover, .sw5 a:hover, .in_ul_l li a:hover, .in_d_r li a:hover {
+    color: rgb(51, 51, 51);
+}
+
+.in_d_left, .in_ul_l a, .m_i span, .in_c_y, .s_bg, .infor_rimg {
+    color: rgb(136, 136, 136);
+}
+
+.posi_nav {
+    position: relative;
+    z-index: 5;
+    width: 960px;
+}
+
+.posi_nav .crumbNav {
+    padding: 0px 0px 0px 20px;
+    color: rgb(0, 0, 0);
+    font-family: "Microsoft Yahei";
+}
+
+.posi_nav .crumbNav a {
+    color: rgb(0, 0, 0);
+}
+
+.posi_nav .crumbNav a.channel {
+    font-size: 12px;
+}
+
+.btn_xx {
+    width: 36px;
+    height: 19px;
+    background-position: left -89px;
+    display: inline-block;
+    padding-top: 3px;
+}
+
+.pos {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.hot_article .hd p {
+    height: 22px;
+    margin-top: 3px;
+}
+
+.one_article {
+    border-bottom: 1px dashed rgb(204, 204, 204);
+    padding: 5px 0px;
+}
+
+.one_article span {
+    width: 10px;
+    float: left;
+    color: rgb(0, 72, 157);
+    line-height: 24px;
+}
+
+.one_article p {
+    width: 230px;
+    float: right;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.one_article a {
+    color: rgb(29, 75, 135);
+}
+
+.one_article label {
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.interested_topic .hd, .interested_other_person .hd, .hot_article .hd {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+}
+
+.interested_topic .hd h3, .interested_other_person .hd h3, .hot_article .hd h3 {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.interested_topic .bd, .interested_other_person .bd, .hot_article .bd {
+    padding: 0px 4px;
+}
+
+.main .in_c {
+    width: 100%;
+    padding: 0px;
+}
+
+.editing_toolBox {
+    height: 34px;
+}
+
+.editing_toolBox .emotion_img {
+    float: left;
+    margin-top: 15px;
+    padding-left: 24px;
+}
+
+.editing_toolBox .emotion_img img {
+    vertical-align: middle;
+    margin: 0px;
+}
+
+.editing_toolBox .emotion_img img {
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.title_cms {
+}
+
+.cms_ad {
+    width: 960px;
+    margin: 10px auto 0px;
+    height: 100px;
+}
+
+.cms_ad a {
+    height: 100px;
+    display: inline-block;
+}
+
+.cms_ad_02 a.img1 {
+    width: 670px;
+    float: left;
+}
+
+.cms_ad_02 a.img2 {
+    width: 280px;
+    float: right;
+}
+
+.crumbTool .left_part {
+    width: 670px;
+    height: 33px;
+    float: left;
+}
+
+.ymt_news a {
+    background: rgba(0, 0, 0, 0) url('/template7/images/news.jpg') no-repeat scroll 0% 0%;
+    width: 128px;
+    height: 33px;
+    display: inline-block;
+}
+
+.main {
+    overflow: visible;
+}
+
+.k_p {
+    width: 655px;
+    margin-bottom: 5px;
+}
+
+.save_share {
+    float: right;
+}
+
+.save_share button {
+    border: medium none;
+    width: 84px;
+    height: 28px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.save_btn {
+    background: rgba(0, 0, 0, 0) url('/template7/images/btn1.png') no-repeat scroll 0% 0%;
+    margin-right: 10px;
+}
+
+.share_btn {
+    background: rgba(0, 0, 0, 0) url('/template7/images/btn2.png') no-repeat scroll 0% 0%;
+}
+
+.in_c .t_title {
+    margin-bottom: 0px;
+    padding: 3px 0px 0px 8px;
+    height: 36px;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+}
+
+.in_c .t_title h1 {
+    color: rgb(0, 0, 0);
+    line-height: 36px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.in_c .inc_c {
+    width: 653px;
+    padding-top: 10px;
+    overflow: visible;
+}
+
+.please_login {
+    width: 602px;
+    height: 62px;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    padding: 5px 10px;
+}
+
+.bd_grey {
+    background: rgb(240, 240, 240) none repeat scroll 0% 0%;
+}
+
+#content.wid_960 {
+    width: 960px;
+}
+
+.main.wid_670 {
+    width: 670px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+}
+
+.wid_670 {
+    width: 670px;
+}
+
+.sideBar.wid_280 {
+    width: 280px;
+}
+
+.mal_15 {
+    margin-left: 15px;
+}
+
+.pat_8 {
+    padding-top: 8px;
+}
+
+.pab_20 {
+    padding-bottom: 20px;
+}
+
+.main .wid_640 {
+    width: 640px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.content_body {
+    padding: 8px 10px 0px;
+}
+
+.keywords_box {
+    width: 630px;
+    margin: 0px auto;
+    padding: 7px 10px 5px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    color: rgb(0, 0, 0);
+    line-height: 22px;
+}
+
+.keywords_box a {
+    display: inline-block;
+}
+
+.k_l {
+    width: 410px;
+    height: 22px;
+    float: left;
+    overflow: hidden;
+}
+
+.k_l a {
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+
+.k_r {
+    width: 220px;
+    float: left;
+}
+
+.collect_com {
+    font-size: 12px;
+}
+
+.collect_com a {
+    color: rgb(0, 69, 155);
+    line-height: 28px;
+    height: 28px;
+    display: inline-block;
+}
+
+.orange_txt {
+    color: rgb(247, 148, 29);
+}
+
+.txt_888 {
+    color: rgb(136, 136, 136);
+}
+
+.content_share {
+    line-height: 28px;
+    padding: 5px 8px 10px;
+}
+
+.about_read_title {
+    font-size: 16px;
+    line-height: 36px;
+    margin-top: 5px;
+    font-weight: normal;
+    padding: 0px 7px;
+}
+
+.about_read_list {
+    padding: 0px 4px;
+    color: rgb(0, 72, 157);
+}
+
+.about_read_list li span {
+    margin-right: 5px;
+}
+
+.about_read_list li a {
+    color: rgb(0, 72, 157);
+}
+
+.inc_c {
+    border: medium none;
+}
+
+.border_d9 {
+    border: 1px solid rgb(217, 217, 217);
+}
+
+.in_c .inc_c {
+    padding: 0px;
+    width: 640px;
+}
+
+.in_c .inc_c .put_out {
+    width: 640px;
+}
+
+.in_c .inc_c .put_out li {
+    width: 640px;
+    padding: 0px;
+}
+
+.pos .put_text {
+    width: 620px;
+    height: 79px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    resize: none;
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+    font: 14px/30px "Microsoft YaHei";
+}
+
+.pos .put_border {
+    border-width: medium medium 1px;
+    border-style: none none solid;
+    border-color: currentcolor currentcolor rgb(217, 217, 217);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+}
+
+.please_login {
+    width: 640px;
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 88px;
+    text-align: center;
+    padding: 0px;
+    color: rgb(136, 136, 136);
+}
+
+.editing_toolBox {
+    height: 48px;
+}
+
+.emotion_img span a {
+    color: rgb(0, 72, 157);
+    font-size: 14px;
+}
+
+.com_login {
+    width: 185px;
+    padding: 7px 10px 7px 0px;
+    float: right;
+}
+
+.commit_btn {
+    height: 34px;
+    line-height: normal;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: medium none;
+    outline: medium none;
+}
+
+.com_submit_btn {
+    background: rgb(50, 153, 219) none repeat scroll 0% 0%;
+    width: 75px;
+}
+
+.com_login_btn {
+    background: rgb(240, 130, 0) none repeat scroll 0% 0%;
+    width: 95px;
+}
+
+.hot_article {
+    margin: 10px 0px;
+}
+
+.part .hd, .part .bd {
+    border: medium none;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+}
+
+.part .hd {
+    line-height: 28px;
+    padding: 10px 25px;
+}
+
+.hot_article .hd h3, .newest_case .hd h3 {
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    line-height: 30px;
+}
+
+.part .bd {
+    padding: 0px 20px 7px;
+}
+
+.hot_article .listblock, .newest_case .listblock {
+    border-top: 1px solid rgb(217, 217, 217);
+}
+
+.slidebar_ad {
+}
+
+.slidebar_ad a {
+    display: block;
+}
+
+.cms_ad, .cms_ad a {
+    height: auto;
+}
+
+.cms_ad_02 a.img1 img {
+    width: 670px;
+}
+
+.cms_ad_02 a.img2 img {
+    width: 280px;
+}
+
+.mal_15 {
+    margin-left: 15px;
+}
+
+.right_commit {
+    float: right;
+    text-align: right;
+}
+
+.k_p.wid_620 {
+    width: 620px;
+}
+
+.b_p.bg_none {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+}
+
+.h_p_t.font_yahei {
+    font-family: "微软雅黑";
+}
+
+.hot_article {
+    margin: 0px 0px 10px;
+}
+
+.slidebar_ad {
+    margin-bottom: 10px;
+}
+
+.part .hd {
+    padding: 10px 15px;
+}
+
+.part .bd {
+    padding: 0px 15px 7px;
+}
+
+.one_article {
+    position: relative;
+    height: 48px;
+    overflow: hidden;
+}
+
+.one_article p {
+    width: 240px;
+}
+
+.one_article label {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.com_login a {
+    text-decoration: none;
+}
+
+.border_none {
+    border: medium none;
+}
+
+.one_newCase {
+    font-size: 13px;
+    color: rgb(51, 51, 51);
+    line-height: 19px;
+    padding: 8px 0px;
+    border-bottom: 1px dashed rgb(204, 204, 204);
+}
+
+.border_none {
+    border: medium none;
+}
+
+.one_newCase p a {
+    color: rgb(51, 51, 51);
+}
+
+.about_read {
+    border-top: 1px solid rgb(199, 199, 199);
+    padding-bottom: 20px;
+}
+
+.zan_box1 {
+    width: 80px;
+    height: 68px;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0) url('/template7/images/zan_bg.jpg') no-repeat scroll 0% 0%;
+    text-align: center;
+    padding-top: 12px;
+    cursor: pointer;
+}
+
+.zan_box1 p {
+    font: 16px/26px Arial;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+}
+
+/* ::::: http://bdimg.share.baidu.com/static/api/css/share_style1_16.css ::::: */
+
+.bdshare-button-style1-16 .bds_qzone {
+    background-position: 0px -52px;
+}
+
+.bdshare-button-style1-16 .bds_tsina {
+    background-position: 0px -104px;
+}
+
+.bdshare-button-style1-16 .bds_weixin {
+    background-position: 0px -1612px;
+}
+
+.bdshare-button-style1-16 {
+}
+
+.bdshare-button-style1-16::after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+
+.bdshare-button-style1-16 a, .bdshare-button-style1-16 .bds_more {
+    float: left;
+    font-size: 12px;
+    padding-left: 17px;
+    line-height: 16px;
+    height: 16px;
+    background-image: url('/template7/images/icons_1_16.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin: 6px 6px 6px 0px;
+}
+
+.bdshare-button-style1-16 a:hover {
+    color: rgb(51, 51, 51);
+    opacity: 0.8;
+}
+
+.bdshare-button-style1-16 .bds_count {
+    color: rgb(51, 51, 51);
+    background: rgba(0, 0, 0, 0) url('/template7/images/sc.png') no-repeat scroll 0px -30px;
+    width: 42px;
+    height: 16px;
+    padding: 0px;
+    margin: 6px 0px 0px;
+    text-align: center;
+}
+
+.bdshare-button-style1-16 .bds_count:hover {
+    background-position: -42px -30px;
+}
