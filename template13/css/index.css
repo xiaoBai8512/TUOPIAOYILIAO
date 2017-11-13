@@ -1,0 +1,741 @@
+/* ::::: https://mat1.yigoonet.com/www/css/style.css?v=20150327 ::::: */
+
+html, body, header, footer, nav, section, aside, article, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select, iframe {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font: 12px "Microsoft YaHei", Helvetica, Arial, sans-serif;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+}
+
+input, button, select, textarea {
+    font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a:hover {
+    color: rgb(46, 78, 132);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a:focus {
+    outline: medium none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+ul, ol, li {
+    list-style: outside none none;
+}
+
+fieldset, img {
+    border: 0px none;
+    vertical-align: middle;
+}
+
+p {
+    overflow-wrap: break-word;
+}
+
+input {
+}
+
+.clearfix::after, .layout::after, .header-inner::after {
+    content: ".";
+    display: block;
+    height: 0px;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.clearfix, .layout, .header-inner {
+}
+
+.layout {
+    width: 1000px;
+    margin: 0px auto;
+    color: rgb(34, 34, 34);
+    line-height: 24px;
+}
+
+.fl {
+    float: left;
+    display: inline;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url('/template13/images/glyphicons-halflings.png');
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+    margin-top: 4px;
+}
+
+.icon12 {
+    margin-top: 2px;
+}
+
+.time [class^="icon-"], .time [class*=" icon-"], .muted [class^="icon-"], .muted [class*=" icon-"] {
+    opacity: 0.4;
+}
+
+.icon-time {
+    background-position: -48px -24px;
+}
+
+.icon-Search {
+    background-position: -38px 6px;
+}
+
+header {
+    width: 100%;
+    overflow: hidden;
+}
+
+.headTop {
+    background: rgb(37, 63, 106) none repeat scroll 0% 0%;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 32px;
+}
+
+.header-wrap {
+    width: 100%;
+    height: 80px;
+    background: rgb(46, 78, 132) none repeat scroll 0% 0%;
+    position: relative;
+    z-index: 103;
+}
+
+.header-wrap .header-inner {
+    position: relative;
+    width: 1000px;
+    height: 80px;
+    margin: auto;
+}
+
+.header-wrap .header-inner .logo {
+    position: absolute;
+    display: inherit;
+    float: left;
+    font-size: 120px;
+    line-height: 80px;
+    height: 80px;
+    color: rgb(255, 255, 255);
+    left: 0px;
+    top: 0px;
+}
+
+.header-wrap .header-inner .logo img {
+    position: absolute;
+    display: inline-block;
+    width: 180px;
+    height: 44px;
+    top: 18px;
+    overflow: hidden;
+}
+
+.header-wrap .header-inner nav {
+    overflow: hidden;
+    width: 550px;
+    height: 80px;
+    float: left;
+    clear: right;
+    margin-left: 220px;
+}
+
+.header-wrap .header-inner nav ul {
+    margin: 0px;
+    float: left;
+}
+
+.header-wrap .header-inner nav ul li {
+    float: left;
+    padding: 0px 20px;
+    margin-right: 1px;
+    height: 80px;
+    line-height: 80px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.header-wrap .header-inner nav ul li:hover {
+    background-color: rgb(67, 96, 145);
+}
+
+.header-wrap .header-inner nav ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 400;
+    -moz-user-select: none;
+}
+
+.header-wrap .header-inner nav ul li a:hover {
+    background-color: rgb(67, 96, 145);
+    text-decoration: none;
+}
+
+.header-wrap .header-inner nav ul li.act {
+    background-color: rgb(67, 96, 145);
+}
+
+.header-search {
+    float: right;
+    width: 200px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 24px;
+    padding-top: 0px !important;
+    background-color: rgb(180, 194, 218);
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.header-search form {
+    position: relative;
+    padding-right: 32px;
+}
+
+.header-search .search-key {
+    background-color: transparent;
+    border: medium none;
+    outline: medium none;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 0px 0px 0px 5px;
+    width: 100%;
+    margin: 0px;
+    height: 32px;
+}
+
+.header-search .search-key.empty {
+    color: rgb(0, 0, 0);
+}
+
+.header-search .search-submit {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 14px;
+    color: rgb(251, 250, 248);
+    height: 32px;
+    line-height: 32px;
+    width: 32px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.header-search .search-submit:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    background: rgb(237, 242, 248) none repeat scroll 0% 0%;
+    margin-top: 15px;
+    padding: 13px 0px 10px;
+    display: block;
+    clear: both;
+    border-top: 1px solid rgb(205, 215, 227);
+}
+
+.tcopyright {
+    width: 1000px;
+    margin: 0px auto;
+    padding: 8px 0px;
+    font-size: 12px;
+    line-height: 28px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    overflow: hidden;
+    clear: both;
+    background: rgba(0, 0, 0, 0) url('/template13/images/line00.png') repeat-x scroll center top;
+}
+
+.tcopyright1 {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+}
+
+.tcopyright .en {
+    font-family: Arial;
+}
+
+.tcopyright a {
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+}
+
+.tcopyright a:hover {
+    color: rgb(51, 102, 153);
+    text-decoration: underline;
+}
+
+.float-tool {
+    position: fixed;
+    bottom: 95px;
+    right: 2%;
+    z-index: 250;
+    width: 48px;
+    float: right;
+}
+
+.float-tool p {
+    margin-bottom: 2px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.gotopad {
+    display: none;
+}
+
+.gotop {
+    margin-left: 0px;
+    width: 48px;
+    height: 48px;
+    background: rgba(0, 0, 0, 0) url('/template13/images/gotop.png') no-repeat scroll 0% 0%;
+    cursor: pointer;
+    display: block;
+}
+
+.gotop {
+    background-position: 0px 0px;
+    border-radius: 3px;
+}
+
+.recommend {
+    padding: 10px;
+    height: 28px;
+    width: 28px;
+    line-height: 14px;
+    background: rgb(98, 109, 115) none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.gotop:hover {
+    background-position: -72px 0px;
+}
+
+.recommend:hover {
+    background: rgb(53, 121, 166) none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+}
+
+section {
+    float: left;
+    width: 670px;
+    min-height: 700px;
+}
+
+aside {
+    float: right;
+    width: 300px;
+}
+
+.newsList {
+    width: 100%;
+}
+
+.articleList {
+    overflow: hidden;
+    position: relative;
+}
+
+.articleList article {
+    padding-bottom: 20px;
+    height: 144px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.articleList article:hover {
+    background: rgb(248, 248, 248) none repeat scroll 0% 0%;
+    border-width: 0px 0px 1px;
+    border-style: none none solid;
+    border-color: currentcolor currentcolor rgb(230, 230, 230);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    color: rgb(46, 78, 132);
+}
+
+.articleList article .pic {
+    float: left;
+    width: 180px;
+    height: 120px;
+    padding-top: 20px;
+    margin: 4px 10px 0px 0px;
+    overflow: hidden;
+    display: inline;
+}
+
+.articleList article .pic img {
+    width: 180px;
+    height: 120px;
+}
+
+.articleList article h3 {
+    position: relative;
+    padding-top: 20px;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.articleList article h3 a:link, .articleList article h3 a:visited {
+    color: rgb(68, 68, 68);
+}
+
+.articleList article:hover h3, .articleList article:hover h3 a {
+    color: rgb(51, 102, 153);
+    border: 0px none;
+}
+
+.articleList article p {
+    margin-top: 5px;
+}
+
+.articleList article p .time {
+    color: rgb(153, 153, 153);
+    margin-right: 5px;
+}
+
+.articleList article p .cat a {
+    color: rgb(58, 131, 184);
+}
+
+.articleList article p .cat a:hover {
+    text-decoration: none;
+}
+
+.articleList article p.dec {
+    display: block;
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.yc_weixin {
+    background: rgb(237, 242, 248) none repeat scroll 0% 0%;
+}
+
+.wxgzt {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: rgb(53, 121, 166) none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.wxpic {
+    text-align: center;
+    padding: 20px 0px 10px;
+}
+
+.wxjs {
+    color: rgb(102, 102, 102);
+    width: 282px;
+    margin-top: 1px;
+    font-size: 13px;
+    text-align: left;
+    padding: 0px 4px 15px 13px;
+}
+
+aside h2 {
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+}
+
+aside .aside_tit {
+    float: left;
+    width: 180px;
+    font-size: 18px;
+    color: rgb(46, 78, 132);
+}
+
+aside .aside_more {
+    padding-left: 4px;
+    width: 22px;
+    float: right;
+}
+
+aside .aside_more a {
+    background: rgba(0, 0, 0, 0) url('/template13/images/icon_scrool.png') no-repeat scroll 0px -50px;
+    display: block;
+    width: 19px;
+    height: 19px;
+    text-indent: -10000px;
+    margin: 6px 4px 0px 0px;
+}
+
+aside .aside_more a:hover {
+    background: rgba(0, 0, 0, 0) url('/template13/images/icon_scrool.png') no-repeat scroll -23px -50px;
+    display: block;
+    width: 19px;
+    height: 19px;
+    text-indent: -10000px;
+    margin: 6px 4px 0px 0px;
+    cursor: pointer;
+}
+
+aside .aside_list {
+    padding-top: 10px;
+}
+
+aside .aside_list li {
+    line-height: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+
+aside .aside_list li a {
+    font-size: 14px;
+}
+
+.rankTab {
+    float: right;
+}
+
+.rankTab a {
+    cursor: pointer;
+}
+
+.rankTab a.fb {
+    font-weight: bold;
+    color: rgb(46, 78, 132);
+}
+
+.tabList {
+    background: rgba(0, 0, 0, 0) url('/template13/images/bbs_list_bg.gif') no-repeat scroll left 7px;
+    padding-left: 30px;
+}
+
+.tabList li {
+    line-height: 28px;
+    height: 28px;
+    overflow: hidden;
+}
+
+.tabList li a {
+    font-size: 14px;
+}
+
+.tabList li a:hover {
+    color: rgb(46, 78, 132);
+}
+
+.expoTab a {
+    display: block;
+    width: 98px;
+    border-width: 1px medium 1px 1px;
+    border-style: solid none solid solid;
+    border-color: rgb(230, 234, 237) currentcolor rgb(230, 234, 237) rgb(230, 234, 237);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    color: rgb(118, 146, 170);
+    text-align: center;
+    font-size: 14px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
+.expoTab a.last_a {
+    border-right: 1px solid rgb(230, 234, 237);
+}
+
+.expoTab a.act {
+    background: rgb(230, 234, 237) none repeat scroll 0% 0%;
+    color: rgb(102, 102, 102);
+    width: 100px;
+}
+
+.expoTab a:hover {
+    text-decoration: none;
+}
+
+.slide {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 280px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.changeDiv {
+    position: absolute;
+    width: 100%;
+    height: 280px;
+}
+
+.slide li a {
+    position: absolute;
+    display: none;
+    height: 280px;
+}
+
+.title-bg {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    opacity: 0.5;
+    overflow: hidden;
+}
+
+.change {
+    width: 300px;
+    height: 20px;
+    position: absolute;
+    bottom: 17px;
+    text-align: right;
+}
+
+.change i {
+    background: rgb(102, 102, 102) none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 12px;
+    width: 14px;
+    height: 14px;
+    line-height: 15px;
+    border-radius: 15px;
+    margin-right: 4px;
+    padding: 3px;
+    font-style: normal;
+    display: -moz-inline-stack;
+    text-align: center;
+}
+
+.change i.cur {
+    background: rgb(255, 119, 0) none repeat scroll 0% 0%;
+}
+
+.breadnav {
+    height: 30px;
+    border-bottom: 3px solid rgb(230, 230, 230);
+}
+
+.breadnav li {
+    float: left;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.breadnav li a {
+    display: block;
+    font-size: 18px;
+}
+
+.breadnav li a:hover {
+    color: rgb(53, 121, 166);
+}
+
+.breadnav li.select a {
+    border-bottom: 3px solid rgb(53, 121, 166);
+    color: rgb(53, 121, 166);
+    padding: 0px 0px 6px;
+}
+
+#pageZone {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    text-align: left;
+}
+
+#pageZone span {
+    float: left;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid rgb(226, 226, 226);
+    text-align: center;
+    margin-right: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#pageZone span:hover {
+    background: rgb(53, 121, 166) none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#pageZone .Disabled {
+    width: 85px;
+}
+
+#pageZone .Disabled a {
+    display: block;
+    width: 85px;
+}
+
+#pageZone span.isNow {
+    background: rgb(53, 121, 166) none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+}
+
+#pageZone span.dot {
+    border: medium none;
+}
+
+#pageZone span a {
+    display: block;
+    width: 34px;
+    height: 34px;
+}
+
+#pageZone span a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.mainNews li:nth-child(4) {
+    margin-bottom: 11px;
+}

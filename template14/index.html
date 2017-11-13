@@ -1,0 +1,518 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+
+    <meta name="Keywords"
+          content="医学,药学,生物,医生,临床,医学知识,病例讨论,医学论坛,医学论坛网,心血管疾病,肿瘤与血液疾病,内分泌与糖尿病,消化系统疾病,感染性疾病,肾脏与泌尿疾病,呼吸系统疾病,神经系统疾病,精神卫生,骨关节疾病,风湿疾病,急诊急救,重症医学,麻醉医学,妇产儿科疾病,药物,医疗器械,医学门户网站,医学网推荐,医学专业网站推荐,最好医学网站,最好医学论坛">
+    <meta name="Description" content="医学论坛网,汇聚全球医学的力量,做中国最好的医学门户网站！">
+    <meta name="copyright" content="医学论坛网www.cmt.com.cn">
+    <title>肿瘤_医学论坛网-网聚医学的力量</title>
+
+
+    <link media="all" href="./css/index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="top_bg">
+    <div class="top_cen">
+        <div class="top_cen_left">
+            <div style="display: none;" id="denglu">
+                <p><strong id="uname" style="color: rgb(105, 157, 54);"></strong>&nbsp;您好，欢迎来到医学论坛网！&nbsp;&nbsp;<strong><a
+                        href="http://user.cmt.com.cn/UserProfileBase">设置</a></strong>
+                    <strong><a href="http://user.cmt.com.cn/user/logout">退出</a></strong></p>
+            </div>
+            <div id="weidenglu">
+                <p><a href="http://www.cmt.com.cn/" target="_self">医学论坛网首页&gt;&gt;</a>&nbsp;&nbsp;请<strong><a
+                        href="http://user.cmt.com.cn/user/login">登录</a></strong>，我要<strong><a target="_top"
+                                                                                              href="http://user.cmt.com.cn/user/reg">注册</a></strong>！
+                </p>
+            </div>
+        </div>
+        <div class="top_cen_right">
+
+            <a target="_top" href="http://cancer.cmt.com.cn/dl/app/index.html"><p>APP&nbsp;&nbsp;</p></a>
+            <a target="_top" href="http://cancer.cmt.com.cn/dl/weixin/index.html"><p>微信&nbsp;&nbsp;</p></a>
+
+            <a target="_top" href="http://cancer.cmt.com.cn/about/sitemap"><i class="icon-map"></i>
+                <p style="cursor: pointer;">网站地图</p></a>
+            <a href="http://e.weibo.com/u/2357703693"><i class="icon-sina"></i>
+                <p style="cursor: pointer;">医学论坛微博</p></a>
+        </div>
+    </div>
+</div>
+<div class="logo_cen clear">
+    <h1><a href="http://www.cmt.com.cn/" class="logo"></a><a href="http://cancer.cmt.com.cn/" class="long-a">肿瘤</a></h1>
+    <div class="logo_search">
+        <form name="form1" action="http://cancer.cmt.com.cn/Index/search" method="get">
+            <input class="search_text" name="msg_key" id="msg_key" value="请输入关键词" type="text">
+            <input onclick="dosubmit();" class="search_submit" src="./images/img_03.jpg" type="image">
+            <p class="search_p"><a href="http://cancer.cmt.com.cn/discourse">医学文献检索</a></p>
+            <input value="6666cd76f96956469e7be39d750cc7d9_02f2ea8b459dfdee3e6e847ade0fb479" name="__hash__"
+                   type="hidden">
+            <input name="__hash__" value="707c53c5a7231c14a34dcb4c60ba7c73_75a1bab9cfaec0dda005536399cd0679"
+                   type="hidden"></form>
+    </div>
+    <dl class="menu-more">
+        <dt>学科导航</dt>
+        <dd>
+            <ul class="meng-yul">
+                <li class="clear">
+                    <a href="http://www.cmt.com.cn/slist/1.html" target="_self" class="menu-yang">内 科</a>
+                    <div class="mengy clear">
+                        <a href="http://respir.cmt.com.cn/" target="_self">呼吸</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://gi.cmt.com.cn/" target="_self">消化</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://circ.cmt.com.cn/" target="_self">心血管</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://kidney.cmt.com.cn/" target="_self">肾内科</a>
+                        <a href="http://rheum.cmt.com.cn/" target="_self">风湿</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://endo.cmt.com.cn/" target="_self">内分泌</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://www.cmt.com.cn/slist/15.html" target="_self">血液</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://www.cmt.com.cn/slist/17.html" target="_self">重症医学</a>
+                        <a href="http://infect.cmt.com.cn/" target="_self">感染</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://cancer.cmt.com.cn/" target="_self">肿瘤</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://neur.cmt.com.cn/" target="_self">神经</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://psy.cmt.com.cn/" target="_self">精神卫生</a>
+                        <a href="http://diabetes.cmt.com.cn/" target="_self">糖尿病</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://hep.cmt.com.cn/" target="_self">肝 病</a>
+                    </div>
+                </li>
+                <li class="clear">
+                    <a href="http://surg.cmt.com.cn/" target="_self" class="menu-yang">外 科</a>
+                    <div class="mengy clear">
+                        <a href="http://www.cmt.com.cn/slist/20.html" target="_self">普通外科</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://www.cmt.com.cn/slist/21.html" target="_self">胸心外科</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://www.cmt.com.cn/slist/22.html" target="_self">神经外科</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://www.cmt.com.cn/slist/23.html" target="_self">泌尿外科</a>
+                        <a href="http://orth.cmt.com.cn/" target="_self">骨 科</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://www.cmt.com.cn/slist/26.html" target="_self">烧伤科</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://cancer.cmt.com.cn/slist/30.html" target="_self">麻醉</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://cancer.cmt.com.cn/slist/28.html" target="_self">整形外科</a>
+                    </div>
+                </li>
+                <li class="clear">
+                    <a href="http://ent.cmt.com.cn/" target="_self" class="menu-yang">五官科</a>
+                    <div class="mengy clear">
+                        <a href="http://dental.cmt.com.cn/" target="_self">口腔</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://www.cmt.com.cn/Clist/14143.html" target="_self">眼 科</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://www.cmt.com.cn/slist/36.html" target="_self">耳鼻咽喉</a>
+                    </div>
+                </li>
+                <li class="clear">
+                    <a href="http://cancer.cmt.com.cn/slist/7.html" target="_self" class="menu-yang">其 他</a>
+                    <div class="mengy clear">
+                        <a href="http://cancer.cmt.com.cn/slist/56.html" target="_self">卫生管理</a>
+                        <span class="meng-sa"></span>
+                        <a href="http://cancer.cmt.com.cn/slist/61.html" target="_self">预防医学</a>
+                    </div>
+                </li>
+                <li class="clear">
+                    <a href="http://obgyn.cmt.com.cn/" target="_self" class="menu-yang">妇产科</a>
+                    <div class="mengy meng-aj clear">
+                        <a href="http://www.cmt.com.cn/slist/8.html" target="_self">中医</a>
+                        <a href="http://ped.cmt.com.cn/" target="_self">儿科</a>
+                        <a href="http://emerg.cmt.com.cn/" target="_self">急诊</a>
+                        <a href="http://dermatology.cmt.com.cn/" target="_self">皮肤性病</a>
+                    </div>
+                </li>
+                <li class="clear">
+                    <a href="http://pharm.cmt.com.cn/" target="_self" class="menu-yang">药 械</a>
+                    <div class="mengy meng-aj clear">
+                        <a href="http://www.cmt.com.cn/slist/105.html" target="_self">政策法规</a>
+                        <a href="http://www.cmt.com.cn/slist/106.html" target="_self">医学影像</a>
+                        <a href="http://www.cmt.com.cn/slist/122.html" target="_self">公共卫生</a>
+                        <a href="http://www.cmt.com.cn/slist/123.html" target="_self">医学教育</a>
+                    </div>
+                </li>
+                <li class="clear">
+                    <a href="http://www.cmt.com.cn/slist/124.html" target="_self" class="menu-yang">基础医学</a>
+                    <div class="mengy meng-aj clear">
+                        <a href="http://gp.cmt.com.cn/" target="_self">全科医学</a>
+                        <a href="http://ger.cmt.com.cn/" target="_self">老年医学</a>
+                    </div>
+                </li>
+            </ul>
+        </dd>
+    </dl>
+</div>
+<div class="menu_bg">
+    <div class="menu_cen">
+        <ul>
+            <li><a href="http://cancer.cmt.com.cn/MSlist/88/1.html">肿瘤</a></li>
+            <li><a href="http://cancer.cmt.com.cn/MSlist/88/2.html">病例</a></li>
+            <li><a href="http://cancer.cmt.com.cn/MSlist/88/6.html">会议</a></li>
+            <li><a href="http://cancer.cmt.com.cn/MSlist/88/3.html">论文</a></li>
+            <li><a href="http://cancer.cmt.com.cn/MSlist/88/5.html">期刊</a></li>
+            <li><a href="http://cancer.cmt.com.cn/MSlist/88/4.html">视频</a></li>
+            <li><a href="http://cancer.cmt.com.cn/Cindex/index/cate_id/126"><strong class="menu_cen_sy">指南</strong></a>
+            </li>
+            <li><a href="http://cancer.cmt.com.cn/Cindex/index/cate_id/869">研究进展</a></li>
+        </ul>
+    </div>
+</div>
+<!--轮播-->
+
+<!--内容-->
+<div class="Y-coot clear">
+    <div class="y-coot-left">
+        <ul class="ycl-ul">
+            <li>
+                <a href="#" class="acitve">关键词</a>
+            </li>
+            <li>
+                <a href="http://cancer.cmt.com.cn/search/%E9%9D%B6%E5%90%91%E6%B2%BB%E7%96%97">靶向治疗</a>
+            </li>
+            <li>
+                <a href="http://cancer.cmt.com.cn/search/%E8%BE%85%E5%8A%A9%E5%8C%96%E7%96%97">辅助化疗</a>
+            </li>
+            <li>
+                <a href="http://cancer.cmt.com.cn/search/mCRC">mCRC</a>
+            </li>
+            <li>
+                <a href="http://cancer.cmt.com.cn/search/NSCLC">NSCLC</a>
+            </li>
+            <li>
+                <a href="http://cancer.cmt.com.cn/search/%E7%99%8C%E7%97%87%E7%AD%9B%E6%9F%A5">癌症筛查</a>
+            </li>
+            <li>
+                <a href="http://cancer.cmt.com.cn/search/EGFR">EGFR</a>
+            </li>
+            <li>
+                <a href="http://cancer.cmt.com.cn/search/HER2">HER2</a>
+            </li>
+            <li>
+                <a href="http://cancer.cmt.com.cn/search/BRCA">BRCA</a>
+            </li>
+            <li>
+                <a href="http://cancer.cmt.com.cn/search/%E8%80%90%E8%8D%AF">耐药</a>
+            </li>
+            <li>
+                <a href="http://cancer.cmt.com.cn/search/ASCO">ASCO</a>
+            </li>
+        </ul>
+    </div>
+    <div class="y-coot-center">
+        <ul class="ycc-ul">
+            <!--循环开始-->
+            <li class="news-list">
+                <h2 class="news-list-h2"><a href="http://cancer.cmt.com.cn/detail/1308455.html" target="_top"
+                                            title="早期乳腺癌妇女应用控制性超排卵的安全性和有效性">早期乳腺癌妇女应用控制性超排卵的安全性和有效性</a><span
+                        class="x-dat">2017-06-30</span></h2>
+                <p class="news-list-p">
+                    系统综述使用MEDLINE(Pubmed数据库)，EMBASE和CochraneLibrary来进行检索，仅限于2016年4月前的英文文章。采用复发率和肿瘤相关...</p>
+            </li>
+            <li class="news-list">
+                <div class="news-list-imgBox">
+                    <a href="http://cancer.cmt.com.cn/detail/1308452.html" target="_top">
+                        <img src="./images/20170630_102912.jpg" class="news-list-img" width="110">
+                    </a>
+                </div>
+                <h2 class="news-list-h2"><a href="http://cancer.cmt.com.cn/detail/1308452.html" target="_top"
+                                            title="万例样本证实：患癌风险≈精准基因突变+家族史">万例样本证实：患癌风险≈精准基因突变+家...</a><span
+                        class="x-dat">2017-06-30</span></h2>
+                <p class="news-list-p">近日，一项涉及近10000名BRCA基因突变携带者的研究预估了女性罹患乳腺癌和卵巢癌的高峰年龄区间。此外，家族史是基因突变携带者患癌的强...</p>
+            </li>
+            <!--循环结束-->
+        </ul>
+        <div style="margin-right: 15px; text-align: center;" class=" pages"><span class="current">1</span><span
+                style="padding: 4px 0px;"><a
+                href="http://cancer.cmt.com.cn/cindex/index/cate_id/126/p/2.html">2</a></span><span
+                style="padding: 4px 0px;"><a
+                href="http://cancer.cmt.com.cn/cindex/index/cate_id/126/p/3.html">3</a></span><span
+                style="padding: 4px 0px;"><a
+                href="http://cancer.cmt.com.cn/cindex/index/cate_id/126/p/4.html">4</a></span><span
+                style="padding: 4px 0px;"><a
+                href="http://cancer.cmt.com.cn/cindex/index/cate_id/126/p/5.html">5</a></span> <span
+                style="padding: 4px 0px;"><a
+                href="http://cancer.cmt.com.cn/cindex/index/cate_id/126/p/2.html">下一页</a></span> <span
+                style="padding: 4px 0px;"><a href="http://cancer.cmt.com.cn/cindex/index/cate_id/126/p/8.html">最后一页</a></span>
+        </div>
+    </div>
+    <div class="y-toot-right">
+        <div class="y-rr-wrap">
+            <h3 class="y-toot-r">专区阅读排行榜</h3>
+            <ul class="ytr-ul">
+                <!--侧边循环开始-->
+                <li>
+                    <a href="http://cancer.cmt.com.cn/detail/1323745.html" target="_top"
+                       title="NCCN临床实践指南：宫颈癌（2018.V1）">NCCN临床实践指南...</a>
+                </li>
+                <!--侧边循环结束-->
+            </ul>
+        </div>
+        <h3 class="y-tr3 clear">
+            <span>专题</span>
+            <a href="http://cancer.cmt.com.cn/FeaturedCMore/73/88"> 更多&gt;&gt;</a>
+        </h3>
+        <ul class="y-trul">
+            <!--循环开始-->
+            <li>
+                <a href="http://cancer.cmt.com.cn/show/index/3451" class="Yaimm" style="height: auto;"
+                   title="马兜铃酸可引起肝癌吗？"><img src="./images/20171110_154859.jpg" width="194"></a>
+                <a href="http://cancer.cmt.com.cn/show/index/3451" class="y-sahh" title="马兜铃酸可引起肝癌吗？">马兜铃酸可引起肝癌吗...</a>
+            </li>
+            <!--循环结束-->
+        </ul>
+    </div>
+</div>
+<!--页脚开始-->
+<div class="bottom_all_bg">
+    <div class="bottom_980">
+        <div class="bottom_left">
+            <h1><a>关于医学论坛网</a></h1>
+            <ul>
+                <li><a href="#" target="_top">广告条款</a></li>
+                <li><a href="http://www.zhongzi.com.cn/" target="_top">法律顾问</a></li>
+                <li><a href="http://cancer.cmt.com.cn/About/Contact" target="_top">联系我们</a></li>
+                <li><a href="http://cancer.cmt.com.cn/About/link" target="_top">友情链接</a></li>
+                <li><a href="http://cancer.cmt.com.cn/About/Reserved" target="_top">版权声明</a></li>
+                <li><a href="http://cancer.cmt.com.cn/About/Rrans" target="_top">关于我们</a></li>
+                <li><a href="http://cancer.cmt.com.cn/About/Elite" target="_top">诚聘英才</a></li>
+                <li><a href="http://cancer.cmt.com.cn/About/sitemap" target="_top">网站地图</a></li>
+            </ul>
+        </div>
+
+        <div class="bottom_cen">
+            <h1><a>医学论坛网旗下网站</a></h1>
+            <ul>
+                <li><a target="_top" href="http://cancer.cmt.com.cn/">医学论坛网-肿瘤网</a></li>
+                <li><a target="_top" href="http://emerg.cmt.com.cn/">医学论坛网-急诊网</a></li>
+                <li><a target="_top" href="http://dental.cmt.com.cn/">医学论坛网-口腔网</a></li>
+                <li><a target="_top" href="http://hep.cmt.com.cn/">医学论坛网-肝病网</a></li>
+                <li><a target="_top" href="http://cpstcc.cmt.com.cn/">医学论坛网-控烟网</a></li>
+                <li><a target="_top" href="http://dermatology.cmt.com.cn/">医学论坛网-皮肤性病网</a></li>
+                <li><a target="_top" href="http://ger.cmt.com.cn/">医学论坛网-老年网</a></li>
+            </ul>
+        </div>
+
+        <div class="bottom_right">
+            <h1><a>战略合作伙伴</a></h1>
+            <ul>
+                <li><a href="http://www.moh.gov.cn/" target="_top">国家卫生和计划生育委员会</a></li>
+                <li><a href="http://www.cma.org.cn/" target="_top">中华医学会</a></li>
+                <li><a href="http://www.cmda.net/" target="_top">中国医师协会</a></li>
+                <li><a href="http://www.chinacdc.cn/" target="_top">中国疾病预防控制中心</a></li>
+                <li><a href="http://www.cpma.org.cn/" target="_top">中华预防医学会</a></li>
+                <li><a href="http://www.cndent.com/" target="_top">中华口腔医学会</a></li>
+                <li><a href="http://jamanetwork.com/index.aspx#&amp;slider1=1" target="_top">美国医学会杂志</a></li>
+                <li><strong><a href="http://cancer.cmt.com.cn/Case/hezuo" style="color: rgb(53, 98, 174);"
+                               target="_top">更多伙伴&gt;</a></strong></li>
+            </ul>
+        </div>
+
+        <div class="bottom_YouQLJ">
+            <h1><a>友情链接</a></h1>
+            <p>
+                <a href="http://yiliao.qq.com/" target="_top">腾讯医疗</a>
+                <a href="http://www.medline.org.cn/" target="_top">中华医学会杂志社</a>
+                <a href="http://www.jkb.com.cn/" target="_top">健康报网</a>
+                <a href="http://www.elseviermed.cn/" target="_top">爱唯医学网</a>
+                <a href="http://www.cn-healthcare.com/" target="_top">中国健康界</a>
+                <a href="http://www.familydoctor.com.cn/" target="_top">家庭医生在线</a>
+                <a href="http://www.ccmtv.cn/" target="_top">医学视频网</a>
+                <strong><a href="http://cancer.cmt.com.cn/About/link" style="color: rgb(53, 98, 174);" target="_top">更多&gt;</a></strong>
+            </p>
+        </div>
+    </div>
+
+    <div class="BanQ_bg">
+        <div class="BanQ_980">
+            <p><strong>copyright©</strong>医学论坛网 版权所有，未经许可不得复制、转载或镜像 京ICP证120392号 京公网安备11010502031486号</p>
+            <p><a target="_top" href="http://www.cmt.com.cn/index/shenhezhengshu">京卫网审[2013]第0193号</a></p>
+            <p><a target="_top" href="http://www.cmt.com.cn/index/zizhizhengshu">互联网药品信息服务资格证书：（京）-经营性-2012-0005 </a>
+            </p>
+        </div>
+    </div>
+</div>
+<!--页脚结束-->
+<script type="text/javascript" async="" charset="utf-8" src="./js/cmtia.js"></script>
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/slider.js"></script>
+<script>
+    $(function () {
+        //频道导航下拉
+        $(".menu-more").mouseover(function () {
+            $(this).addClass("yhover");
+            $(".menu-more dd").show();
+        })
+        $(".menu-more").mouseout(function () {
+            $(this).removeClass("yhover");
+            $(".menu-more dd").hide();
+        })
+        //头部搜索 右下角周刊月刊切换
+        $msg_key = $("#msg_key");
+        $msg_key.focus(function () {
+            if ($(this).val() == "请输入关键词") {
+                $(this).val("")
+            }
+        })
+        $msg_key.blur(function () {
+            if ($(this).val() == "") {
+                $(this).val("请输入关键词")
+            }
+        })
+        $(".Yxin-li").hover(function () {
+                $(this).css({"background": "#4b4b36"})
+            },
+            function () {
+                $(this).css({"background": "#BEBD88"})
+            })
+        $(".Yxin-li2").hover(function () {
+                $(this).css({"background": "#31432f"})
+            },
+            function () {
+                $(this).css({"background": "#7CAA77"})
+            })
+        $(".Yxin-li3").hover(function () {
+                $(this).css({"background": "#5a4032"})
+            },
+            function () {
+                $(this).css({"background": "#E4A17E"})
+            })
+        $(".Yxin-li4").hover(function () {
+                $(this).css({"background": "#2e5256"})
+            },
+            function () {
+                $(this).css({"background": "#75CFD9"})
+            })
+        $(".Yxin-li5").hover(function () {
+                $(this).css({"background": "#523437"})
+            },
+            function () {
+                $(this).css({"background": "#D0838C"})
+            })
+        $(".Yxin-li6").hover(function () {
+                $(this).css({"background": "#3d3e50"})
+            },
+            function () {
+                $(this).css({"background": "#9A9DCB"})
+            })
+    })
+</script>
+<script>
+    $(document).ready(function () {
+        $.post("/User/is_login", function (data) {
+            if (data.uid > 0) {
+                $("#denglu").show();
+                $("#weidenglu").hide();
+                $("#uname").html(data.username);
+            } else {
+                $("#weidenglu").show();
+                $("#denglu").hide();
+            }
+        }, 'json');
+    });
+</script>
+
+<div style="display: none;">
+    //站内统计
+    <script type="text/JavaScript" language="javascript">
+        //全站PVUV
+        //app article,special,category,keshi,home
+        (function () {
+            var ia = document.createElement('script');
+            ia.type = 'text/javascript';
+            ia.async = true;
+            ia.charset = 'utf-8';
+            ia.src = ' ./js/cmtia.js?' + 'app=category' + '&aid=126';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ia, s);
+        })();
+    </script>
+    //百度统计
+    <script type="text/javascript">
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='./js/h.js%3Fe8a364517f535aa410071c6d23f36497' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script src="./js/h.js" type="text/javascript"></script>
+    <a href="http://tongji.baidu.com/hm-web/welcome/ico?s=e8a364517f535aa410071c6d23f36497" target="_top"><img
+            src="./images/21.gif" width="20" height="20" border="0"></a>
+    <!--CNZZ统计代码-->
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cspan id='cnzz_stat_icon_1260208785'%3E%3C/span%3E%3Cscript src='./php/z_stat.php%3Fid%3D1260208785' type='text/javascript'%3E%3C/script%3E"));</script>
+    <span id="cnzz_stat_icon_1260208785"><a href="http://www.cnzz.com/stat/website.php?web_id=1260208785" target="_top"
+                                            title="站长统计">站长统计</a></span>
+    <script src="./php/z_stat.php" type="text/javascript"></script>
+    <script src="./php/core.php" charset="utf-8" type="text/javascript"></script>
+    //站长统计
+    <script src="./php/stat.php" language="JavaScript"></script>
+    <script src="./php/core_001.php" charset="utf-8" type="text/javascript"></script>
+    <a href="http://www.cnzz.com/stat/website.php?web_id=2889481" target="_top" title="站长统计"><img src="./images/pic.gif"
+                                                                                                  vspace="0" hspace="0"
+                                                                                                  border="0"></a>
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cspan id='cnzz_stat_icon_1000063189'%3E%3C/span%3E%3Cscript src='./php//z_stat.php%3Fid%3D1000063189%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+    <span id="cnzz_stat_icon_1000063189"><a href="http://www.cnzz.com/stat/website.php?web_id=1000063189" target="_top"
+                                            title="站长统计"><img src="./images/pic1.gif" vspace="0" hspace="0"
+                                                              border="0"></a></span>
+    <script src="./php/z_stat_001.php" type="text/javascript"></script>
+    <script src="./php/core_002.php" charset="utf-8" type="text/javascript"></script>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".toggle_click,.down").click(function () {
+            $(".FanK_position").toggle();
+        })
+        $("#feedbackbtn").click(function () {
+            var feedbackemail = $('#input_mail').val();
+            var feedback = $("#feedback").val();
+            var feedbackname = $("#feedbackname").val();
+            if ($.trim(feedback) == '') {
+                alert("反馈内容不能为空");
+            } else {
+                $.post("/Feedback", {
+                    feedback: feedback,
+                    feedbackemail: feedbackemail,
+                    feedbackname: feedbackname
+                }, function (data) {
+                    if (data.status) {
+                        $('#input_mail').val('');
+                        $("#feedback").val('');
+                        $("#feedbackname").val('');
+                        $(".FanK_position").toggle(1000);
+                        alert('我们已收到您的反馈。谢谢!');
+                    } else {
+                        alert('提交失败');
+                    }
+                }, "json");
+            }
+        })
+    });
+</script>
+
+<div class="YiJFK">
+    <div class="toggle_click"></div>
+    <div class="FanK_position">
+
+        <div class="down"></div>
+        <span><i>*</i>我要反馈：</span>
+        <textarea id="feedback"></textarea>
+        <span>姓&nbsp;&nbsp;&nbsp;&nbsp;名：</span>
+        <input name="feedbackname" id="feedbackname" value="" type="text">
+        <span id="Fk_mail">邮&nbsp;&nbsp;&nbsp;&nbsp;箱：</span>
+        <input name="mail" id="input_mail" value="" type="text">
+        <button type="button" id="feedbackbtn"></button>
+
+    </div>
+</div>
+
+
+</body>
+</html>

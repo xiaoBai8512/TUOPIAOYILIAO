@@ -1,0 +1,1 @@
+document.write('<a  target="_self" href="http://ucenter.hc3i.cn/login.php?reback='+window.location+'"  class="logon">	登录	</a>')

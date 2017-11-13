@@ -1,0 +1,802 @@
+/* ::::: http://www.cmt.com.cn/statics/sublist/css/reset.css ::::: */
+
+html {
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0px auto;
+    padding: 0px;
+    font-family: "宋体";
+    font-size: 12px;
+}
+
+fieldset, img {
+    border: 0px none;
+}
+
+ol, ul {
+    list-style: outside none none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q::before, q::after {
+}
+
+.clear {
+}
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a:link {
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(97, 97, 97);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(105, 157, 54);
+    text-decoration: none;
+}
+
+.side-chart-ul, .logo, .icon-map, .icon-sina, .search_submit {
+    background: rgba(0, 0, 0, 0) url('/template14/images/sprites.png') no-repeat scroll 0% 0%;
+}
+
+.icon-map {
+    margin: 0px 5px;
+    float: left;
+    width: 10px;
+    height: 30px;
+    display: block;
+    background-position: 0px -407px;
+}
+
+.icon-sina {
+    margin: 0px 5px;
+    float: left;
+    width: 18px;
+    height: 30px;
+    display: block;
+    background-position: -25px -407px;
+}
+
+img {
+    cursor: pointer;
+}
+
+.top_bg {
+    width: 100%;
+    position: relative;
+    top: 0px;
+    background: rgb(237, 237, 237) none repeat scroll 0% 0%;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    height: 30px;
+}
+
+.top_cen {
+    width: 980px;
+    height: 30px;
+    position: relative;
+    left: 50%;
+    margin-left: -490px;
+}
+
+.top_cen_left {
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.top_cen_left p {
+    font-size: 12px;
+    color: rgb(81, 81, 81);
+    line-height: 28px;
+}
+
+.top_cen_left strong a {
+    color: rgb(105, 157, 54);
+    margin-left: 2px;
+}
+
+.top_cen_right {
+    width: 266px;
+    height: auto;
+    float: right;
+}
+
+.top_cen_right p {
+    height: auto;
+    float: left;
+    line-height: 32px;
+}
+
+.logo_cen {
+    width: 980px;
+    height: 66px;
+    position: relative;
+    top: 22px;
+    z-index: 9999;
+}
+
+.logo {
+    padding-left: 225px;
+    height: 49px;
+    float: left;
+    display: block;
+    font: 500 28px/42px "微软雅黑";
+    background-position: 0px -338px;
+}
+
+.long-a {
+    width: 120px;
+    height: 49px;
+    float: left;
+    font: 500 28px/42px "微软雅黑";
+}
+
+a.logo:link {
+    color: rgb(57, 87, 13);
+}
+
+a.logo:visited {
+    color: rgb(57, 87, 13);
+}
+
+a.long-a:link {
+    color: rgb(57, 87, 13);
+}
+
+a.long-a:visited {
+    color: rgb(57, 87, 13);
+}
+
+.logo_search {
+    float: left;
+    margin-top: 8px;
+    margin-left: 90px;
+    width: 450px;
+}
+
+.search_text {
+    width: 260px;
+    height: 25px;
+    float: left;
+    border-width: 1px medium 1px 1px;
+    border-style: solid none solid solid;
+    border-color: rgb(180, 205, 154) currentcolor rgb(180, 205, 154) rgb(180, 205, 154);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    color: rgb(180, 205, 154);
+    background: rgb(246, 246, 246) none repeat scroll 0% 0%;
+    padding-left: 4px;
+    line-height: 24px;
+    outline: medium none;
+}
+
+.search_submit {
+    width: 47px;
+    height: 27px;
+    float: left;
+    cursor: pointer;
+    background-position: 0px -455px;
+}
+
+.search_p {
+    color: rgb(106, 158, 56);
+    margin: 6px 0px 0px 12px;
+    float: left;
+}
+
+.logo_cen h1 {
+    float: left;
+}
+
+.menu-more {
+    position: absolute;
+    right: 0px;
+    height: 30px;
+    top: 5px;
+    width: 92px;
+    z-index: 9999;
+}
+
+.menu-more dt, dd {
+    width: 90px;
+    font: 500 12px/20px "宋体";
+    text-align: center;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+}
+
+.menu-more dt {
+    padding: 4px 0px;
+    color: rgb(76, 123, 28);
+    border: 1px solid rgb(94, 145, 44);
+    background: rgba(0, 0, 0, 0) url('/template14/images/down.jpg') no-repeat scroll 72px center;
+}
+
+.menu-more dd {
+    position: absolute;
+    right: 0px;
+    display: none;
+    color: rgb(97, 97, 97);
+    border: 1px solid rgb(94, 145, 44);
+    width: 370px;
+}
+
+.meng-yul .mengy {
+    float: right;
+    line-height: 22px;
+    width: 258px;
+}
+
+.meng-yul .mengy a:hover {
+    color: rgb(105, 157, 54);
+}
+
+.meng-yul .meng-sa {
+    float: left;
+    width: 1px;
+    height: 10px;
+    background: rgb(210, 210, 210) none repeat scroll 0% 0%;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+.meng-yul .menu-yang {
+    float: left;
+    color: rgb(76, 123, 28);
+    line-height: 22px;
+    font-weight: bold;
+    width: 60px;
+    text-align: left;
+}
+
+.meng-yul .mengy a {
+    float: left;
+    width: 60px;
+    text-align: left;
+    color: rgb(66, 66, 66);
+}
+
+.meng-yul .meng-aj a {
+    color: rgb(76, 123, 28);
+    font-weight: bold;
+}
+
+.menu-more ul {
+    padding: 12px 6px 6px 12px;
+}
+
+.menu-more li {
+    padding-bottom: 10px;
+}
+
+.bottom_all_bg {
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    height: 318px;
+    background: rgb(245, 245, 245) none repeat scroll 0% 0%;
+    border-top: 2px solid rgb(73, 118, 30);
+    z-index: 15;
+}
+
+.bottom_980 {
+    width: 980px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    left: 50%;
+    margin-left: -490px;
+}
+
+.bottom_left {
+    float: left;
+    width: 160px;
+    height: auto;
+    margin: 18px 0px 0px 6px;
+}
+
+.bottom_left h1 {
+    font-weight: 700;
+    width: 155px;
+    float: left;
+    margin-bottom: 14px;
+}
+
+.bottom_left ul {
+    margin: 0px;
+}
+
+.bottom_left ul li {
+    width: 73px;
+    float: left;
+    line-height: 24px;
+    color: rgb(97, 97, 97);
+}
+
+.bottom_cen {
+    float: left;
+    width: 260px;
+    height: auto;
+    margin: 18px 0px 0px 142px;
+    overflow: hidden;
+}
+
+.bottom_cen h1 {
+    font-weight: 700;
+    width: 222px;
+    float: left;
+    margin-bottom: 14px;
+}
+
+.bottom_cen ul {
+    margin: 0px;
+}
+
+.bottom_cen ul li {
+    width: 127px;
+    float: left;
+    line-height: 24px;
+    color: rgb(97, 97, 97);
+}
+
+.bottom_right {
+    float: left;
+    width: 340px;
+    height: auto;
+    margin: 18px 0px 0px 70px;
+}
+
+.bottom_right h1 {
+    font-weight: 700;
+    width: 300px;
+    float: left;
+    margin-bottom: 14px;
+}
+
+.bottom_right ul {
+    margin: 0px;
+}
+
+.bottom_right ul li {
+    width: 170px;
+    float: left;
+    line-height: 24px;
+    color: rgb(97, 97, 97);
+}
+
+.bottom_right ul li strong {
+    color: rgb(53, 98, 174);
+}
+
+.bottom_YouQLJ {
+    width: 980px;
+    height: 70px;
+    border-top: 1px solid rgb(224, 224, 224);
+    margin: 15px 0px 0px;
+    float: left;
+}
+
+.bottom_YouQLJ h1 {
+    clear: both;
+    font-weight: 700;
+    margin: 15px 0px 10px 5px;
+}
+
+.bottom_YouQLJ p {
+    clear: both;
+    margin: 0px 0px 0px 5px;
+    color: rgb(97, 97, 97);
+}
+
+.bottom_YouQLJ strong {
+    color: rgb(53, 98, 174);
+}
+
+.bottom_YouQLJ p a {
+    margin-right: 6px;
+    color: rgb(97, 97, 97);
+}
+
+.BanQ_bg {
+    width: 100%;
+    background: rgb(184, 184, 184) none repeat scroll 0% 0%;
+    height: 120px;
+    position: relative;
+}
+
+.BanQ_980 {
+    width: 980px;
+    height: auto;
+    position: relative;
+    left: 50%;
+    margin-left: -490px;
+    padding: 5px 0px 0px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.BanQ_980 p {
+    color: rgb(97, 97, 97);
+    line-height: 24px;
+    margin: 8px 0px 0px;
+}
+
+.BanQ_980 p strong {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ::::: http://www.cmt.com.cn/statics/sublist/css/index.css ::::: */
+
+.news-list {
+    margin: 0px 0px 12px;
+    padding-bottom: 12px;
+    width: 600px;
+    border-bottom: 1px solid rgb(227, 227, 227);
+    overflow: hidden;
+}
+
+.news-list-img {
+    float: left;
+    margin: 0px 22px 0px 6px;
+    border: 1px solid rgb(218, 218, 218);
+}
+
+.news-list-h2 {
+    margin-bottom: 5px;
+    font: 700 16px/28px "微软雅黑";
+}
+
+.news-list-p {
+    margin-bottom: 5px;
+    color: rgb(97, 97, 97);
+    font: 500 12px/22px "微软雅黑";
+}
+
+.news-list-h2 a:link {
+    color: rgb(51, 51, 51);
+}
+
+.news-list-h2 a:visited {
+    color: rgb(51, 51, 51);
+}
+
+.news-list-h2 a:hover {
+    color: rgb(105, 157, 54);
+}
+
+/* ::::: http://www.cmt.com.cn/statics/sublist/css/xin.css ::::: */
+
+.clear {
+}
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.menu_bg {
+    width: 100%;
+    position: relative;
+    height: 38px;
+    margin-top: 20px;
+}
+
+.menu_cen {
+    width: 980px;
+    height: 38px;
+    position: relative;
+    left: 50%;
+    margin-left: -490px;
+    background: rgba(0, 0, 0, 0) url('/template14/images/menu_02.jpg') repeat scroll 0% 0%;
+}
+
+.menu_cen ul li {
+    background-image: url('/template14/images/menu_03.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    width: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 38px;
+    font-size: 14px;
+    font-weight: 700;
+    float: left;
+}
+
+.menu_cen_sy {
+    margin: 0px 26px;
+    font-weight: 700;
+    color: rgb(255, 254, 180);
+    cursor: pointer;
+}
+
+.menu_cen ul li a {
+    margin: 0px 12px;
+    color: rgb(255, 255, 255);
+}
+
+.menu_cen ul li a:hover {
+    color: rgb(255, 254, 180);
+}
+
+.Y-coot {
+    width: 980px;
+    margin: 0px auto;
+}
+
+.y-coot-left {
+    float: left;
+    width: 160px;
+}
+
+.ycl-ul {
+    padding-left: 10px;
+}
+
+.ycl-ul li {
+    height: 60px;
+    border-bottom: 1px dashed rgb(210, 210, 210);
+    line-height: 60px;
+    font-family: "微软雅黑";
+}
+
+.ycl-ul li a {
+    display: block;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.ycl-ul li a:hover {
+    color: rgb(105, 157, 54);
+}
+
+.ycl-ul li .acitve {
+    font-size: 16px;
+    color: rgb(213, 21, 0);
+    font-weight: bold;
+}
+
+.y-coot-center {
+    float: left;
+    margin-left: 22px;
+}
+
+.ycc-ul {
+    padding-top: 30px;
+}
+
+.news-list-h2 {
+    position: relative;
+}
+
+.x-dat {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 12px;
+    color: rgb(145, 145, 145);
+    font-weight: normal;
+}
+
+.pages a, .pages strong {
+    display: inline-block;
+    line-height: 28px;
+    padding: 0px 10px;
+    border: 1px solid rgb(217, 217, 217);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    font-family: Simsun;
+    transition: all 0.2s ease-out 0s;
+    margin-right: 3px;
+}
+
+.pages .current {
+    display: inline-block;
+    line-height: 28px;
+    padding: 0px 10px;
+    border: 1px solid rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Simsun;
+    transition: all 0.2s ease-out 0s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(120, 182, 63);
+}
+
+.pages a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(120, 182, 63);
+    border-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.pages span {
+    padding: 0px 10px;
+    line-height: 23px;
+}
+
+.y-toot-right {
+    float: right;
+    width: 233px;
+}
+
+.news-list {
+    width: 550px;
+}
+
+.y-rr-wrap {
+    padding: 0px 0px 16px 13px;
+    border-bottom: 1px solid rgb(210, 210, 210);
+}
+
+.ytr-ul {
+    padding-left: 35px;
+    background: rgba(0, 0, 0, 0) url('/template14/images/x-biao.png') no-repeat scroll 0px 1px;
+}
+
+.ytr-ul li {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.y-toot-r {
+    line-height: 60px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: rgb(51, 51, 51);
+}
+
+.y-tr3 {
+    padding-left: 13px;
+    line-height: 36px;
+    font-family: "微软雅黑";
+}
+
+.y-tr3 span {
+    float: left;
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+}
+
+.y-tr3 a {
+    float: right;
+}
+
+.y-trul li {
+    border-bottom: 1px dashed rgb(210, 210, 210);
+    padding: 20px 0px 0px;
+}
+
+.Yaimm {
+    display: block;
+    border: 1px solid rgb(210, 210, 210);
+    width: 194px;
+    height: 96px;
+    margin: 0px auto;
+}
+
+.y-sahh {
+    display: block;
+    width: 160px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    line-height: 22px;
+    padding: 6px 0px 16px;
+}
+
+.y-trul a {
+    color: rgb(51, 51, 51);
+}
+
+.y-trul a:hover {
+    color: rgb(105, 157, 54);
+}
+
+/* ::::: http://cancer.cmt.com.cn/cmt/Tpl/Public/ideaa/css/index.css ::::: */
+
+.YiJFK {
+    width: 40px;
+    height: 103px;
+    position: fixed;
+    left: 100%;
+    margin-left: -40px;
+    top: 35%;
+    margin-top: -100px;
+    background: rgba(0, 0, 0, 0) url('/template14/images/yjfk.png') repeat scroll 0% 0%;
+    cursor: pointer;
+    z-index: 9999;
+    overflow: visible;
+}
+
+.toggle_click {
+    width: 40px;
+    height: 103px;
+}
+
+.FanK_position {
+    position: absolute;
+    display: none;
+    right: 40px;
+    top: 0px;
+    width: 302px;
+    padding: 8px 18px;
+    height: auto;
+    overflow: hidden;
+    background: rgb(250, 250, 250) none repeat scroll 0% 0%;
+    border: 1px solid rgb(228, 228, 228);
+    cursor: default;
+}
+
+.down {
+    position: absolute;
+    width: 11px;
+    height: 12px;
+    right: 20px;
+    top: 16px;
+    background: rgba(0, 0, 0, 0) url('/template14/images/delete_img.jpg') no-repeat scroll 0% 0%;
+    cursor: pointer;
+}
+
+.FanK_position span {
+    width: 100%;
+    font: 500 14px/24px 微软雅黑;
+    color: rgb(51, 51, 51);
+    margin-top: 4px;
+}
+
+.FanK_position span i {
+    color: red;
+    font-style: normal;
+    margin: 6px 5px 0px 0px;
+}
+
+.FanK_position textarea, .FanK_position input {
+    width: 300px;
+    border: 1px solid rgb(228, 228, 228);
+    margin: 10px 0px;
+}
+
+.FanK_position textarea {
+    height: 176px;
+    resize: none;
+}
+
+.FanK_position input {
+    height: 22px;
+}
+
+.FanK_position button {
+    width: 101px;
+    height: 25px;
+    background: rgba(0, 0, 0, 0) url('/template14/images/submit_btn.jpg') no-repeat scroll 0% 0%;
+    cursor: pointer;
+    margin: 10px auto;
+    display: block;
+    border: medium none;
+}

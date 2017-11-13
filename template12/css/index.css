@@ -1,0 +1,997 @@
+/* ::::: http://images.hc3i.cn/images/home_new/css/layout.css ::::: */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-family: "Microsoft Yahei";
+    background-color: rgb(255, 255, 255);
+    background-image: url('undefined');
+}
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, p {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+ol, ul {
+    list-style: outside none none;
+}
+
+img {
+    border: medium none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    overflow: hidden;
+}
+
+.right {
+    float: right;
+    overflow: hidden;
+}
+
+.box {
+    float: left;
+}
+
+.level {
+    width: 1005px;
+}
+
+.banner {
+    height: 90px;
+    margin: 10px auto;
+    display: none;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.banner a {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.banner img {
+    visibility: hidden;
+}
+
+.banner .img {
+    float: left;
+    width: 750px;
+    height: 90px;
+}
+
+.banner .img a {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.banner .content {
+    float: right;
+    width: 242px;
+    height: 88px;
+    border: 1px solid rgb(7, 148, 2);
+}
+
+.banner .content .list {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner .content .list li {
+    float: left;
+    width: 100%;
+}
+
+.banner .content .list a {
+    float: left;
+    height: 120%;
+    width: auto;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    padding-left: 20px;
+    background: rgba(0, 0, 0, 0) url('/template12/images/tab_list_icon.png') no-repeat scroll 10px -23px;
+}
+
+.advertisement {
+    display: none;
+}
+
+.advertisement .dot {
+    display: none;
+}
+
+.advertisement .element a {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.advertisement .element div {
+    display: none;
+}
+
+.banner img {
+    visibility: hidden;
+    display: block;
+}
+
+/* ::::: http://images.hc3i.cn/images/home_new/css/articlel.css ::::: */
+
+.articlel .main {
+    width: 672px;
+    margin-top: 40px;
+    border-right: 1px solid rgb(221, 221, 221);
+}
+
+.articlel .sidebar {
+    width: 310px;
+}
+
+.articlel .article {
+    width: 100%;
+}
+
+.articlel .article .title {
+    font-size: 30px;
+    line-height: 120%;
+    color: rgb(128, 128, 128);
+}
+
+.articlel .article .list {
+    width: 100%;
+    margin-top: 28px;
+    overflow: hidden;
+}
+
+.articlel .article .element {
+    float: left;
+    margin-bottom: 60px;
+    padding-bottom: 10px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0) url('/template12/images/articlel_article_bg.png') repeat-y scroll 78px 0px;
+}
+
+.articlel .article .date {
+    float: left;
+    width: 82px;
+}
+
+.articlel .article .date .number {
+    width: 59px;
+    height: 67px;
+    background: rgba(0, 0, 0, 0) url('/template12/images/articlel_article_icon.png') no-repeat scroll 0px 0px;
+}
+
+.articlel .article .date .number .word {
+    float: left;
+    margin-top: 24px;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.articlel .article .date .note {
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: rgb(204, 204, 204);
+}
+
+.articlel .article .content {
+    float: left;
+    width: 590px;
+}
+
+.articlel .article .view {
+    width: 570px;
+}
+
+.articlel .article .name {
+    width: 554px;
+    font-size: 26px;
+    color: rgb(51, 51, 51);
+}
+
+.articlel .article .con {
+    width: 554px;
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+    line-height: 20px;
+    margin-top: 14px;
+}
+
+.articlel .article .con .more {
+    color: rgb(102, 102, 102);
+}
+
+.articlel .article .foot {
+    height: 18px;
+    width: 554px;
+    margin-top: 14px;
+}
+
+.articlel .article .foot .note {
+    float: left;
+    height: 100%;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 10px;
+    color: rgb(153, 153, 153);
+}
+
+.articlel .article .foot .time {
+    float: left;
+    height: 100%;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgb(153, 153, 153);
+}
+
+.articlel .page {
+    width: 622px;
+    height: 38px;
+    background-color: rgb(247, 247, 247);
+    border-color: rgb(230, 230, 230);
+    border-style: solid;
+    border-width: 1px 0px;
+    margin: 0px auto;
+}
+
+.articlel .page .list {
+    float: left;
+    height: 100%;
+}
+
+.articlel .page .list li {
+    float: left;
+    height: 100%;
+}
+
+.articlel .page .list a {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+    line-height: 38px;
+    color: rgb(51, 51, 51);
+    border-right: 1px solid rgb(235, 235, 235);
+}
+
+.articlel .page .list a:hover {
+    height: 37px;
+    border-bottom: 2px solid rgb(52, 161, 80);
+    color: rgb(52, 161, 80);
+}
+
+.articlel .sidebar .hotspot {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.articlel .sidebar .hotspot .btn {
+    width: 100%;
+    height: 32px;
+    background: rgba(0, 0, 0, 0) url('/template12/images/line.png') repeat-x scroll left bottom;
+}
+
+.articlel .sidebar .hotspot .btn li {
+    float: left;
+    height: 100%;
+}
+
+.articlel .sidebar .hotspot .btn a {
+    float: left;
+    font-size: 20px;
+    height: 30px;
+    padding-right: 12px;
+    color: rgb(102, 102, 102);
+    line-height: 20px;
+}
+
+.articlel .sidebar .hotspot .btn a:hover {
+    border-bottom: 2px solid rgb(52, 161, 80);
+    color: rgb(27, 159, 61);
+}
+
+.articlel .sidebar .hotspot .btn .active {
+    border-bottom: 2px solid rgb(52, 161, 80);
+    color: rgb(27, 159, 61);
+}
+
+.articlel .sidebar .hotspot .btn .separate {
+    background: rgba(0, 0, 0, 0) url('/template12/images/separate.png') no-repeat scroll 0px 4px;
+    padding-left: 12px;
+}
+
+.articlel .sidebar .hotspot .view {
+    width: 100%;
+    display: none;
+}
+
+.articlel .sidebar .hotspot .visible {
+    display: block;
+}
+
+.articlel .sidebar .hotspot .wrap {
+    width: 100%;
+}
+
+.articlel .sidebar .hotspot .list {
+    width: 100%;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+
+.articlel .sidebar .hotspot .list li {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.articlel .sidebar .hotspot .list .serial {
+    float: left;
+    font-size: 20px;
+    color: rgb(93, 93, 93);
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 8px;
+    background: rgba(0, 0, 0, 0) url('/template12/images/index_article_separate.png') no-repeat scroll right center;
+}
+
+.articlel .sidebar .hotspot .list .word {
+    float: left;
+    font-size: 16px;
+    color: rgb(93, 93, 93);
+    line-height: 30px;
+    padding-left: 6px;
+}
+
+.articlel .sidebar .hotspot .list .word:hover {
+    color: rgb(255, 102, 0);
+    text-decoration: underline;
+}
+
+.articlel .sidebar .focus {
+    width: 100%;
+    height: 280px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 18px;
+}
+
+.articlel .sidebar .focus .wrap {
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+}
+
+.articlel .sidebar .focus .scroll {
+    float: left;
+    width: 99999px;
+    height: 100%;
+}
+
+.articlel .sidebar .focus .scroll .element {
+    float: left;
+    width: 310px;
+    height: 100%;
+}
+
+.articlel .sidebar .focus .dot {
+    height: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.articlel .sidebar .focus .dot li {
+    float: left;
+}
+
+.articlel .sidebar .focus .dot a {
+    float: left;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(206, 202, 202);
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+.articlel .sidebar .focus .dot a:hover {
+    background-color: rgb(37, 161, 33);
+}
+
+.articlel .sidebar .article {
+    width: 100%;
+    margin-top: 45px;
+}
+
+.articlel .sidebar .article .btn {
+    width: 100%;
+    height: 32px;
+    background: rgba(0, 0, 0, 0) url('/template12/images/line.png') repeat-x scroll left bottom;
+}
+
+.articlel .sidebar .article .btn li {
+    float: left;
+    height: 100%;
+}
+
+.articlel .sidebar .article .btn a {
+    float: left;
+    font-size: 20px;
+    height: 30px;
+    padding-right: 12px;
+    color: rgb(102, 102, 102);
+    line-height: 20px;
+}
+
+.articlel .sidebar .article .btn a:hover {
+    border-bottom: 2px solid rgb(52, 161, 80);
+    color: rgb(27, 159, 61);
+}
+
+.articlel .sidebar .article .btn .active {
+    border-bottom: 2px solid rgb(52, 161, 80);
+    color: rgb(27, 159, 61);
+}
+
+.articlel .sidebar .article .btn .separate {
+    background: rgba(0, 0, 0, 0) url('/template12/images/separate.png') no-repeat scroll 0px 4px;
+    padding-left: 12px;
+}
+
+.articlel .sidebar .article .view {
+    width: 100%;
+    display: none;
+}
+
+.articlel .sidebar .article .visible {
+    display: block;
+}
+
+.articlel .sidebar .article .wrap {
+    width: 100%;
+}
+
+.articlel .sidebar .article .view .list {
+    width: 100%;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.articlel .sidebar .article .view .list li {
+    float: left;
+    width: 100%;
+}
+
+.articlel .sidebar .article .view .list a {
+    float: left;
+    font-size: 14px;
+    color: rgb(93, 93, 93);
+    line-height: 30px;
+    padding-left: 20px;
+    background: rgba(0, 0, 0, 0) url('/template12/images/tab_list_icon.png') no-repeat scroll 10px -19px;
+}
+
+.articlel .sidebar .article .view .list a:hover {
+    font-size: 16px;
+    color: rgb(52, 166, 55);
+}
+
+.articlel .sidebar .dimension {
+    width: 308px;
+    height: 299px;
+    border: 1px solid rgb(226, 226, 226);
+    margin-top: 20px;
+}
+
+.articlel .sidebar .dimension .img {
+    width: 198px;
+    height: 198px;
+    margin-top: 38px;
+}
+
+.articlel .sidebar .dimension .con {
+    line-height: 58px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(93, 93, 93);
+}
+
+.hover {
+    height: 37px;
+    border-bottom: 2px solid rgb(52, 161, 80);
+    color: rgb(52, 161, 80);
+}
+
+#ad_760x90 {
+    height: 90px;
+    width: 760px;
+}
+
+a.afc:link {
+    color: rgb(0, 0, 0);
+}
+
+a.afc:hover {
+    color: rgb(255, 102, 0);
+}
+
+a.kfc:link {
+    color: rgb(153, 153, 153);
+}
+
+/* ::::: http://images.hc3i.cn/images/home_new/css/header.css ::::: */
+
+.box {
+    float: left;
+}
+
+.level {
+    width: 1005px;
+}
+
+.header {
+    width: 100%;
+    height: 85px;
+    margin: 0px auto;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+}
+
+.header .method {
+    width: 100%;
+    height: 85px;
+    margin: 0px auto;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+}
+
+.header .inner {
+    height: 85px;
+    margin: 0px auto;
+}
+
+.header .logo {
+    float: left;
+    width: 128px;
+    height: 85px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.header .logo .scroll {
+    float: left;
+    width: 100%;
+    height: 170px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.header .logo .img {
+    float: left;
+    width: 100%;
+    height: 85px;
+    overflow: hidden;
+}
+
+.header .logo .img a {
+    float: left;
+    width: 100%;
+    height: 85px;
+    overflow: hidden;
+}
+
+.header .navigation {
+    float: left;
+    height: 100%;
+    width: 457px;
+}
+
+.header .navigation .select {
+    float: left;
+    height: 100%;
+    margin-left: 18px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: inline;
+    z-index: 99;
+}
+
+.header .navigation .selected {
+    float: left;
+    height: 72px;
+    font-size: 22px;
+    line-height: 85px;
+    color: rgb(7, 148, 2);
+    padding-right: 20px;
+    background: rgba(0, 0, 0, 0) url('/template12/images/nav_selected_btn.png') no-repeat scroll right 42px;
+}
+
+.header .navigation .selected:hover {
+    border-bottom: 3px solid rgb(37, 161, 33);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.header .navigation .hov {
+    border-bottom: 3px solid rgb(37, 161, 33);
+    background-color: rgb(255, 255, 255);
+}
+
+.header .navigation .select .menu {
+    float: left;
+    width: 178px;
+    position: absolute;
+    left: 0px;
+    top: 75px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.header .navigation .select .list {
+    float: left;
+    width: 176px;
+    border: 1px solid rgb(222, 222, 222);
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.header .navigation .select li {
+    float: left;
+    width: 100%;
+    height: 38px;
+}
+
+.header .navigation .select li a {
+    float: left;
+    height: 38px;
+    width: 130px;
+    font-size: 16px;
+    color: rgb(115, 115, 115);
+    line-height: 38px;
+    padding-left: 25px;
+    margin-left: 10px;
+    background: rgba(0, 0, 0, 0) url('/template12/images/nav_menu_btn.png') no-repeat scroll 9px -21px;
+}
+
+.header .navigation .select li a:hover {
+    background: rgb(249, 249, 249) url('/template12/images/nav_menu_btn.png') no-repeat scroll 9px 16px;
+}
+
+.header .navigation .select li .line {
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.header .search {
+    float: left;
+    width: 160px;
+    height: 27px;
+    border: 1px solid rgb(221, 221, 221);
+    margin-left: 10px;
+    margin-top: 30px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.header .search:hover {
+    border: 1px solid rgb(225, 194, 136);
+}
+
+.header .search .input {
+    float: left;
+    font-size: 12px;
+    height: 27px;
+    width: 124px;
+    padding-left: 10px;
+    line-height: 27px;
+    color: rgb(171, 171, 171);
+    border: 0px none;
+    outline: medium none;
+}
+
+.header .search .btn {
+    float: left;
+    height: 100%;
+    width: 26px;
+    background: rgba(0, 0, 0, 0) url('/template12/images/search_btn.png') no-repeat scroll left center;
+    cursor: pointer;
+}
+
+.header .tool {
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    margin-top: 35px;
+    width: 110px;
+    display: inline;
+}
+
+.header .tool li {
+    float: left;
+    height: 100%;
+}
+
+.header .tool .btn {
+    float: left;
+    height: 100%;
+    font-size: 12px;
+    color: rgb(171, 171, 171);
+    line-height: 16px;
+    padding-left: 18px;
+    width: 37px;
+}
+
+.header .tool .btn:hover {
+    color: rgb(255, 102, 0);
+}
+
+.header .tool .contribute {
+    background: rgba(0, 0, 0, 0) url('/template12/images/header_pen.png') no-repeat scroll left center;
+}
+
+.header .tool .consult {
+    background: rgba(0, 0, 0, 0) url('/template12/images/header_comment.png') no-repeat scroll left center;
+}
+
+.header .logon {
+    float: right;
+    width: 58px;
+    height: 31px;
+    border: 1px solid rgb(183, 221, 171);
+    color: rgb(7, 148, 2);
+    line-height: 31px;
+    text-align: center;
+    margin-top: 26px;
+}
+
+.header .logon:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(7, 148, 2);
+    color: rgb(255, 255, 255);
+}
+
+.footer {
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 60px;
+    border-top: 1px solid rgb(221, 221, 221);
+    background-color: rgb(248, 248, 248);
+}
+
+.footer .relation .element {
+    float: left;
+    height: 228px;
+}
+
+.footer .relation .logo {
+    width: 160px;
+    border-right: 1px solid rgb(221, 221, 221);
+}
+
+.footer .relation .logo a {
+    float: left;
+    margin-top: 20px;
+    width: 126px;
+    height: 54px;
+}
+
+.footer .relation .about {
+    float: left;
+    width: 220px;
+    border-right: 1px solid rgb(221, 221, 221);
+}
+
+.footer .relation .about .name {
+    font-size: 14px;
+    color: rgb(108, 107, 107);
+    line-height: 16px;
+    height: 16px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.footer .relation .about .con {
+    width: 100%;
+    font-size: 12px;
+    color: rgb(136, 136, 136);
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.footer .relation .about .con li {
+    float: left;
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.footer .relation .about .con a {
+    float: left;
+    font-size: 12px;
+    color: rgb(136, 136, 136);
+    padding-left: 20px;
+    line-height: 120%;
+}
+
+.footer .relation .link {
+    width: 328px;
+    border-right: 1px solid rgb(221, 221, 221);
+}
+
+.footer .relation .link .name {
+    font-size: 14px;
+    color: rgb(108, 107, 107);
+    line-height: 16px;
+    height: 16px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.footer .relation .link .con {
+    font-size: 12px;
+    color: rgb(128, 128, 128);
+    line-height: 28px;
+    margin-top: 10px;
+    width: 296px;
+}
+
+.footer .relation .link .con a {
+    color: rgb(128, 128, 128);
+    padding-right: 5px;
+}
+
+.footer .relation .subscription {
+    width: 290px;
+}
+
+.footer .relation .subscription .icon {
+    width: 100%;
+    margin-top: 37px;
+    overflow: hidden;
+}
+
+.footer .relation .subscription .icon li {
+    float: left;
+}
+
+.footer .relation .subscription .icon a {
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 42px;
+    margin-left: 20px;
+    color: rgb(128, 128, 128);
+}
+
+.footer .relation .subscription .icon .rss {
+    background: rgba(0, 0, 0, 0) url('/template12/images/footer_rss.png') no-repeat scroll left center;
+}
+
+.footer .relation .subscription .icon .week {
+    background: rgba(0, 0, 0, 0) url('/template12/images/footer_book.png') no-repeat scroll left center;
+}
+
+.footer .relation .subscription .search {
+    width: 188px;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid rgb(220, 220, 220);
+    margin-left: 20px;
+    margin-top: 15px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.footer .relation .subscription .search input {
+    float: left;
+    width: 158px;
+    height: 27px;
+    border: 0px none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.footer .relation .subscription .search .btn {
+    float: left;
+    width: 30px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0) url('/template12/images/search_btn.png') no-repeat scroll left center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.footer .relation .subscription .note {
+    font-size: 12px;
+    padding-left: 20px;
+    color: rgb(136, 136, 136);
+    line-height: 25px;
+    margin-top: 12px;
+}
+
+.footer .copy_right {
+    width: 100%;
+    line-height: 28px;
+    color: rgb(136, 136, 136);
+    text-align: center;
+    margin-top: 14px;
+}
+
+.footer .copy_right a {
+    text-decoration: underline;
+    color: rgb(136, 136, 136);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footer .certificate {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 15px;
+}
+
+.footer .certificate a {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+}
+
+.header .logon {
+    font-size: 16px;
+}
+
+.header .marlef36 {
+    margin-left: 36px;
+}
+
+.header, .header .inner, .header .logo, .header .method, .header .user .selected .name {
+    height: 75px;
+}
+
+/* ::::: http://images.hc3i.cn/images/home_new/css/astyle.css ::::: */
+
+a:visited {
+    color: rgb(153, 153, 153);
+}
+
+a:hover {
+    cursor: pointer;
+}

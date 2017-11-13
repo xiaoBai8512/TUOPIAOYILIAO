@@ -1,0 +1,111 @@
+a:link {
+    color: rgb(0, 153, 204);
+}
+
+a:hover {
+    color: rgb(51, 51, 51);
+}
+
+body {
+    margin: 0px;
+}
+
+.daohang {
+    color: rgb(255, 255, 255);
+    float: left;
+    width: 1090px;
+}
+
+.daohang ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.daohang ul li {
+    float: left;
+}
+
+.daohang ul li a {
+    padding: 0px 30px;
+    font-family: "微软雅黑";
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.di {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.fenlei {
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color: rgb(2, 169, 188);
+}
+
+.xian {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.fenlei2 {
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
+
+.jieshao {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.xinxi {
+    font-family: "微软雅黑";
+    font-weight: bold;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
+.xinxinei {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    line-height: 28px;
+    height: 25px;
+    color: rgb(51, 51, 51);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hezuo {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.lianjie {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(0, 153, 204);
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.img {
+    border: medium none;
+}

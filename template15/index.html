@@ -1,0 +1,425 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+
+    <title>Useit 知识库-从基础到前沿</title>
+
+    <meta name="keywords" content="首页">
+    <meta name="description" content="首页 ">
+    <meta name="generator" content="Useit X3.2">
+    <meta name="author" content="Useit Team">
+    <meta name="copyright" content="2001-2013 Useit Inc.">
+    <meta name="MSSmartTagsPreventParsing" content="True">
+    <meta http-equiv="MSThemeCompatible" content="Yes">
+    <script src="./js/push.js"></script>
+    <script src="./js/hm.js"></script>
+    <script type="text/javascript">var STYLEID = '14', STATICURL = 'static/', IMGDIR = 'static/image/common',
+        VERHASH = 'uNB', charset = 'gbk', discuz_uid = '0', cookiepre = 'K08w_b09c_', cookiedomain = '.useit.com.cn',
+        cookiepath = '/', showusercard = '0', attackevasive = '0', disallowfloat = 'newthread|nav',
+        creditnotice = '2|积分|', defaultstyle = '', REPORTURL = 'aHR0cDovL3d3dy51c2VpdC5jb20uY24v',
+        SITEURL = 'http://www.useit.com.cn/', JSPATH = 'static/js/', CSSPATH = 'data/cache/style_',
+        DYNAMICURL = '';</script>
+    <script src="./js/common.js" type="text/javascript"></script>
+    <meta name="application-name" content="Useit 知识库">
+    <meta name="msapplication-tooltip" content="Useit 知识库">
+    <meta name="msapplication-task"
+          content="name=首页;action-uri=http://www.useit.com.cn/portal.php;icon-uri=http://www.useit.com.cn/static/image/common/portal.ico">
+    <meta name="msapplication-task"
+          content="name=知识库;action-uri=http://www.useit.com.cn/forum.php;icon-uri=http://www.useit.com.cn/static/image/common/bbs.ico">
+    <meta name="msapplication-task"
+          content="name=动态;action-uri=http://www.useit.com.cn/home.php;icon-uri=http://www.useit.com.cn/static/image/common/home.ico">
+    <script src="./js/portal.js" type="text/javascript"></script>
+    <script src="./js/jquery.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var jq = jQuery.noConflict();
+    </script>
+    <script src="./js/index.js" type="text/javascript"></script>
+    <script src="./js/slides.js" type="text/javascript"></script>
+
+    <!--[if lte IE 6]>
+    <script src="./js/png.js" type="text/javascript"
+            type="text/javascript"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('body,.logo,img,#scbar_btn,#deanpost,.deanunlogin li.deanqqlogin a,#focus .preNext,.deansubnav ul li.deansina a,.deansubnav ul li.deantx a,.deansubnav ul li.deanrss a,.deansubnav ul li.deankefu a,.deanhot .deantitle,.deanpic .deantitle,.deantitle a,.deantitle,.nvhm,#pt .z em,.chart,.bdl,.deantitle a.deanaddnew,.deantitle a.deanrssartice,.deanhove,.deanexit a');
+    </script>
+    <![endif]-->
+    <script language="javascript" type="text/javascript">
+        function killErrors() {
+            return true;
+        }
+
+        window.onerror = killErrors;
+    </script>
+
+    <link media="all" href="./css/index.css" type="text/css" rel="stylesheet">
+</head>
+<body id="nv_portal" class="pg_index" onkeydown="if(event.keyCode==27) return false;">
+<div id="append_parent"></div>
+<div id="ajaxwaitid"></div>
+<div id="qmenu_menu" class="p_pop blk" style="display: none;">
+    <div class="ptm pbw hm">
+        请 <a href="javascript:;" class="xi2" onclick="lsSubmit()"><strong>登录</strong></a> 后使用快捷导航<br>没有帐号？<a
+            href="http://www.useit.com.cn/member.php?mod=register" class="xi2 xw1">注册</a>
+    </div>
+    <div id="fjump_menu" class="btda"></div>
+</div>
+<div id="hd">
+    <div class="wp">
+        <div class="hdc cl"><h2><a href="http://www.useit.com.cn/" title="Useit 知识库"><img src="./images/logo.png"
+                                                                                          title="Useit 知识库"
+                                                                                          height="65px" border="0"></a>
+        </h2>
+            <div id="scbar" class="cl">
+                <form id="scbar_form" method="post" autocomplete="off" onsubmit="searchFocus($('scbar_txt'))"
+                      action="http://www.useit.com.cn/search.php?searchsubmit=yes" target="_blank">
+                    <input name="mod" id="scbar_mod" value="search_site" type="hidden">
+                    <input name="formhash" value="f6d6a624" type="hidden">
+                    <input name="srchtype" value="title" type="hidden">
+                    <input name="srhfid" value="0" type="hidden">
+                    <input name="srhlocality" value="portal::index" type="hidden">
+                    <table cellspacing="0" cellpadding="0">
+                        <tbody>
+                        <tr>
+                            <td><input name="srchtxt" id="scbar_txt" value="" autocomplete="off" x-webkit-speech=""
+                                       speech="" class=" xg1" placeholder="请输入搜索内容" type="text"></td>
+                            <td><a href="javascript:;" id="scbar_type" class="xg1" onclick="showMenu(this.id)"
+                                   hidefocus="true">全站</a></td>
+                            <td>
+                                <button type="submit" name="searchsubmit" id="scbar_btn" sc="1" class="pn pnc"
+                                        value="true"></button>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+            <ul id="scbar_type_menu" class="p_pop" style="display: none;">
+                <li><a href="javascript:;" rel="search_site" class="curtype">全站</a></li>
+                <li><a href="javascript:;" rel="forum">知识</a></li>
+                <li><a href="javascript:;" rel="search_wenku">文档</a></li>
+                <li><a href="javascript:;" rel="search_dy">订阅</a></li>
+                <li><a href="javascript:;" rel="user">用户</a></li>
+            </ul>
+            <script type="text/javascript">
+                initSearchmenu('scbar', '');
+            </script>
+            <div class="clear"></div>
+        </div>
+
+
+        <div class="p_pop h_pop" id="mn_userapp_menu" style="display: none;"></div>
+        <div id="mu" class="cl">
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="deanheader" id="deanheader">
+    <div class="w1000">
+        <div class="deannav">
+            <ul>
+                <li class="deancur" id="mn_portal"><a href="http://www.useit.com.cn/portal.php" hidefocus="true"
+                                                      title="网站首页">首页<span>网站首页</span></a></li>
+                <li id="mn_F286"><a href="http://www.useit.com.cn/forum-286-1.html" hidefocus="true"
+                                    title="知识库">知识库<span>知识库</span></a></li>
+                <li id="mn_N3b33"><a href="http://dy.useit.com.cn/" hidefocus="true" title="订阅知识"
+                                     target="_top">订阅中心<span>订阅知识</span></a></li>
+                <li id="mn_Nf08d" class=""><a href="http://search.useit.com.cn/cse/search?s=7114562753949710140"
+                                              hidefocus="true" title="知识查询" target="_top">搜索<span style="top: 80px;">知识查询</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="deantopr">
+            <div class="deanlogin">
+                <ul class="deanunlogin">
+                    <li class="deanqqlogin"><a
+                            href="http://www.useit.com.cn/connect.php?mod=login&amp;op=init&amp;referer=index.php&amp;statfrom=login_simple"></a>
+                    </li>
+                    <li class="deanblue"><a href="http://www.useit.com.cn/member.php?mod=logging&amp;action=login"
+                                            onclick="showWindow('login', this.href)">登录</a></li>
+                    <li class="deanblue"><a href="http://www.useit.com.cn/member.php?mod=register">注册</a></li>
+                    <div class="clear"></div>
+                </ul>
+                <script type="text/javascript">
+                    jq(".deanhove").hover(
+                        function () {
+                            jq(this).addClass("deanhoved");
+                            jq(this).siblings(".deanmessage").show();
+                        },
+                        function () {
+                            jq(this).removeClass("deanhoved");
+                            jq(this).siblings(".deanmessage").hide();
+                        })
+                    jq(".deanmessage").hover(
+                        function () {
+                            jq(this).siblings(".deanhove").addClass("deanhoved");
+                            jq(this).show();
+                        },
+                        function () {
+                            jq(this).siblings(".deanhove").removeClass("deanhoved");
+                            jq(this).hide();
+                        })
+                </script>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="clear"></div>
+<script src="./js/nv.js" type="text/javascript"></script>
+
+
+<script src="./js/nc.js"></script>
+<script src="./js/oculus_nc.js"></script>
+<div id="nc-float" style="display: none;">
+    <div class="nc-f-head">
+        <img class="nc-f-icon" src="./images/tb1_3frkvxxxxbdxxxxxxxxxxxx-129-128.png" alt="" width="20" height="20">
+        <span class="nc-f-title">安全验证</span>
+        <a class="close" href="#"><i class="nc_iconfont"></i></a>
+    </div>
+    <div class="nc-f-body" id="oculus-nc-f-body">
+        <div class="nc-f-des">请完成以下验证码</div>
+        <div id="nocaptcha"></div>
+    </div>
+</div>
+<div id="wp" class="wp" style="background: rgb(255, 255, 255) none repeat scroll 0% 0%;">
+
+    <div class="wp h30" style="padding-bottom: 15px;">
+        <div class="deanpartl">
+            <div class="deanhot h30">
+                <div class="clear"></div>
+                <div class="deanartice">
+                    <ul><!--[diy=diydeanarticelist]-->
+                        <div id="diydeanarticelist" class="area">
+                            <div id="framesQ3cKQ" class="frame move-span cl frame-1">
+                                <div class="title frame-title"><span class="titletext"
+                                                                     style="color: rgb(255, 255, 255);">知识推荐</span>
+                                </div>
+                                <div id="framesQ3cKQ_left" class="column frame-1-c">
+                                    <div id="framesQ3cKQ_left_temp" class="move-span temp"></div>
+                                    <div id="portal_block_1950" class="block move-span">
+                                        <div id="portal_block_1950_content" class="dxb_bc">
+                                            <li class=" bgfff top15 ">
+                                                <!--循环开始-->
+                                                <div class="deanarticec">
+                                                    <div class="deanarticel">
+                                                        <a href="http://www.useit.com.cn/thread-17105-1-1.html"
+                                                           target="_top"><img src="./images/b514a94dd089798279aa25e2736928e6.jpg"
+                                                                              width="320" height="230"></a>
+                                                    </div>
+                                                    <div class="deanarticer">
+                                                        <div class="deanarticername">
+                                                            <div class="top"><span class="font">推荐</span><span
+                                                                    class="tri"></span></div>
+                                                            <a href="http://www.useit.com.cn/thread-17105-1-1.html"
+                                                               target="_top">网易：2017消费升级下家居人群洞察报告</a></div>
+                                                        <div class="clear"></div>
+                                                        <div class="deanboxrsummary">
+                                                            我们对新的消费理念进行了重新定义，并发现了一些特征：第一，我们注重有品质的生活；第二，我们注重更好的体验；第三，我们注重个性化，彰显自己；第四，我们期望我们的生活是更便捷更高效的，......
+                                                        </div>
+                                                        <div class="deanarticertag">
+                                                            <div class="deanarticerforum">板块：<a
+                                                                    href="http://www.useit.com.cn/forum-301-1.html"
+                                                                    target="_top">人群分析</a></div>
+                                                            <div class="deanarticerauthor"><span>2017-11-13</span></div>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clear"></div>
+
+                                                </div>
+                                                <!--循环结束-->
+                                            </li>
+                                        </div>
+                                    </div>
+                                    <div id="portal_block_1943" class="block move-span">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="frameHkb1o2" class=" frame move-span cl frame-1">
+                                <div class="title frame-title"><span class="titletext"
+                                                                     style="color: rgb(255, 255, 255);">热点知识</span>
+                                </div>
+                                <div id="frameHkb1o2_left" class="column frame-1-c">
+                                    <div id="frameHkb1o2_left_temp" class="move-span temp"></div>
+                                    <div id="portal_block_1951" class="block move-span">
+                                        <div id="portal_block_1951_content" class="dxb_bc">
+                                            <!--循环开始-->
+                                            <li class=" bgfff top15 ">
+                                                <div class="deanarticec">
+                                                    <div class="deanarticel">
+                                                        <a href="http://www.useit.com.cn/thread-16800-1-1.html"
+                                                           target="_top"><img src="./images/50d1dbaf67093a30efeaacf776706532.jpg"
+                                                                              width="320" height="230"></a>
+                                                    </div>
+                                                    <div class="deanarticer">
+                                                        <div class="deanarticername">
+                                                            <div class="top"><span class="font">TOP1</span><span
+                                                                    class="tri"></span></div>
+                                                            <a href="http://www.useit.com.cn/thread-16800-1-1.html"
+                                                               target="_top">中国传媒大学：2017新营销白皮书——互联网下半场营销变革与趋势研究</a>
+                                                        </div>
+                                                        <div class="clear"></div>
+                                                        <div class="deanboxrsummary">
+                                                            互联网进程步入下半场，流量红利逐渐流失，在上下转场、新旧交替的关键节点，营销人士需要回归营销的本质，从战略设计到实施蓝图，进行系统升维。
+                                                            旧的秩序几近坍塌，新的秩序尚待建立。如何深刻理解营销环境的本质变化？如何驾驭新环境
+                                                            ......
+                                                        </div>
+                                                        <div class="deanarticertag">
+                                                            <div class="deanarticerforum">板块：<a
+                                                                    href="http://www.useit.com.cn/forum-79-1.html"
+                                                                    target="_top">营销管理</a></div>
+                                                            <div class="deanarticerauthor">
+                                                                <span> 浏览量：2424 日期：2017-10-13</span></div>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clear"></div>
+
+                                                </div>
+                                            </li>
+                                            <!--循环结束-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--[/diy]--></ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="deanpartr">
+
+            <div class="deanmember h30 bgfff">
+                <div class="deantitle"><span>知识精选，每周推荐</span><a href="http://dy.useit.com.cn/" target="_top"
+                                                                title="Useit订阅中心"></a>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+                <div class="deanmore yahei"><a href="http://dy.useit.com.cn/weixin/" target="_top">微信订阅 &gt;&gt; </a> <a
+                        href="http://dy.useit.com.cn/subscribe/" target="_top">邮件订阅 &gt;&gt;</a><a
+                        href="http://dy.useit.com.cn/" target="_top">历史</a></div>
+                <div><a href="http://dy.useit.com.cn/subscribe/" target="_top"><img src="./images/edm-ad-2016-big.jpg" alt="邮件订阅"
+                                                                                    style="margin-top: 10px;"
+                                                                                    width="320px" height="330px"
+                                                                                    border="0"></a></div>
+            </div>
+
+
+            <div class="deanmember h30 bgfff">
+                <div class="deantitle"><span>热门知识</span><a href="http://www.useit.com.cn/forum.php" target="_top"
+                                                           title="Useit知识板块"></a>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+
+                <ul><!--[diy=diydeanhd]-->
+                    <div id="diydeanhd" class="area">
+                        <div id="frameU34CPT" class=" frame move-span cl frame-1">
+                            <div id="frameU34CPT_left" class="column frame-1-c">
+                                <div id="frameU34CPT_left_temp" class="move-span temp"></div>
+                                <div id="portal_block_1948" class="block move-span">
+                                    <div id="portal_block_1948_content" class="dxb_bc">
+                                        <div class="module cl xl xl1">
+                                            <ol>
+                                                <!--循环开始-->
+                                                <li><em>共有：307篇</em><a href="http://www.useit.com.cn/forum-301-1.html"
+                                                                       title="人群分析" target="_top">人群分析</a></li>
+                                                <!--循环结束-->
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--[/diy]--></ul>
+                <div class="clear"></div>
+                <div class="deanmore yahei"><a href="http://www.useit.com.cn/forum.php" target="_top">所有板块&gt;&gt;</a>
+                </div>
+            </div>
+            <div class="clear"></div>
+
+
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+
+<div id="ft" class="wp cl">
+    <div id="flk" class="y">
+        <p>
+            <a href="http://www.useit.com.cn/misc.php?mod=faq" target="_top">帮助中心</a><span class="pipe">|</span><a
+                href="http://www.useit.com.cn/misc.php?mod=faq&amp;action=faq&amp;id=3" target="_top">关于我们</a><span
+                class="pipe">|</span><a href="http://www.useit.com.cn/misc.php?mod=faq&amp;action=faq&amp;id=7"
+                                        target="_top">注册协议</a><span class="pipe">|</span><a
+                href="http://www.useit.com.cn/misc.php?mod=faq&amp;action=faq&amp;id=15" target="_top">投诉指引</a><span
+                class="pipe">|</span><a href="http://www.useit.com.cn/misc.php?mod=faq&amp;action=faq&amp;id=37"
+                                        target="_top">获取积分</a><span class="pipe">|</span><a
+                href="http://www.useit.com.cn/misc.php?mod=faq&amp;action=faq&amp;id=36" target="_top">投稿须知</a><span
+                class="pipe">|</span><a href="http://www.useit.com.cn/misc.php?mod=faq&amp;action=faq&amp;id=25"
+                                        target="_top">作者权益</a><span class="pipe">|</span><a
+                href="http://www.useit.com.cn/misc.php?mod=faq&amp;action=faq&amp;id=26" target="_top">下载须知</a><span
+                class="pipe">|</span><a href="http://www.useit.com.cn/misc.php?mod=faq&amp;action=faq&amp;id=9"
+                                        target="_top">联系我们</a><span class="pipe">|</span><a
+                href="http://m.useit.com.cn/">手机版</a><span class="pipe">|</span><strong><a
+                href="http://www.useit.com.cn/" target="_top">USEIT Inc.</a></strong>
+            <script>
+                var _hmt = _hmt || [];
+                (function () {
+                    var hm = document.createElement("script");
+                    hm.src = "./js/hm.js?1578cb37907376e18354c34847e65d60";
+                    var s = document.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(hm, s);
+                })();
+            </script>
+
+
+            <script>
+                (function () {
+                    var bp = document.createElement('script');
+                    var curProtocol = window.location.protocol.split(':')[0];
+                    if (curProtocol === 'https') {
+                        bp.src = './js/push.js';
+                    }
+                    else {
+                        bp.src = './js/push.js';
+                    }
+                    var s = document.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(bp, s);
+                })();
+            </script>
+        </p>
+        <p class="xs0">
+            GMT+8, 2017-11-13 09:16<span id="debuginfo">
+, Processed in 0.162116 second(s), 9 queries
+, Gzip On, Memcache On.
+</span></p>
+        <p style="font-size: 9px;"><img src="./images/ga-logo.png" width="20" height="20"><a
+                href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42011202000160"
+                title="鄂公网安备 42011202000160号" target="_top">鄂公网安备 42011202000160号 </a>&nbsp;<a
+                href="http://www.miitbeian.gov.cn/" target="_top">鄂ICP备13013806号-1</a></p>
+        <p><a href="http://221.232.141.246/iciaicweb/dzbscheck.do?method=change&amp;id=E2016021800095521" target="_top"><img
+                alt="网络经济主体信息" dragover="true" src="./images/gs-logo.png" height="35" border="0"></a><a
+                href="http://www.hbjubao.com:1888/page/index.do" target="_top"><img src="./images/jbpt.png" alt="湖北省互联网举报平台"
+                                                                                    height="35" border="0"></a>
+            <a href="http://www.12377.cn/" target="_top"><img src="./images/jubaoapp.png" alt="中国互联网违法和不良信息举报中心" height="35"
+                                                              border="0"></a></p></div>
+    <div id="frt">
+    </div>
+</div>
+<script src="home.php" type="text/javascript"></script>
+<div id="scrolltop">
+    <span hidefocus="true"><a title="返回顶部" onclick="window.scrollTo('0','0')" class="scrolltopa"><b>返回顶部</b></a></span>
+</div>
+<script type="text/javascript">_attachEvent(window, 'scroll', function () {
+    showTopLink();
+});
+checkBlind();</script>
+
+
+</body>
+</html>

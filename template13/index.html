@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    <meta charset="utf-8">
+    <title>医学行业资讯_医谷</title>
+    <script>
+        (function () {
+            if (/Android|webOS|iPhone|Windows Phone|iPod|BlackBerry|SymbianOS/i.test(navigator.userAgent)) {
+                var url = window.location.href;
+                if (url.indexOf("?pc") < 0) {
+                    try {
+                        window.location.href = 'http://m.yigoonet.com/index.php?&a=lists&typeid=';
+                    } catch (e) {
+                    }
+
+                }
+            }
+        })();
+    </script>
+    <script type="text/javascript">
+        function addFavorite2() {
+            var url = window.location;
+            var title = document.title;
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.indexOf("360se") > -1) {
+                alert("由于360浏览器功能限制，请按 Ctrl+D 手动收藏！");
+            }
+            else if (ua.indexOf("msie 8") > -1) {
+                window.external.AddToFavoritesBar(url, title); //IE8
+            }
+            else if (document.all) {
+                try {
+                    window.external.addFavorite(url, title);
+                } catch (e) {
+                    alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
+                }
+            }
+            else if (window.sidebar) {
+                window.sidebar.addPanel(title, url, "");
+            }
+            else {
+                alert('您的浏览器不支持,请按 Ctrl+D 手动收藏!');
+            }
+        }
+    </script>
+    <base target="_blank">
+    <meta name="keywords" content="医学行业资讯,医学实时动态,医药资讯,医疗器械资讯,医疗健康资讯,移动医疗资讯">
+    <meta name="description"
+          content="医谷资讯频道为医学行业人士提供最新的医药、医疗器械、医疗健康、移动医疗等领域的最新资讯，并对医药、医疗健康、移动医疗等话题进行专业解读，打造医疗领域资讯最富有影响力的品牌！">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+
+    <!--[if IE]>
+    <script src="./js/html5.js"></script><![endif]-->
+    <script src="./js/jquery-1.11.2.min.js"></script>
+    <script src="./js/jquery.sgallery.js"></script>
+    <script src="./js/tangram-1.5.2.2.js"></script>
+
+    <link media="all" href="./css/index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<!--header/S-->
+<header>
+    <div class="headTop">
+        <div class="fl" style="color: rgb(255, 255, 255);">
+            <!--<a href="http://www.simz.gov.cn/" style="color: #fff; line-height:32px; cursor:pointer;">张江·上海国际医学园区主办</a>&nbsp;&nbsp;|&nbsp;&nbsp;--><a
+                href="javascript:;" onclick="javascript:addFavorite2()"
+                style="color: rgb(255, 255, 255); line-height: 32px; cursor: pointer;" target="_self">收藏本站</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://www.yigoonet.com/url.php"
+               style="color: rgb(255, 255, 255); line-height: 32px; cursor: pointer;" target="_self">创建快捷方式</a></div>
+        <!--<div class="fr"><script type="text/javascript">document.write('<iframe src="https://www.yigoonet.com/index.php?m=member&c=index&a=mini&forward='+encodeURIComponent(location.href)+'&siteid=1" allowTransparency="true"  width="320" height="28" frameborder="0" scrolling="no"></iframe>')</script></div>-->
+    </div>
+    <div class="header-wrap">
+        <div class="header-inner y-row">
+            <a href="https://www.yigoonet.com/" class="logo" target="_top"><img src="./images/logo.png"></a>
+            <nav>
+                <ul>
+                    <li><a href="https://www.yigoonet.com/" target="_self">首页</a></li>
+                    <li class="act"><a href="https://www.yigoonet.com/news/" target="_self">资讯</a></li>
+                    <li><a href="https://www.yigoonet.com/policy/" target="_self">政策</a></li>
+                    <li><a href="https://www.yigoonet.com/news/318.html" target="_self">发现</a></li>
+                    <li><a href="https://expo.yigoonet.com/" target="_self">会议</a></li>
+                    <li><a href="https://trz.yigoonet.com/" target="_self">投融资</a></li>
+                    <li><a href="http://mag.yigoonet.com/" target="_self">杂志</a></li>
+                </ul>
+            </nav>
+            <div class="header-search">
+                <form action="https://so.yigoonet.com/" name="listfrm" method="get">
+                    <input name="m" value="search" type="hidden">
+                    <input name="c" value="index" type="hidden">
+                    <input name="a" value="init" type="hidden">
+                    <input name="typeid" value="1" id="typeid" type="hidden">
+                    <input name="siteid" value="1" id="siteid" type="hidden">
+                    <input class="search-key empty" name="q" id="q" max-length="140" value="" type="text">
+                    <a href="javascript:void(document.listfrm.submit())" class="search-submit icon-Search"
+                       target="_top"></a>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<!--header/E-->
+
+<div class="layout mt15">
+    <!--section/S-->
+    <section>
+        <!--newsList/S-->
+        <div class="newsList">
+            <ul class="breadnav">
+                <li class="select"><a href="https://www.yigoonet.com/news/" target="_self">资讯</a></li>
+                <li><a href="https://www.yigoonet.com/news/medicine.shtml" target="_self">医药</a></li>
+                <li><a href="https://www.yigoonet.com/news/medicalDevice.shtml" target="_self">医疗器械</a></li>
+                <li><a href="https://www.yigoonet.com/news/medicalHealth.shtml" target="_self">医疗健康</a></li>
+                <li><a href="https://www.yigoonet.com/news/318.html" target="_self">发现</a></li>
+            </ul>
+            <div class="articleList">
+                <!--内容开始-->
+                <article>
+                    <p class="pic"><a href="https://www.yigoonet.com/article/22544782.html" target="_top"><img
+                            src="./images/thumb_240_150_20171110040502991.jpg"></a></p>
+                    <h3><a href="https://www.yigoonet.com/article/22544782.html" title="独立医学实验室巨大市场空间，业务拓展+产业模式升级成发展趋势"
+                           target="_top">独立医学实验室巨大市场空间，业务拓展+产业模式升级成发展趋势</a></h3>
+                    <p><span class="time"><i class="icon-time icon12"></i> 2017-11-10 15:57</span><span class="cat"><a
+                            href="https://www.yigoonet.com/news/medicalHealth.shtml" target="_top">[ 医疗健康 ]</a></span>
+                    </p>
+                    <p class="dec">广州金域检验于2001年首先将独立医学实验室模式商业化运作，由此揭开我国独立医学 ...</p>
+                </article>
+                <!--内容结束-->
+            </div>
+            <div id="pageZone"><span title="您正在浏本页" class="isNow" target="_self">1</span> <span title="第2页"><a
+                    href="https://www.yigoonet.com/news-2.shtml" target="_self">2</a></span> <span title="第3页"><a
+                    href="https://www.yigoonet.com/news-3.shtml" target="_self">3</a></span> <span title="第4页"><a
+                    href="https://www.yigoonet.com/news-4.shtml" target="_self">4</a></span> <span title="第5页"><a
+                    href="https://www.yigoonet.com/news-5.shtml" target="_self">5</a></span> <span title="第6页"><a
+                    href="https://www.yigoonet.com/news-6.shtml" target="_self">6</a></span> <span title="第7页"><a
+                    href="https://www.yigoonet.com/news-7.shtml" target="_self">7</a></span> <span title="第8页"><a
+                    href="https://www.yigoonet.com/news-8.shtml" target="_self">8</a></span><span class="dot">...</span><span
+                    title="第 2140页"><a href="https://www.yigoonet.com/news-2140.shtml"
+                                       target="_self">2140</a></span><span title="下一页" class="Disabled"><a
+                    href="https://www.yigoonet.com/news-2.shtml" target="_self">下一页&gt;&gt;</a></span></div>
+        </div>
+        <!--newsList/E-->
+    </section>
+    <!--section/E-->
+
+    <!--aside/S-->
+    <aside>
+        <div class="yc_weixin">
+            <h2 class="wxgzt">扫一扫，关注医谷微信</h2>
+            <p class="wxpic"><img src="./images/gzwx.png"></p>
+            <p class="wxjs">每天下午 6 点，为您奉上有深度的医学资讯；同时，通过医谷微信，您还可以直接访问医谷手机版，随时随地，获取更多更全面新鲜医学资讯。</p>
+        </div>
+
+
+        <h2 class="mt15">
+            <p class="aside_tit">编辑推荐</p>
+        </h2>
+        <ul class="aside_list">
+            <!--侧边开始-->
+            <li><a href="https://www.yigoonet.comhttps//www.yigoonet.com/article/22544733.html"
+                   title="BCG报告：未来医药服务或以疗效为支付标准" target="_top">BCG报告：未来医药服务或以疗效为支付标准</a></li>
+            <!--侧边结束-->
+        </ul>
+
+        <h2 class="mt15 mb15">
+            <p class="aside_tit">热门排行</p>
+            <p class="rankTab"><a href="javascript:void(0);" title="每日" class="fb" target="_top">每日</a><span
+                    style="margin: 0px 5px; color: rgb(204, 204, 204);">|</span><a href="javascript:void(0);" title="每周"
+                                                                                   target="_top">每周</a><span
+                    style="margin: 0px 5px; color: rgb(204, 204, 204);">|</span><a href="javascript:void(0);" title="每月"
+                                                                                   target="_top">每月</a></p>
+        </h2>
+        <div class="tab-content">
+            <ul class="tabList">
+                <!--侧边开始-->
+                <li><a href="https://www.yigoonet.com/article/22544764.html" title="中央拨款2亿多元，支持生物医疗领域3个重点专项"
+                       target="_top">中央拨款2亿多元，支持生物医疗领域3个重点专项</a></li>
+                <!--侧边结束-->
+            </ul>
+            <ul class="tabList" style="display: none;">
+                <!--侧边开始-->
+                <li><a href="https://www.yigoonet.com/article/22344550.html" title="2批次65万支不合格百白破疫苗流入三省，CFDA要求严查"
+                       target="_top">2批次65万支不合格百白破疫苗流入三省，CFDA要求严查</a></li>
+                <!--侧边结束-->
+            </ul>
+            <ul class="tabList" style="display: none;">
+                <!--侧边开始-->
+                <li><a href="https://expo.yigoonet.com/article/26244412.html" title="医疗“热兵器时代”，人工智能成行业革命巨大推手"
+                       target="_top">医疗“热兵器时代”，人工智能成行业革命巨大推手</a></li>
+                <!--侧边结束-->
+            </ul>
+        </div>
+
+        <p class="mt15" style="width: 298px; height: 100px; border: 1px solid rgb(210, 225, 241);"><a
+                href="https://www.yigoonet.com/index.php?m=special&amp;c=index&amp;specialid=1" title="健康医疗旅游"
+                target="_top"><img src="./images/syzt.jpg" width="298" height="100"></a></p>
+
+        <h2 class="expoTab mt15"><a href="javascript:void(0)" class="act" target="_top">推荐会议</a> <a
+                href="javascript:void(0)" target="_top">近期会议</a> <a href="javascript:void(0)" class=" last_a"
+                                                                    target="_top">会议报道</a>
+        </h2>
+
+        <div class="tab-expo">
+            <ul class="slide" style="width: 300px; height: 280px;">
+                <div class="changeDiv">
+                    <!--侧边开始-->
+                    <li>
+                        <a href="https://www.yigoonet.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=263&amp;id=691"
+                           title="中国国际医..." style="display: none;" target="_top"><img
+                                src="./images/20170425103256590.gif"
+                                alt="中国国际医药（工业）展览会暨技术交流会（CHINA-PHARM）"
+                                width="300" height="280"></a></li>
+                    <!--侧边结束-->
+                </div>
+                <span class="title-bg" style="width: 300px;"></span><span class="change"><i class="">1</i><i
+                    class="">2</i><i class="">3</i><i class="">4</i><i class="cur">5</i><i class="">6</i><i
+                    class="">7</i></span></ul>
+            <ul class="aside_list" style="display: none;">
+                <!--侧边开始-->
+                <li><span style="float: right; margin-left: 10px;">2017-11-10</span><a
+                        href="https://www.yigoonet.com/index.php?m=content&amp;c=index&amp;a=show&amp;catid=263&amp;id=738"
+                        title="2017第三届中国（重庆）健康产业博览会" target="_top">2017第三届中国（重庆</a></li>
+                <!--侧边结束-->
+            </ul>
+            <ul class="aside_list" style="display: none;">
+                <!--侧边开始-->
+                <li><a href="https://expo.yigoonet.com/article/26244637.html"
+                       title="AI与HI深度融合助推健康工程发展 —— OFweek 2017中国医疗科技大会专家风采先睹为快——张元亭" target="_top">AI与HI深度融合助推健康工程发展 ——
+                    OFweek 2017中国医疗科技大会专家风采先睹为快——张元亭</a></li>
+                <!--侧边结束-->
+            </ul>
+        </div>
+
+        <h2 class="mt15">
+            <p class="aside_tit"><img src="./images/simz.png" width="60" height="16"></p>
+            <p class="aside_more"><a href="http://www.simz.gov.cn/" title="查看更多" target="_top">#</a></p>
+        </h2>
+        <ul class="aside_list">
+            <!--侧边开始-->
+            <li><a href="https://www.yigoonet.com/article/27144726.html" title="迎接全国消防日——医学园区开展“119消防日”联合消防演习系列活动"
+                   target="_top">迎接全国消防日——医学园区开展“119消防日”联合消防演习系列活动</a></li>
+            <!--侧边结束-->
+        </ul>
+    </aside>
+    <!--aside/E-->
+</div>
+<!-- footer/S -->
+<footer>
+    <div class="tcopyright tcopyright1">
+        <div><a href="https://www.yigoonet.com/abouts/about.html" rel="nofollow" target="_top">关于我们</a> | <a
+                href="https://www.yigoonet.com/abouts/contact.html" rel="nofollow" target="_top">联系我们</a> | <a
+                href="https://www.yigoonet.com/abouts/copyright.html" rel="nofollow" target="_top">免责声明</a> | <a
+                href="https://www.yigoonet.com/abouts/ad.html" rel="nofollow" target="_top">广告服务</a> | <a
+                href="https://www.yigoonet.com/abouts/help.html" rel="nofollow" target="_top">帮助中心</a> | <a
+                href="https://www.yigoonet.com/abouts/sitemap.html" rel="nofollow" target="_top">网站导航</a> | <a
+                href="https://www.yigoonet.com/index.php?m=link" rel="nofollow" target="_top">友情链接</a> | <a
+                href="https://www.yigoonet.com/baidunews.xml" rel="nofollow" target="_top">百度地图</a> | <a
+                href="javascript:;" onclick="javascript:addFavorite2()" target="_self" rel="nofollow">收藏本站</a> | <a
+                href="https://www.yigoonet.com/url.php" target="_self" rel="nofollow">创建快捷方式</a></div>
+        <div class="en">© 2011 - 2014 yigoonet.com All Rights Reserved 医谷版权所有<span style="display: none;">&nbsp;&nbsp;<script
+                src="./php/stat.php" language="JavaScript"></script></span></div>
+    </div>
+</footer>
+<!--footer/E-->
+
+<!--float-tool/S-->
+<div class="float-tool">
+    <p><a href="#recommend" class="recommend" rel="nofollow" target="_self">意见反馈</a></p>
+    <p id="gotopad" class="gotopad" style="display: none;"><a id="gotopa" class="gotop"></a></p>
+</div>
+<!--float-tool/E-->
+
+<script>
+    //滑动门
+    $(function () {
+        new SwapTab(".rankTab", "a", ".tab-content", "ul", "fb");//排行TAB
+        new SwapTab(".expoTab", "a", ".tab-expo", "ul", "act");//会议TAB
+        new slide(".slide", "cur", 300, 280, 1);//焦点图
+
+        //返回顶部
+        $(window).scroll(function () {
+            objScrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+            if (objScrollTop > 100) {
+                $('#gotopad').show();
+            } else {
+                $('#gotopad').hide();
+            }
+        });
+        $('#gotopa').click(function () {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        });
+
+    })
+</script>
+
+
+</body>
+</html>
