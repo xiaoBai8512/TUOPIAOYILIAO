@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+	<title>【热点】发布最新的慢病管理要闻及时实新闻-慢病界</title>
+	
+	<meta name="keywords" content="慢病新闻,慢病热点,慢病要闻">
+	<meta name="description" content="慢病界热点频道为您整理发布最新的慢病管理领域要闻，打造及时、集中、客观的慢病管理资讯频道。">
+	<meta name="sharepic" content="./images/share-logo.png">
+	
+    <!--<meta http-equiv="refresh" content="2">-->
+    
+    
+    
+    
+    <script src="./js/hm.js"></script>
+    <script src="./js/articlelist.js"></script>
+    <link rel="shortcut icon" href="./images/favicon2.ico">
+    <script src="./js/bdtj.js"></script>
+
+<link media="all" href="./css/index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<!-- header.ftl -->
+<div class="top-wrap">
+    <div class="top-box">
+        <a class="logo-pc" href="http://www.ncd.org.cn/">
+            <img src="./images/logo-pc.png" width="160" border="0">
+        </a>
+        <nav>
+            <!--导航条-->
+            <ul class="topb-main">
+                <li id="li-1">资讯<span></span></li>
+                <li>
+                    <a target="_top" href="http://www.ncd.org.cn/zyk/">资源库</a>
+                </li>
+                <li>
+                    <a target="_top" href="http://www.ncd.org.cn/gjkx/">国际快讯</a>
+                </li>
+                <li>
+                    <a target="_top" href="http://www.ncd.org.cn/huiyi/">会议</a>
+                </li>
+                <li>
+                    <a target="_top" href="http://www.ncd.org.cn/zhuanti/">专题</a>
+                </li>
+            </ul>
+            <!--隐藏盒子-->
+            <div id="box-1" class="hidden-box hidden-loc-1">
+                <ul>
+	                    <li>
+	                        <a target="_top" href="http://www.ncd.org.cn/news/">热点</a>
+	                    </li>
+	                    <li>
+	                        <a target="_top" href="http://www.ncd.org.cn/zc/">政策</a>
+	                    </li>
+	                    <li>
+	                        <a target="_top" href="http://www.ncd.org.cn/cy/">产业</a>
+	                    </li>
+	                    <li>
+	                        <a target="_top" href="http://www.ncd.org.cn/zs/">知识</a>
+	                    </li>
+	                    <li>
+	                        <a target="_top" href="http://www.ncd.org.cn/kp/">科普</a>
+	                    </li>
+	                    <li>
+	                        <a target="_top" href="http://www.ncd.org.cn/shengyi/">声音</a>
+	                    </li>
+            </ul></div>
+        </nav>
+        <div class="top-right">
+            <ul class="top-ul">
+                <li class="top-search">
+                    <a href="javascript:;" onclick="tosearch(1);">
+                        <span>搜索</span>
+                        <img src="./images/icon-search.png">
+                    </a>
+                </li>
+            </ul>
+            <div class="search-box">
+                <input id="searchmsg" value="" type="text">
+                <input value="" onclick="tosearch();" type="submit">
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+<!-----left弹出信息----->
+<div id="picture" style="display: none;">
+    <div class="news-page">
+        <div class="news-page-title">
+            <!--<a href="#picture" class="mui-icon mui-icon-closeempty"></a>-->
+            <img src="./images/img-new.png">资讯
+        </div>
+        <ul>
+                <li>
+                    <a href="http://www.ncd.org.cn/news/">热点</a>
+                </li>
+                <li>
+                    <a href="http://www.ncd.org.cn/zc/">政策</a>
+                </li>
+                <li>
+                    <a href="http://www.ncd.org.cn/cy/">产业</a>
+                </li>
+                <li>
+                    <a href="http://www.ncd.org.cn/zs/">知识</a>
+                </li>
+                <li>
+                    <a href="http://www.ncd.org.cn/kp/">科普</a>
+                </li>
+                <li>
+                    <a href="http://www.ncd.org.cn/shengyi/">声音</a>
+                </li>
+        </ul>
+    </div>
+</div>
+
+<!--侧滑菜单部分-->
+<aside id="offCanvasSide" class="mui-off-canvas-left">
+    <div id="offCanvasSideScroll" class="mui-scroll-wrapper">
+        <div class="mui-scroll">
+            <div class="left-top">
+                <a href="#">
+                    <img src="./images/user-photo.png">
+                    <p>慢病界</p>
+                </a>
+            </div>
+
+            <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+                <li class="mui-table-view-cell">
+                    <a href="http://www.ncd.org.cn/">
+                        <img src="./images/img-home.png">首页
+                    </a>
+                </li>
+                <li class="mui-table-view-cell">
+                    <a id="newdetail" class="mui-navigate-right">
+                        <img src="./images/img-new.png">资讯
+                    </a>
+                </li>
+                <li class="mui-table-view-cell">
+                    <a href="http://www.ncd.org.cn/zyk/">
+                        <img src="./images/img-res.png">资源库
+                    </a>
+                </li>
+                <li class="mui-table-view-cell">
+                    <a href="http://www.ncd.org.cn/gjkx/">
+                        <img src="./images/img-new.png">国际快讯
+                    </a>
+                </li>
+                <li class="mui-table-view-cell">
+                    <a href="http://www.ncd.org.cn/zhuanti/">
+                        <img src="./images/img-topic.png">专题
+                    </a>
+                </li>
+                <li class="mui-table-view-cell">
+                    <a href="http://www.ncd.org.cn/huiyi/">
+                        <img src="./images/img-meet.png">会议
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</aside>
+<!-- off-canvas backdrop -->
+<div class="mui-off-canvas-backdrop"></div>    <!--主界面部分-->
+    <div class="mui-inner-wrap">
+        <!-- header-wap1.ftl -->
+<header class="mui-bar mui-bar-nav">
+    <a href="#offCanvasSide" class="mui-pull-left">
+        <img src="./images/icon-home.png" width="25">
+    </a>
+    <a class="mui-action-menu mui-icon mui-icon-search mui-pull-right" href="javascript:;" onclick="tosearch(1);"></a>
+    <h1 class="mui-title">
+        <img src="./images/logo-wap.png" height="40">
+    </h1>
+</header>        <div id="offCanvasContentScroll" class="mui-content mui-scroll-wrapper">
+            <div class="main-box">
+                <div class="inner-position">
+                     您现在的位置：<a href="http://www.ncd.org.cn/">首页</a>&gt;<a href="http://www.ncd.org.cn/news/">热点</a>
+                </div>
+                <div class="main-left">
+                	<div class="main-b">
+	                    <ul class="mui-table-view list" id="zxlist">
+                                <!-- 循环开始 -->
+	                            <li class="mui-table-view-cell mui-media-large">
+	                                <article>
+		                                    <a href="http://www.ncd.org.cn/article/20171113/content-6706.html" target="_top">
+		                                        <img class="mui-media-object mui-pull-left" src="./images/1510541031551.jpg">
+		                                    </a>
+	                                    <div class="mui-media-body">
+	                                        <a href="http://www.ncd.org.cn/article/20171113/content-6706.html" target="_top"><h3>国家儿童医学中心（上海）建设方案落实</h3></a>
+	                                        <p class="mui-ellipsis">根据规划，国家儿童医学中心（上海）位于上海国际医学园区，占地60亩，预计开设500张床位，60%用于临床，40%用于创新平台与辅助配套，设有专门的科学研究楼、健康管理楼、教学培训楼、动物实验楼、临床研究医疗楼等，目标是要攻关危害儿童健康的重大疑难疾病。</p><p>
+	                                        </p><p>
+	                                            <span>刚刚</span>
+	                                            <small>
+	                                                <i class="mui-icon-extra mui-icon-extra-heart-filled"></i>0
+	                                            </small>
+	                                            <small>
+	                                                <i class="mui-icon mui-icon-chatbubble-filled"></i>0
+	                                            </small>
+	                                            <small>
+	                                                <i class="mui-icon mui-icon-eye"></i>1087
+	                                            </small>
+	                                        </p>
+	                                    </div>
+	                                </article>
+	                                <a href="http://www.ncd.org.cn/article/20171113/content-6706.html" target="_top"></a></li>
+                                <!-- 循环结束 -->
+	                        <div class="more"><a href="javascript:;" onclick="artgengduo(12,10,'zxlist',6,this);">加载更多</a></div>
+	                    </ul>
+	                </div>
+                </div>
+                <div class="main-right">
+                	<div class="main-c" id="hot24hours">
+                        <div class="main-c-title">
+                            <img src="./images/icon-24.png" width="38" height="36">
+                            <b>小时热读</b>
+                        </div>
+                        <ul class="main-c1">
+                            <li>
+                                <a href="http://www.ncd.org.cn//article/20171113/content-6702.html" target="_top">      <img src="./images/1510535994729.jpg" width="310" height="200" border="0">      <p>加湿器使用不当易致“加湿性肺炎”</p>   </a></li><li>   <a href="http://www.ncd.org.cn//article/20171113/content-6703.html" target="_top">      <img src="./images/1510539454826.jpg" width="310" height="200" border="0">      <p>国家发改委取消医用耗材加成！公立医院亏损或加大</p>   </a></li><li>   <a href="http://www.ncd.org.cn//article/20171113/content-6700.html" target="_top">      <img src="./images/1510535399313.jpg" width="310" height="200" border="0">      <p>《高血压患者健康行为指引》发布</p>   </a></li><li>   <a href="http://www.ncd.org.cn//article/20171113/content-6704.html" target="_top">      <img src="./images/1510539684145.jpg" width="310" height="200" border="0">      <p>5年来我国门诊处方使用抗菌药物比例降低8.5个百分点</p>   </a></li></ul>
+                    </div>
+
+                        <div class="adv adv-right">
+                            <a rel="nofollow" href="http://hxxd.ncd.org.cn/index.asp" target="_top">
+                                <img src="./images/1494472552569.jpg">
+                            </a>
+	                        <span>关闭</span>
+                        </div>
+                    <div class="main-c" id="weekhot">
+                        <div class="main-c-title">
+                            <img src="./images/icon-7.png" width="38" height="36">
+                            <b>每周精选</b>
+                        </div><div class="main-c2">       <a target="_top" href="http://www.ncd.org.cn//article/20171110/content-6693.html">           <img src="./images/1510287922950.jpg" width="310" height="200" border="0">           <p>重磅！《国家基层高血压防治管理指南（2017）》正式发布</p>       </a>   </div><div class="main-c2">       <a target="_top" href="http://www.ncd.org.cn//article/20171109/content-6688.html">           <img src="./images/1510191995929.jpg" width="310" height="200" border="0">           <p>王辰：医院如何建才能成为真正善待患者的地方？</p>       </a>   </div>
+	                        
+	                        
+                        
+                        <ul class="main-c3">
+	                            
+	                            
+	                            
+	                            
+	                            
+                        <li>	<a target="_top" href="http://www.ncd.org.cn//article/20171107/content-6670.html">一周两罐可乐增加罹患2型糖尿病风险</a></li><li>	<a target="_top" href="http://www.ncd.org.cn//article/20171106/content-6667.html">中国健康事业的现在与未来</a></li><li>	<a target="_top" href="http://www.ncd.org.cn//article/20171107/content-6668.html">安徽实施“1234”高血压防控策略</a></li></ul>
+                        <div class="main-c4">
+                            <a href="#">
+                                <img src="./images/ewm.jpg" width="120" border="0">
+                                <p>慢病界微信公众号</p>
+                            </a>
+                            <a href="http://weibo.com/p/1001061959008741" target="_top">
+                                <img src="./images/wbtocode.jpg" width="120" border="0">
+                                <p>慢病界官方微博</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear15"></div>
+                <div class="copy-wap">
+                    慢病界 版权所有
+                </div>
+            </div>
+            <div class="maxscroll"></div>
+            <!-- bottom.ftl -->
+<!--底部-->
+<div class="foot-wrap">
+    <p>
+        <a href="http://www.ncd.org.cn/">网站首页</a>|
+        <a rel="nofollow" href="http://www.ncd.org.cn/navigation/about.html">关于我们</a>|
+        <a rel="nofollow" href="http://www.ncd.org.cn/navigation/disclaimer.html">免责条款</a>|
+        <a rel="nofollow" href="http://www.ncd.org.cn/navigation/copyright.html">版权声明</a>|
+        <a rel="nofollow" href="http://www.ncd.org.cn/navigation/secret.html">隐私安全</a>|
+        <a rel="nofollow" href="http://www.ncd.org.cn/navigation/recruit.html">招聘信息</a>|
+        <a rel="nofollow" href="http://www.ncd.org.cn/navigation/adservice.html">广告服务</a>|
+        <a rel="nofollow" href="http://www.ncd.org.cn/navigation/copyright_cpt.html">版权合作</a>|
+        <a rel="nofollow" href="http://www.ncd.org.cn/navigation/links.html">友情链接</a>|
+        <a rel="nofollow" href="http://www.ncd.org.cn/navigation/feedback.html">意见反馈</a>|
+        <a rel="nofollow" href="http://weibo.com/mblm">新浪微博</a>
+    </p>
+    <div>
+        <p>慢病界 经卫宣办批准 - 中健刊函:【2011】4号 | 版权所有，未经书面授权禁止转载 E-mail:ccdmc@ncd.org.cn</p>
+        <p>Copyright© 2010 - 2013 Ncd.org.cn. All Rights Reserved 京ICP备09085420号-2 </p>
+    </div>
+</div>
+
+<div class="toolbar">
+    <a href="#" class="toolbar-item toolbar-item-weixin">
+        <span class="toolbar-layer">
+            <img src="./images/ewm.jpg" width="100">
+            <p>扫描二维码</p>
+        </span>
+    </a>
+    <a href="http://www.ncd.org.cn/navigation/feedback.html" class="toolbar-item toolbar-item-feedback"></a>
+    <a href="javascript:scroll(0,0)" id="top" class="toolbar-item toolbar-item-top"></a>
+</div>
+
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/touchslide.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+<script type="text/javascript" src="./js/load.js"></script>
+<script type="text/javascript" src="./js/util.js"></script>
+<!--新增-->
+<script src="./js/layer.js"></script>
+<script type="text/javascript" src="./js/jweixin-1.0.0.js"></script>
+<script type="text/javascript" src="./js/jquery.cookie.js"></script>
+<script type="text/javascript" src="./js/wxshare.js"></script>
+<script>
+
+    //新增
+    $("header .mui-pull-left").click(function(){
+        $(".mui-off-canvas-backdrop").css("display", "block");
+        $("#offCanvasSide").css("left", "0px");
+
+    })
+    $(".mui-off-canvas-backdrop").click(function(){
+        $(".mui-off-canvas-backdrop").css("display", "none");
+        $("#offCanvasSide").css("left", "-100%");
+    })
+
+    $('#newdetail').on('click', function(){
+        layer.open({
+            type: 1,
+            title: false,
+            closeBtn: 0,
+            area:  ['90%', '300px'],
+            skin: 'layui-layer-nobg', //没有背景色
+            shadeClose: true,
+            btn: '关闭',
+            content: $('#picture')
+        });
+
+    });
+
+
+//    if ( mui.os.ios || mui.os.wechat || mui.os.android ) {
+//        mui('body').on('tap', 'a', function () {
+//            document.location.href = this.href;
+//        });
+//        mui.init({
+//            swipeBack: true //启用右滑关闭功能
+//        });
+//        var offCanvasWrapper = mui('#offCanvasWrapper');
+//        //主界面容器
+//        var offCanvasInner = offCanvasWrapper[0].querySelector('.mui-inner-wrap');
+//        //移动效果是否为整体移动
+//        var moveTogether = false;
+//        //主界面和侧滑菜单界面均支持区域滚动；
+//        mui('#offCanvasSideScroll').scroll();
+//        mui('#offCanvasContentScroll').scroll();
+//        //实现ios平台原生侧滑关闭页面；
+//        if (mui.os.plus && mui.os.ios) {
+//            mui.plusReady(function () { //5+ iOS暂时无法屏蔽popGesture时传递touch事件，故该demo直接屏蔽popGesture功能
+//                plus.webview.currentWebview().setStyle({
+//                    'popGesture': 'none'
+//                });
+//            });
+//        }
+//        //left弹出信息
+//        mui('body').on('shown', '.mui-popover', function (e) {
+//            //console.log('shown', e.detail.id);//detail为当前popover元素
+//        });
+//        mui('body').on('hidden', '.mui-popover', function (e) {
+//            //console.log('hidden', e.detail.id);//detail为当前popover元素
+//        });
+//    }
+
+    TouchSlide({
+        slideCell: "#slideBox",
+        titCell: ".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+        mainCell: ".bd ul",
+        effect: "leftLoop",
+        autoPage: true,//自动分页
+        autoPlay: true //自动播放
+    });
+
+    function adsorption() {
+        var headerWrap = document.getElementById('header-wrap');
+        var db = false;
+        var windowh=$(window).height();
+        var div_h = $("#header-wrap").height();
+        window.onscroll = function () {
+	        var maxscroll=$(".maxscroll").offset().top;
+            var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+        	var div_scrollTop = scrollTop + div_h;
+        	
+        	if(div_scrollTop > maxscroll){
+        		if(headerWrap.className != 'fixed-bottom'){
+	            	headerWrap.className = 'fixed-bottom';
+        		}
+    			var bottomh = windowh + scrollTop - maxscroll;
+    			headerWrap.style.bottom = bottomh+"px";
+            }else if (div_scrollTop > 1500 && div_scrollTop <= maxscroll) {
+                headerWrap.className = 'fixed';
+            }else {
+                headerWrap.className = 'header-wrap';
+            }
+        }
+    }
+    adsorption();
+
+    $("body").eq(0).on('click','.adv span', function(){
+    	$(this).parent(".adv").css("display", "none");
+    });
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#searchmsg').bind('keyup', function(event) {
+			if (event.keyCode == "13") {
+				tosearch();
+			}
+		});
+		
+	});
+	function tosearch(flag){
+		if(flag){
+			window.open("http://www.ncd.org.cn/search.html");
+		}
+		if($("#searchmsg").val()){
+			window.open("http://www.ncd.org.cn/search.html?s="+$('#searchmsg').val());
+		}
+	}
+	
+</script>        </div>
+        <!-- off-canvas backdrop -->
+        <div class="mui-off-canvas-backdrop"></div>
+    </div>
+</div>
+<script src="./js/hot24hours.js"></script>
+
+</body>
+</html>
