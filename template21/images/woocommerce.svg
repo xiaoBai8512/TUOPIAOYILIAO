@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>404 | Cami - Drupal</title>
+<style type="text/css" media="all">
+@import url("http://drupalet.com/demo/drupal/kami/modules/system/system.messages.css?onv9q4");
+</style>
+<style type="text/css" media="all">
+@import url("http://drupalet.com/demo/drupal/kami/modules/comment/comment.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/modules/field/theme/field.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/modules/node/node.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/modules/search/search.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/modules/user/user.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/modules/forum/forum.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/sites/all/modules/views/css/views.css?onv9q4");
+</style>
+<style type="text/css" media="all">
+@import url("http://drupalet.com/demo/drupal/kami/sites/all/modules/ctools/css/ctools.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/sites/all/modules/rate/rate.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/sites/all/modules/rate/templates/fivestar/fivestar.css?onv9q4");
+</style>
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Archivo+Narrow%3A400%7COswald%3A400%7COpen+Sans%3A400&amp;amp;subset=latin-ext%2Clatin&amp;amp;ver=1429855347" media="all" />
+<style type="text/css" media="all">
+@import url("http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/css/bbpress.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/css/woocommerce-layout.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/css/woocommerce-smallscreen.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/css/woocommerce.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/css/bootstrap.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/css/font-awesome.min.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/css/flexslider.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/css/bkstyle.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/css/responsive.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/css/jquery.fs.tipper.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/css/justifiedGallery.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/css/magnific-popup.css?onv9q4");
+@import url("http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/css/update.css?onv9q4");
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortlink" href="/demo/drupal/kami/node/47" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="/demo/drupal/kami/404" />
+</head>
+<body class="home page page-template page-template-page_builder page-template-page_builder-php archive post-type-archive post-type-archive-product woocommerce woocommerce-page html not-front not-logged-in no-sidebars page-node page-node- page-node-47 node-type-page">
+<div id="page-wrap" class='boxed'>
+<div id="main-mobile-menu">
+<div class="block">
+<div id="mobile-inner-header"><a class="mobile-menu-close" href="#" title="Close"><i class="fa fa-long-arrow-left"></i></a></div>
+<div class="top-menu">
+<h3 class="menu-location-title">Top Menu</h3>
+<div id="mobile-top-menu" class="menu-top-menu-container">
+</div>
+</div>
+<div class="main-menu">
+<div id="mobile-menu" class="menu-main-menu-container">
+</div>
+</div>
+</div>
+</div>
+<div id="page-inner-wrap">
+<div class="page-cover mobile-menu-close"></div>
+<div class="header-wrap">
+<div class="top-bar">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div id="ticker-wrapper-top" class="ticker-wrapper">
+<div class="bk-container">
+<h3 class="ticker-header">Breaking News</h3>
+<div class="tickercontainer ticker-scroll">
+<div class="block block-views"><div class="view view-content-page view-id-content_page view-display-id-block_breaking_news view-dom-id-78d0a3b7be95039b2cdde99483e13e2a">
+<div class="view-content">
+<div class="mask"> <ul class="ticker"> <li class="">
+<div class="thumb"><img width="400" height="300" src="/demo/drupal/kami/sites/default/files/styles/image_400x300/public/Y51aFguqRcGTgsYRYBXV_20140104_085932--1000x600.jpg?itok=99jkWdsm" class="" alt="SoundCloud format" /></div>
+<h2><a href="/demo/drupal/kami/content/soundcloud-format">SoundCloud format</a></h2> </li>
+<li class="">
+<div class="thumb"><img width="400" height="300" src="/demo/drupal/kami/sites/default/files/styles/image_400x300/public/9242235079_4d4bb81a35_b--485x300_0.jpg?itok=sCCs8v6q" class="" alt=" Curabitur maximus pretium " /></div>
+<h2><a href="/demo/drupal/kami/content/curabitur-maximus-pretium"> Curabitur maximus pretium </a></h2> </li>
+<li class="">
+<div class="thumb"><img width="400" height="300" src="/demo/drupal/kami/sites/default/files/styles/image_400x300/public/9566952856_24435614dd_b--485x300.jpg?itok=pcBflTln" class="" alt=" Nam mollis elit nulla " /></div>
+<h2><a href="/demo/drupal/kami/content/nam-mollis-elit-nulla-0"> Nam mollis elit nulla </a></h2> </li>
+<li class="">
+<div class="thumb"><img width="400" height="300" src="/demo/drupal/kami/sites/default/files/styles/image_400x300/public/2627661222_8b4fd81842_o--960x600.jpg?itok=yv5aiKUQ" class="" alt="Aliquam at erat laoreet" /></div>
+<h2><a href="/demo/drupal/kami/content/aliquam-erat-laoreet">Aliquam at erat laoreet</a></h2> </li>
+<li class="">
+<div class="thumb"><img width="400" height="300" src="/demo/drupal/kami/sites/default/files/styles/image_400x300/public/8486953370_3c39f233f6_b--485x300_0.jpg?itok=9MXzDoSt" class="" alt="Suspendisse sit amet aliquam est" /></div>
+<h2><a href="/demo/drupal/kami/content/suspendisse-sit-amet-aliquam-est">Suspendisse sit amet aliquam est</a></h2> </li>
+</ul></div> </div>
+</div></div>
+</div>
+</div>
+</div>
+<div class="block block-menu"><nav class="top-nav clearfix"><div id="top-menu" class="menu-top-menu-container"><ul class="sub-menu"><li class="first expanded"><a href="/demo/drupal/kami/" title="">Blog Layout</a><ul class="sub-menu"><li class="first leaf"><a href="/demo/drupal/kami/blog-category/fashion?style=0" title="">Blog Small</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/blog" title="">Large Blog</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/blog-category/fashion?style=1" title="">Row Two Cols</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/blog-category/fashion?style=2" title="">Row Three Cols</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/blog-category/fashion?style=5" title="">Windows Three Cols</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/blog-category/fashion?style=4" title="">Windows Two Cols ( Full Width )</a></li>
+<li class="last leaf"><a href="/demo/drupal/kami/blog-category/fashion?style=3" title="">Windows Two Cols</a></li>
+</ul></li>
+<li class="expanded"><a href="/demo/drupal/kami/" title="">Post Formats</a><ul class="sub-menu"><li class="first leaf"><a href="/demo/drupal/kami/content/eq-tower" title="">Gallery Post Format</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/content/fullwidth-parallax-featured-image" title="">Parallax Post</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/content/soundcloud-format" title="">Soundclound</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/content/standard-post" title="">Standard Post</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/content/arcu-dictum-habitasse-lacus" title="">Vimeo</a></li>
+<li class="last leaf"><a href="/demo/drupal/kami/content/curabitur-maximus-pretium" title="">Youtube</a></li>
+</ul></li>
+<li class="expanded active-trail"><a href="/demo/drupal/kami/" title="" class="active-trail">Pages</a><ul class="sub-menu"><li class="first leaf active-trail"><a href="/demo/drupal/kami/404" title="" class="active-trail active">404</a></li>
+<li class="last leaf"><a href="/demo/drupal/kami/blog" title="">Blog</a></li>
+</ul></li>
+<li class="last expanded"><a href="/demo/drupal/kami/" title="">Shortcodes</a><ul class="sub-menu"><li class="first leaf"><a href="/demo/drupal/kami/sc-in-content" title="">SC in Content Section</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/sc-in-fullwidth" title="">SC in FW Content Section</a></li>
+<li class="last leaf"><a href="/demo/drupal/kami/sc-in-small" title="">SC in Small Content Section</a></li>
+</ul></li>
+</ul></div></nav></div>
+</div>
+</div>
+</div>
+</div>
+<div class="header container">
+<div class="header-inner">
+<div class="logo">
+<h1>
+<a href="http://drupalet.com/demo/drupal/kami">
+<img src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/logo.png" alt="logo" />
+</a>
+</h1>
+</div>
+<div class="header-banner">
+<div class="block block-imageblock"> <div class="block-image">
+<img class="imageblock-image" typeof="foaf:Image" src="http://drupalet.com/demo/drupal/kami/sites/default/files/imageblock/Banner_Image.jpg" alt="ads" /> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="main-nav">
+<div class="main-nav-container container clearfix">
+<div class="mobile-menu-wrap">
+<a class="mobile-nav-btn" id="nav-open-btn"><i class="fa fa-bars"></i></a>
+</div>
+<div class="block block-system block-menu"><div id="main-menu" class="menu-main-menu-container"><ul class="menu"><li class="first leaf"><a href="/demo/drupal/kami/" title="">Home Page</a></li>
+<li class="expanded"><a href="/demo/drupal/kami/" title="">Features</a><ul class="menu"><li class="first expanded"><a href="/demo/drupal/kami/" title="">Page Demo</a><ul class="menu"><li class="first leaf"><a href="/demo/drupal/kami/" title="">Homepage Demo 1</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/homepage-demo-2" title="">Homepage Demo 2</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/homepage-demo-3">Homepage Demo 3</a></li>
+<li class="last leaf"><a href="/demo/drupal/kami/homepage-demo-4">Homepage Demo 4</a></li>
+</ul></li>
+<li class="expanded"><a href="/demo/drupal/kami/" title="">Blog Layout</a><ul class="menu"><li class="first leaf"><a href="/demo/drupal/kami/blog-category/fashion?style=0" title="">Blog Small</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/blog" title="">Large Blog</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/blog-category/fashion?style=2" title="">Row Three Cols</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/blog-category/fashion?style=1" title="">Row Two Cols</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/blog-category/fashion?style=5" title="">Windows Three Cols</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/blog-category/fashion?style=4" title="">Windows Two Cols ( Full Width )</a></li>
+<li class="last leaf"><a href="/demo/drupal/kami/blog-category/fashion?style=3" title="">Windows Two Cols</a></li>
+</ul></li>
+<li class="expanded"><a href="/demo/drupal/kami/" title="">Single Page</a><ul class="menu"><li class="first leaf"><a href="/demo/drupal/kami/content/standard-post" title="">Features Image Fullwidth</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/content/fullwidth-parallax-featured-image" title="">Fullwidth Parallax</a></li>
+<li class="last leaf"><a href="/demo/drupal/kami/content/standard-post?fw=1" title="">Fullwidth Post</a></li>
+</ul></li>
+<li class="last expanded"><a href="/demo/drupal/kami/" title="">Post Formats</a><ul class="menu"><li class="first leaf"><a href="/demo/drupal/kami/content/eq-tower" title="">Gallery Post Format</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/content/fullwidth-parallax-featured-image" title="">Parallax Post</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/content/soundcloud-format">Soundclound</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/content/standard-post" title="">Standard Post</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/content/arcu-dictum-habitasse-lacus" title="">Vimeo</a></li>
+<li class="last leaf"><a href="/demo/drupal/kami/content/curabitur-maximus-pretium" title="">Youtube</a></li>
+</ul></li>
+</ul></li>
+<li class="expanded"><a href="/demo/drupal/kami/" title="">Dropdown</a><ul class="menu"><li class="first leaf"><a href="/demo/drupal/kami/blog-category/game" title="">Game</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/blog-category/education" title="">Education</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/blog-category/fashion" title="">Fashion</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/blog-category/music" title="">Music</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/blog-category/life-style" title="">Life Style</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/blog-category/sport" title="">Sport</a></li>
+<li class="last leaf"><a href="/demo/drupal/kami/blog-category/technology" title="">Technology</a></li>
+</ul></li>
+<li class="leaf"><a href="/demo/drupal/kami/product-catalog" title="">Shop</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/forum" title="">Forums</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/contact" title="">Contact Us</a></li>
+<li class="last leaf"><a href="/demo/drupal/kami/cart" title="">Shopping Cart</a></li>
+</ul></div></div>
+</div>
+</nav>
+<div class="header-below">
+<div class="container">
+<div class="header-below-wrap">
+<div class="block block-multiblock block-main-search"><form action="/demo/drupal/kami/sites/all/themes/cami/fonts/WooCommerce.svg" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+<h2 class="element-invisible">Search form</h2>
+<div class="form-item form-type-textfield form-item-search-block-form">
+<input title="Enter the terms you wish to search for." id="mod-search-searchword" onblur="if (this.value == &#039;&#039;) {this.value = &#039;Search&#039;;}" onfocus="if (this.value == &#039;Search&#039;) {this.value = &#039;&#039;;}" type="text" name="search_block_form" value="Search" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Qbkvx_jHIcFq5i1oa9k-4PAWbvPsaO7NrtmcEQeYxWY" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form></div><div class="block block-block header-social"><ul class="clearfix"><li class="fb"><a class="bk-tipper-bottom" data-title="Facebook" href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+<li class="twitter"><a class="bk-tipper-bottom" data-title="Twitter" href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+<li class="gplus"><a class="bk-tipper-bottom" data-title="Google Plus" href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+<li class="linkedin"><a class="bk-tipper-bottom" data-title="Linkedin" href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+<li class="pinterest"><a class="bk-tipper-bottom" data-title="Pinterest" href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+<li class="instagram"><a class="bk-tipper-bottom" data-title="Instagram" href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+<li class="dribbble"><a class="bk-tipper-bottom" data-title="Dribbble" href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+<li class="youtube"><a class="bk-tipper-bottom" data-title="Youtube" href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+<li class="vimeo"><a class="bk-tipper-bottom" data-title="Vimeo" href="#" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
+<li class="vk"><a class="bk-tipper-bottom" data-title="VKontakte" href="#" target="_blank"><i class="fa fa-vk"></i></a></li>
+<li class="rss"><a class="bk-tipper-bottom" data-title="Rss" href="#" target="_blank"><i class="fa fa-rss"></i></a></li>
+</ul></div>
+</div>
+</div>
+<div id="back-top"><i class="fa fa-long-arrow-up"></i></div>
+</div>
+<div id="page-content-wrap">
+<div class="has-sb has-sbinner bksection container">
+<div class="row">
+<div class="content-wrap col-md-12">
+<div class="row">
+<div class="content col-md-12"><div class="block block-system"><div id="node-47" class="node node-page clearfix" about="/demo/drupal/kami/404" typeof="foaf:Document">
+<span property="dc:title" content="404" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+<div class="content">
+<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="bk-404-header">
+<section class="error-number"><h4>404</h4>
+<p> </p></section><h1 class="bk-error-title">Page not found</h1>
+</div>
+</div></div></div> </div>
+</div>
+</div><div class="block block-multiblock block-main-search"><form action="/demo/drupal/kami/sites/all/themes/cami/fonts/WooCommerce.svg" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div class="container-inline">
+<h2 class="element-invisible">Search form</h2>
+<div class="form-item form-type-textfield form-item-search-block-form">
+<input title="Enter the terms you wish to search for." id="mod-search-searchword" onblur="if (this.value == &#039;&#039;) {this.value = &#039;Search&#039;;}" onfocus="if (this.value == &#039;Search&#039;) {this.value = &#039;&#039;;}" type="text" name="search_block_form" value="Search" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-OYY77Zq2u6l0YasMkzXapBP2ScFbC9WIyeP5i26Q8EA" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form></div><div class="block block-block"><div class="redirect-home">
+<i class="fa fa-home"></i>
+<a href="http://drupalet.com/demo/drupal/kami">Back to Homepage</a>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="footer-content clearfix container">
+<div class="row">
+<div class="footer-sidebar col-md-4">
+<aside class="block block-imageblock footer-logo"> <div class="block-image">
+<a href="/demo/drupal/kami/%23" class="imageblock-link" target="_blank"><img class="imageblock-image" typeof="foaf:Image" src="http://drupalet.com/demo/drupal/kami/sites/default/files/imageblock/logobackground1.png" alt="" /></a> </div>
+<div class="block-body">
+<p>Dui viverra Faucibus aliquet quis phasellus accumsan. Donec et facilisis sociosqu sed tortor elit eu aliquid turpis ridiculus, dictum augue sapien. Taciti natoque cubilia nulla parturient senectus egestas ullamcorper. Placerat et rhoncus hendrerit</p>
+</div>
+</aside><aside class="block block-block widget widget_flickr"><div class="widget-title-wrap"><div class="bk-header"><div class="widget-title"><h3>Photos</h3></div></div></div><ul class="flickr clearfix" id="flickr-widget" data-idflick="115097845@N04" data-number="12"></ul></aside>
+</div>
+<div class="footer-sidebar col-md-4">
+<aside class="block block-views widget widget_most_commented"><div class="widget-title-wrap"><div class="bk-header"><div class="widget-title"><h3>Most commented</h3></div></div></div><div class="view view-content-page view-id-content_page view-display-id-block_most_comment view-dom-id-8f730ab71314311a9ba60baab2a219f9">
+<div class="view-content">
+<ul class="list post-list row"> <li class="item content-in col-md-12 clearfix">
+<div class="widget-post-wrap">
+<div class="thumb"><a><img width="360" height="145" src="/demo/drupal/kami/sites/default/files/styles/image_360x145/public/Y51aFguqRcGTgsYRYBXV_20140104_085932--1000x600.jpg?itok=En02KkA_" class="attachment-bk485_300 " alt="SoundCloud format" /></a></div>
+<div class="article-content-wrap">
+<h4 class="title"><a href="/demo/drupal/kami/content/soundcloud-format">SoundCloud format</a></h4>
+<div class="meta-bottom">
+<div class="post-date"><span><i class="fa fa-clock-o"></i></span>Jun 28, 2015</div>
+<div class="meta-comment"><span><i class="fa fa-comments-o"></i></span><a href="index.html#respond">0</a></div>
+</div>
+</div>
+<a class="bk-cover-link" href="/demo/drupal/kami/content/soundcloud-format"></a>
+</div> </li>
+<li class="item content-in col-md-12 clearfix">
+<div class="widget-post-wrap">
+<div class="thumb"><a><img width="360" height="145" src="/demo/drupal/kami/sites/default/files/styles/image_360x145/public/9242235079_4d4bb81a35_b--485x300_0.jpg?itok=Hp5hHBGm" class="attachment-bk485_300 " alt=" Curabitur maximus pretium " /></a></div>
+<div class="article-content-wrap">
+<h4 class="title"><a href="/demo/drupal/kami/content/curabitur-maximus-pretium"> Curabitur maximus pretium </a></h4>
+<div class="meta-bottom">
+<div class="post-date"><span><i class="fa fa-clock-o"></i></span>Jun 25, 2015</div>
+<div class="meta-comment"><span><i class="fa fa-comments-o"></i></span><a href="index.html#respond">0</a></div>
+</div>
+</div>
+<a class="bk-cover-link" href="/demo/drupal/kami/content/curabitur-maximus-pretium"></a>
+</div> </li>
+<li class="item content-in col-md-12 clearfix">
+<div class="widget-post-wrap">
+<div class="thumb"><a><img width="360" height="145" src="/demo/drupal/kami/sites/default/files/styles/image_360x145/public/9566952856_24435614dd_b--485x300.jpg?itok=j8mJ31c6" class="attachment-bk485_300 " alt=" Nam mollis elit nulla " /></a></div>
+<div class="article-content-wrap">
+<h4 class="title"><a href="/demo/drupal/kami/content/nam-mollis-elit-nulla-0"> Nam mollis elit nulla </a></h4>
+<div class="meta-bottom">
+<div class="post-date"><span><i class="fa fa-clock-o"></i></span>Jun 25, 2015</div>
+<div class="meta-comment"><span><i class="fa fa-comments-o"></i></span><a href="index.html#respond">0</a></div>
+</div>
+</div>
+<a class="bk-cover-link" href="/demo/drupal/kami/content/nam-mollis-elit-nulla-0"></a>
+</div> </li>
+</ul> </div>
+</div></aside>
+</div>
+<div class="footer-sidebar col-md-4">
+<aside class="block block-views widget widget-slider"><div class="widget-title-wrap"><div class="bk-header"><div class="widget-title"><h3>Latest in Slider</h3></div></div></div><div class="view view-content-page view-id-content_page view-display-id-block_latest_in_slider view-dom-id-e8146fe88e44ffc3b564f01566675449">
+<div class="view-content">
+<div class="flexslider"> <ul class="slides"> <li class="content-in">
+<div class="thumb"><a><img width="485" height="300" src="/demo/drupal/kami/sites/default/files/styles/image_485x300/public/Y51aFguqRcGTgsYRYBXV_20140104_085932--1000x600.jpg?itok=931iGWQV" alt="SoundCloud format" /></a></div>
+<div class="article-content-wrap">
+<h4 class="title"><a href="/demo/drupal/kami/content/soundcloud-format">SoundCloud format</a></h4>
+<div class="meta-bottom">
+<div class="post-date"><span><i class="fa fa-clock-o"></i></span>Jun 28, 2015</div>
+<div class="meta-comment"><span><i class="fa fa-comments-o"></i></span><a href="">0</a></div>
+</div>
+</div>
+<a class="bk-cover-link" href="/demo/drupal/kami/content/soundcloud-format"></a>
+</li>
+<li class="content-in">
+<div class="thumb"><a><img width="485" height="300" src="/demo/drupal/kami/sites/default/files/styles/image_485x300/public/9242235079_4d4bb81a35_b--485x300_0.jpg?itok=9cYX7WWO" alt=" Curabitur maximus pretium " /></a></div>
+<div class="article-content-wrap">
+<h4 class="title"><a href="/demo/drupal/kami/content/curabitur-maximus-pretium"> Curabitur maximus pretium </a></h4>
+<div class="meta-bottom">
+<div class="post-date"><span><i class="fa fa-clock-o"></i></span>Jun 25, 2015</div>
+<div class="meta-comment"><span><i class="fa fa-comments-o"></i></span><a href="">0</a></div>
+</div>
+</div>
+<a class="bk-cover-link" href="/demo/drupal/kami/content/curabitur-maximus-pretium"></a>
+</li>
+<li class="content-in">
+<div class="thumb"><a><img width="485" height="300" src="/demo/drupal/kami/sites/default/files/styles/image_485x300/public/9566952856_24435614dd_b--485x300.jpg?itok=ZfE5mPrC" alt=" Nam mollis elit nulla " /></a></div>
+<div class="article-content-wrap">
+<h4 class="title"><a href="/demo/drupal/kami/content/nam-mollis-elit-nulla-0"> Nam mollis elit nulla </a></h4>
+<div class="meta-bottom">
+<div class="post-date"><span><i class="fa fa-clock-o"></i></span>Jun 25, 2015</div>
+<div class="meta-comment"><span><i class="fa fa-comments-o"></i></span><a href="">0</a></div>
+</div>
+</div>
+<a class="bk-cover-link" href="/demo/drupal/kami/content/nam-mollis-elit-nulla-0"></a>
+</li>
+<li class="content-in">
+<div class="thumb"><a><img width="485" height="300" src="/demo/drupal/kami/sites/default/files/styles/image_485x300/public/2627661222_8b4fd81842_o--960x600.jpg?itok=Y7ET12Na" alt="Aliquam at erat laoreet" /></a></div>
+<div class="article-content-wrap">
+<h4 class="title"><a href="/demo/drupal/kami/content/aliquam-erat-laoreet">Aliquam at erat laoreet</a></h4>
+<div class="meta-bottom">
+<div class="post-date"><span><i class="fa fa-clock-o"></i></span>Jun 25, 2015</div>
+<div class="meta-comment"><span><i class="fa fa-comments-o"></i></span><a href="">0</a></div>
+</div>
+</div>
+<a class="bk-cover-link" href="/demo/drupal/kami/content/aliquam-erat-laoreet"></a>
+</li>
+<li class="content-in">
+<div class="thumb"><a><img width="485" height="300" src="/demo/drupal/kami/sites/default/files/styles/image_485x300/public/8486953370_3c39f233f6_b--485x300_0.jpg?itok=C2NjW7YD" alt="Suspendisse sit amet aliquam est" /></a></div>
+<div class="article-content-wrap">
+<h4 class="title"><a href="/demo/drupal/kami/content/suspendisse-sit-amet-aliquam-est">Suspendisse sit amet aliquam est</a></h4>
+<div class="meta-bottom">
+<div class="post-date"><span><i class="fa fa-clock-o"></i></span>Jun 25, 2015</div>
+<div class="meta-comment"><span><i class="fa fa-comments-o"></i></span><a href="">0</a></div>
+</div>
+</div>
+<a class="bk-cover-link" href="/demo/drupal/kami/content/suspendisse-sit-amet-aliquam-est"></a>
+</li>
+</ul></div> </div>
+</div></aside><aside class="block block-block widget widget_text"><div class="widget-title-wrap"><div class="bk-header"><div class="widget-title"><h3>About us</h3></div></div></div><div class="textwidget">
+<ul style="text-align: left; margin-top: 10px;"><li><i class="fa fa-map-marker"></i> 660 Pennsylvania Avenue Southeast #100 Washington, DC 20003 </li>
+<li><i class="fa fa-phone"></i> 0123.456.789 </li>
+<li><i class="fa fa-envelope-o"></i>.team[@]gmail.com</li>
+</ul></div>
+</aside>
+</div>
+</div>
+</div>
+<div class="footer-lower">
+<div class="footer-inner clearfix">
+<div class="bk-copyright">
+© COPYRIGHT DRUPAL. ALL RIGHTS RESERVED. </div>
+<div id="footer-menu" class="menu-footer-menu-container">
+<div class="block block-menu"><ul class="menu"><li class="first leaf"><a href="/demo/drupal/kami/" title="">HomePage</a></li>
+<li class="leaf"><a href="/demo/drupal/kami/" title="">Blog</a></li>
+<li class="last leaf"><a href="/demo/drupal/kami/" title="">About us</a></li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/modules/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.3"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/misc/drupal.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/modules/rate/templates/fivestar/fivestar.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/modules/rate/rate.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/jquery/jquery.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/jquery/jquery-migrate.min.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/comment-reply.min.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/jquery.blockUI.min.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/woocommerce.min.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/jquery.cookie.min.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/cart-fragments.min.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/widget.min.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/core.min.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/tabs.min.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/accordion.min.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/cookie.min.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/imagesloaded.pkgd.min.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/SmoothScroll.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/jquery.flexslider.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/froogaloop2.min.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/modernizr.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/onviewport.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/justifiedGallery.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/jquery.magnific-popup.min.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/jquery.fs.tipper.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/ticker.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/menu.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/customjs.js?onv9q4"></script>
+<script type="text/javascript" src="http://drupalet.com/demo/drupal/kami/sites/all/themes/cami/js/update.js?onv9q4"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/demo\/drupal\/kami\/","pathPrefix":"","ajaxPageState":{"theme":"cami","theme_token":"LoWn9jtJcuzipI5L897iNK5JH0MLe7O6YKs5iIKD_N0","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/rate\/templates\/fivestar\/fivestar.js":1,"sites\/all\/modules\/rate\/rate.js":1,"sites\/all\/themes\/cami\/js\/jquery\/jquery.js":1,"sites\/all\/themes\/cami\/js\/jquery\/jquery-migrate.min.js":1,"sites\/all\/themes\/cami\/js\/comment-reply.min.js":1,"sites\/all\/themes\/cami\/js\/jquery.blockUI.min.js":1,"sites\/all\/themes\/cami\/js\/woocommerce.min.js":1,"sites\/all\/themes\/cami\/js\/jquery.cookie.min.js":1,"sites\/all\/themes\/cami\/js\/cart-fragments.min.js":1,"sites\/all\/themes\/cami\/js\/widget.min.js":1,"sites\/all\/themes\/cami\/js\/core.min.js":1,"sites\/all\/themes\/cami\/js\/tabs.min.js":1,"sites\/all\/themes\/cami\/js\/accordion.min.js":1,"sites\/all\/themes\/cami\/js\/cookie.min.js":1,"sites\/all\/themes\/cami\/js\/imagesloaded.pkgd.min.js":1,"sites\/all\/themes\/cami\/js\/SmoothScroll.js":1,"sites\/all\/themes\/cami\/js\/jquery.flexslider.js":1,"sites\/all\/themes\/cami\/js\/froogaloop2.min.js":1,"sites\/all\/themes\/cami\/js\/modernizr.js":1,"sites\/all\/themes\/cami\/js\/onviewport.js":1,"sites\/all\/themes\/cami\/js\/justifiedGallery.js":1,"sites\/all\/themes\/cami\/js\/jquery.magnific-popup.min.js":1,"sites\/all\/themes\/cami\/js\/jquery.fs.tipper.js":1,"sites\/all\/themes\/cami\/js\/ticker.js":1,"sites\/all\/themes\/cami\/js\/menu.js":1,"sites\/all\/themes\/cami\/js\/customjs.js":1,"sites\/all\/themes\/cami\/js\/update.js":1},"css":{"modules\/system\/system.messages.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/rate\/rate.css":1,"sites\/all\/modules\/rate\/templates\/fivestar\/fivestar.css":1,"http:\/\/fonts.googleapis.com\/css?family=Archivo+Narrow%3A400%7COswald%3A400%7COpen+Sans%3A400\u0026amp;subset=latin-ext%2Clatin\u0026amp;ver=1429855347":1,"sites\/all\/themes\/cami\/css\/bbpress.css":1,"sites\/all\/themes\/cami\/css\/woocommerce-layout.css":1,"sites\/all\/themes\/cami\/css\/woocommerce-smallscreen.css":1,"sites\/all\/themes\/cami\/css\/woocommerce.css":1,"sites\/all\/themes\/cami\/css\/bootstrap.css":1,"sites\/all\/themes\/cami\/css\/font-awesome.min.css":1,"sites\/all\/themes\/cami\/css\/flexslider.css":1,"sites\/all\/themes\/cami\/css\/bkstyle.css":1,"sites\/all\/themes\/cami\/css\/responsive.css":1,"sites\/all\/themes\/cami\/css\/jquery.fs.tipper.css":1,"sites\/all\/themes\/cami\/css\/justifiedGallery.css":1,"sites\/all\/themes\/cami\/css\/magnific-popup.css":1,"sites\/all\/themes\/cami\/css\/update.css":1}},"rate":{"basePath":"\/demo\/drupal\/kami\/rate\/vote\/js","destination":"sites\/all\/themes\/cami\/fonts\/WooCommerce.svg"}});
+//--><!]]>
+</script>
+</body>
+</html>

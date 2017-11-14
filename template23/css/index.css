@@ -1,0 +1,96 @@
+/* ::::: http://www.fjnews01.cn/style/css/main.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; }
+img { border: 0px none; vertical-align: middle; overflow: hidden; }
+body a { outline: medium none; }
+body { text-align: center; height: 100%; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 12px; font-style: normal; line-height: 30px; font-weight: normal; font-variant: normal; }
+div { text-align: left; overflow: hidden; }
+a { text-decoration: none; color: rgb(0, 0, 0); }
+a:hover { text-decoration: underline; color: rgb(255, 0, 0); }
+a:active { outline: medium none; }
+* { margin: 0px; padding: 0px; }
+li { white-space: nowrap; list-style: outside none none; overflow: hidden; }
+.top { height: 70px; width: 1000px; margin: 0px auto; }
+.top_in { height: 70px; width: 1000px; position: relative; z-index: 1; }
+.top_logo { height: 70px; width: 276px; position: absolute; z-index: 2; left: 0px; top: 0px; }
+.top_t { height: 61px; width: 200px; position: absolute; z-index: 2; left: 300px; top: 0px; padding-top: 9px; }
+.top_t li { line-height: 30px; float: left; height: 25px; width: 200px; }
+.top_n { height: 55px; width: 200px; position: absolute; z-index: 2; right: 0px; top: 0px; padding-top: 15px; }
+.top_n li { display: inline; float: left; height: 35px; width: 98px; text-align: center; margin-right: 2px; padding-top: 5px; }
+.a1 { background-color: rgb(0, 204, 255); }
+.a2 { background-color: rgb(255, 153, 0); }
+.top_n a { text-decoration: none; color: rgb(255, 255, 255); }
+.top_n a:hover { text-decoration: none; color: rgb(255, 255, 255); }
+.top_s { height: 70px; width: 280px; position: absolute; z-index: 2; top: 0px; left: 510px; }
+.so_b { line-height: 25px; background-color: rgb(255, 255, 255); float: left; height: 25px; width: 230px; border: 1px solid rgb(204, 204, 204); position: absolute; z-index: 2; left: 0px; top: 22px; padding-left: 10px; }
+.so_bt { cursor: pointer; line-height: 27px; height: 27px; width: 30px; border: 1px none rgb(204, 204, 204); position: absolute; top: 22px; right: 0px; background: rgba(0, 0, 0, 0) url('/template23/images/soo.jpg') no-repeat scroll 0% 0%; }
+.nav { background-color: rgb(180, 1, 1); height: 50px; width: 100%; margin: 5px auto 0px; font-size: 20px; }
+.nav_n { font-family: "微软雅黑","SimHei"; height: 50px; width: 1000px; line-height: 50px; background-color: rgb(168, 1, 1); }
+.nav_n { margin: 0px auto; text-align: center; }
+.nav a { text-decoration: none; color: rgb(255, 255, 255); padding-right: 30px; padding-left: 1px; }
+.nav a:hover { text-decoration: none; color: rgb(255, 255, 255); background-color: rgb(142, 2, 2); }
+.n_l { font-size: 12px; line-height: 30px; background-color: rgb(240, 240, 240); height: 30px; width: 1000px; margin: 10px auto 0px; }
+.n_2 { font-size: 12px; line-height: 30px; background-color: rgb(240, 240, 240); height: 30px; width: 1000px; margin: 0px auto 15px; }
+.ad_1000 { height: 90px; width: 1000px; margin: 10px auto; }
+.n_l ul, .n_2 ul { padding-left: 25px; overflow: hidden; }
+.n_l li, .n_2 li { display: inline; float: left; padding-right: 30px; }
+.index { height: 330px; width: 1000px; margin: 15px auto 0px; }
+.index_a { height: 330px; width: 1000px; position: relative; z-index: 1; }
+.fs_G2 { height: 330px; width: 660px; position: absolute; z-index: 3; left: 0px; top: 0px; overflow: hidden; }
+.fs_G2 .G2fBt { position: absolute; top: 258px; left: 300px; }
+.fs_G2 .fcon { position: relative; height: 330px; width: 660px; float: left; }
+.fs_G2 .shadow { width: 660px; position: absolute; bottom: 0px; left: 0px; height: 80px; display: block; line-height: 28px; text-align: left; background-image: url('/template23/images/blackbg.png'); background-repeat: repeat; }
+.fs_G2 .shadow a { text-decoration: none; color: rgb(255, 255, 255); font-size: 16px; overflow: hidden; float: left; width: 250px; margin: 8px 0px 0px 15px; }
+.fs_G2 .G2fBt li { float: left; font-size: 12px; margin-right: 2px; display: inline; width: 110px; height: 60px; padding: 2px; cursor: pointer; overflow: hidden; }
+.fs_G2 .G2fBt li img { display: block; width: 100px; height: 50px; border: 5px solid rgb(219, 220, 222); }
+.fs_G2 .G2fBt li.current { cursor: pointer; }
+.fs_G2 .G2fBt li.current img { border: 5px solid rgb(244, 156, 4); }
+.fs_G2 .fcon img { height: 330px; width: 660px; display: block; }
+.fs_G2 .fPs { height: 330px; position: relative; overflow: hidden; width: 660px; }
+.fs_G2 .fPic { position: absolute; }
+.G2Num { position: absolute; z-index: 10; color: rgb(204, 204, 204); top: 14px; left: 305px; font-family: Arial; display: none; }
+#curNum { color: rgb(255, 168, 0); }
+.fs_G2 .fix { position: relative; width: 9999px; height: 360px; }
+.tou { height: 330px; width: 325px; border-top: 4px solid rgb(153, 0, 0); position: absolute; z-index: 2; top: 0px; right: 0px; }
+.tou ul { height: 60px; width: 330px; margin-top: 15px; overflow: hidden; }
+.tou li { display: inline; float: left; height: 60px; width: 160px; margin-right: 4px; }
+.t_news { height: 50px; width: 325px; margin: 15px auto 0px; }
+.t_news ol { height: 50px; width: 330px; overflow: hidden; }
+.t_news ol li { display: inline; float: left; height: 50px; width: 50px; margin-right: 5px; }
+.t_ad { height: 170px; width: 325px; margin: 16px auto 0px; }
+h2 { font-family: "微软雅黑","SimHei"; font-size: 20px; line-height: 35px; height: 35px; width: auto; border-bottom: 1px solid rgb(204, 204, 204); }
+h2 span { font-size: 12px; font-weight: normal; float: right; padding-right: 5px; }
+h2 span a { text-decoration: none; color: rgb(102, 102, 102); padding-right: 6px; padding-left: 6px; }
+h2 span a:hover { text-decoration: underline; color: rgb(255, 0, 0); }
+h2 a { text-decoration: none; color: rgb(216, 4, 4); }
+h2 a:hover { text-decoration: underline; color: rgb(255, 0, 0); }
+.wen { height: 533px; width: 1000px; margin: 20px auto 0px; }
+.wen660 { float: left; height: 533px; width: 659px; margin: 0px auto 0px 0px; border-right: 1px solid rgb(204, 204, 204); }
+.wen660 ul { font-family: "微软雅黑","SimHei"; background-color: rgb(255, 255, 255); font-size: 18px; font-weight: bold; line-height: 22px; }
+.wen660 ul li { height: 93px; width: 640px; border-bottom: 1px solid rgb(204, 204, 204); text-align: left; padding-bottom: 15px; padding-top: 15px; }
+.wen660 img { height: 93px; width: 140px; float: left; margin-right: 15px; }
+.wen660 p { font-size: 14px; line-height: 22px; color: rgb(102, 102, 102); font-weight: normal; white-space: normal; padding-top: 7px; }
+.wen325 { float: right; height: 533px; width: 325px; margin: 0px 0px 0px auto; }
+.wen325 { border-top: 4px solid rgb(153, 0, 0); padding-top: 5px; }
+.wen325 h2 span a:hover { width: 325px; font-size: 12px; font-weight: normal; float: right; padding-right: 5px; color: rgb(0, 0, 0); }
+.wen325_tu { height: 220px; width: 325px; margin: 15px auto; position: relative; z-index: 1; font-size: 14px; }
+.wen325_tu img { height: 220px; width: 325px; }
+.wen325_t { background: rgba(0, 0, 0, 0) url('/template23/images/blackbg.png') repeat scroll 0% 0%; text-align: center; height: 35px; width: 325px; position: absolute; z-index: 2; left: 0px; top: 185px; line-height: 35px; }
+.wen325_t a { text-decoration: none; color: rgb(255, 255, 255); }
+.wen325_t a:hover { text-decoration: none; color: rgb(255, 255, 255); }
+.wen325 li { font-size: 14px; }
+.link { height: 280px; width: 1000px; margin: 1px auto 0px; border-top: 4px solid rgb(153, 0, 0); }
+.link span { font-family: "微软雅黑","SimHei"; font-size: 20px; line-height: 35px; height: 35px; width: auto; color: rgb(153, 0, 0); font-weight: bold; }
+.link ul { overflow: hidden; width: 1000px; }
+.link ul li { display: inline; float: left; margin-right: 10px; }
+.bottom { background-color: rgb(222, 220, 220); border-top: 1px solid rgb(204, 204, 204); height: 200px; width: 100%; margin: 20px auto 0px; }
+.bottom_a { height: 180px; width: 1000px; margin: 15px auto 0px; }
+.b670 { float: left; height: auto; width: 670px; margin: 0px auto 0px 0px; }
+.b670 ul { display: block; float: left; height: auto; width: 80px; border-left: 1px solid rgb(204, 204, 204); padding-top: 10px; margin: 0px 30px 0px 0px; padding-left: 20px; }
+.b670 li { font-family: 微软雅黑; font-size: 15px; }
+.b670 p { display: inline; float: left; margin-left: 20px; visibility: hidden; }
+.b310 { float: right; height: auto; width: 310px; margin: 0px 0px 0px auto; }
+.b310 ul {  }
+.ban { font-size: 14px; line-height: 40px; background-color: rgb(0, 0, 0); height: 40px; width: 100%; margin: 0px auto; }
+.ban_a { font-family: 微软雅黑; height: 40px; width: 1000px; margin: 0px auto; background: rgba(0, 0, 0, 0) url('/template23/images/zw_a.jpg') no-repeat scroll 0% 0%; text-align: right; color: rgb(217, 217, 217); }
+.ban_a span { padding-right: 10px; padding-left: 10px; }

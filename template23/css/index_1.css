@@ -1,0 +1,14 @@
+/* ::::: http://img.cxmx.com.cn/static/css/mobile.css ::::: */
+
+body { margin: auto 0px; font-size: 12px; }
+img { width: 48px; height: 48px; }
+.cc30 { color: rgb(204, 51, 0); font-family: Arial; }
+.c390 { color: rgb(51, 153, 0); font-family: Arial; margin-right: 10px; }
+img { border: 0px solid black; }
+a { text-decoration: none; color: black; font-family: ����; cursor: pointer; }
+#mobile1 { height: 25px; line-height: 25px; cursor: pointer; width: 960px; overflow: hidden; }
+#mobile1 a { padding-right: 5px; color: rgb(0, 0, 0); }
+#mobile1 div { float: left; margin-right: 10px; }
+#mobile1 .divForecastWeather { padding-right: 3px; }
+#mobile1 .divCurrentWeather { padding-right: 3px; }
+.cityname { height: 22px; line-height: 25px; }

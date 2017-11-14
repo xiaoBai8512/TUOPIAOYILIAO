@@ -1,0 +1,76 @@
+/* ::::: http://www.it.acsjw.cn/templets/default/pic/style.css ::::: */
+
+body { margin: 0px; padding: 0px; border: 0px none; font-family: "微软雅黑"; font-size: 12px; color: rgb(34, 34, 34); background: rgb(22, 160, 167) none repeat scroll 0% 0%; }
+div, form, img, ul, ol, li, dl, dt, dd, p, textarea, input, td { margin: 0px; padding: 0px; border: 0px none; }
+li, dl { list-style-type: none; }
+h1, h2 { margin: 0px; padding: 0px; border: 0px none; font-weight: normal; }
+a { text-decoration: none; }
+.txt4 { color: rgb(0, 0, 0); text-decoration: none; font-size: 20px; font-weight: bold; }
+a.txt4:hover { color: rgb(0, 0, 0); text-decoration: underline; }
+.txt5 { color: rgb(34, 34, 34); text-decoration: none; font-size: 14px; }
+a.txt5:hover { color: rgb(34, 34, 34); text-decoration: underline; }
+.txt6 { color: rgb(34, 34, 34); text-decoration: none; font-size: 15px; }
+a.txt6:hover { color: rgb(255, 0, 0); text-decoration: none; }
+.txt7 { color: rgb(255, 255, 255); text-decoration: none; }
+a.txt7:hover { color: rgb(255, 255, 255); text-decoration: underline; }
+.head { width: 100%; background: rgb(45, 36, 36) none repeat scroll 0% 0%; padding-bottom: 15px; float: left; }
+.header { width: 1200px; margin: 0px auto; }
+.menu { width: 1200px; float: left; height: 50px; }
+.menu img { float: left; padding: 13px 20px 19px 0px; }
+#nav { width: 1200px; float: left; font-size: 14px; margin-top: 10px; }
+#nav ul li { float: left; background: rgba(0, 0, 0, 0) url('/template22/images/line.png') no-repeat scroll right top; height: 50px; width: 100px; line-height: 50px; text-align: center; }
+#nav ul li a { color: rgb(255, 255, 255); text-decoration: none; display: block; width: 100px; line-height: 50px; height: 50px; font-size: 18px; margin-top: 5px; font-weight: bold; }
+#nav ul li a:hover { color: rgb(228, 7, 119); background: rgb(247, 242, 242) none repeat scroll 0% 0%; display: block; width: 100px; line-height: 50px; height: 50px; }
+.container { width: 1200px; margin: 0px auto; }
+.s2 { width: 290px; float: left; }
+.ad1 { width: 275px; padding: 15px 0px 15px 15px; float: left; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.clm2 { width: 1200px; float: left; }
+.s3 { width: 275px; float: left; padding-right: 15px; }
+.xinshang { width: 245px; float: left; padding: 15px; margin-bottom: 15px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.xinshang_title { font-size: 20px; color: rgb(0, 0, 0); width: 245px; float: left; font-weight: bold; }
+.xinshang_list { width: 245px; float: left; }
+.xinshang_list li { width: 245px; padding: 15px 0px; border-bottom: 1px solid rgb(225, 225, 225); float: left; }
+.xinshang_list li img { width: 70px; height: 60px; }
+.xinshang_list img { float: left; padding-right: 10px; }
+.xinshang_list p { width: 165px; float: left; line-height: 18px; }
+.xinshang_list span { width: 165px; color: rgb(170, 170, 170); padding-top: 5px; float: left; }
+.ad2 { width: 250px; float: left; padding: 13px 12px 13px 13px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; margin-bottom: 15px; }
+.s4 { width: 605px; float: left; padding-right: 15px; }
+.content { width: 575px; float: left; background: rgb(255, 255, 255) none repeat scroll 0% 0%; padding: 15px; }
+.content_list { width: 575px; float: left; }
+.content_list li { width: 575px; float: left; border-bottom: 1px solid rgb(225, 225, 225); padding-bottom: 18px; margin-bottom: 20px; }
+.content_list h1 { width: 575px; padding-bottom: 5px; float: left; }
+.content_list li img { width: 575px; }
+.content_list span { float: left; padding: 0px 10px 10px 0px; color: rgb(170, 170, 170); }
+.content_list span a { color: rgb(128, 128, 128); text-decoration: none; }
+.content_list img { float: left; padding-bottom: 8px; }
+.content_list p { width: 575px; float: left; color: rgb(51, 51, 51); line-height: 22px; font-size: 15px; }
+.ad3 { width: 270px; padding: 15px 5px 5px 15px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; float: left; margin-bottom: 15px; }
+.ad3 img { float: left; }
+.hot { width: 260px; float: left; padding: 15px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; margin-bottom: 15px; }
+.hot_title { width: 260px; float: left; color: rgb(0, 0, 0); font-size: 20px; font-weight: bold; }
+.hot_list { width: 260px; float: left; }
+.hot_list li { width: 248px; float: left; line-height: 38px; border-bottom: 1px solid rgb(225, 225, 225); background: rgba(0, 0, 0, 0) url('/template22/images/d_a.jpg') no-repeat scroll left center; padding-left: 12px; }
+.hot_list li:hover { background: rgba(0, 0, 0, 0) url('/template22/images/d_hover.jpg') no-repeat scroll left center; }
+.foot { width: 100%; background: rgb(47, 42, 42) none repeat scroll 0% 0%; clear: both; float: left; padding: 25px 0px 20px; margin-top: 45px; }
+.footer { width: 1200px; margin: 0px auto; }
+.footer_left { width: 950px; float: left; padding-right: 20px; }
+.nav { width: 950px; float: left; }
+.nav li { float: left; }
+.nav a { float: left; }
+.nav span { padding: 0px 9px; float: left; color: rgb(255, 255, 255); }
+.copy { width: 950px; float: left; }
+.copy p { color: rgb(255, 255, 255); padding: 5px 0px 10px; }
+.link { width: 950px; float: left; }
+.link span { float: left; color: rgb(0, 0, 0); }
+.link li { float: left; padding-right: 10px; }
+.link li a { color: rgb(255, 255, 255); text-decoration: none; }
+.link li a:hover { text-decoration: underline; }
+.footer_icon { width: 230px; float: left; }
+.footer_icon li { float: left; padding-right: 12px; }
+#returnTop { position: fixed; z-index: 999; right: 15px; bottom: -200px; width: 36px; height: 83px; text-indent: -999px; overflow: hidden; background-image: url('/template22/images/top.png'); background-repeat: no-repeat; background-position: 0px 0px; transition: bottom 0.9s ease 0s; }
+#returnTop:hover { background-position: 0px -83px; }
+.dede_pages ul { position: relative; left: 50%; float: left; }
+.dede_pages ul li { position: relative; right: 50%; display: inline; float: left; margin: 0px 5px; padding: 5px 10px; background: rgb(204, 204, 204) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+.dede_pages ul li a { color: rgb(255, 255, 255); }
+.dede_pages ul li a:hover { text-decoration: underline; color: rgb(255, 102, 0); background: rgb(66, 139, 202) none repeat scroll 0% 0%; }

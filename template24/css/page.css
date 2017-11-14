@@ -1,0 +1,104 @@
+/* ::::: http://www.biznewscn.com/templets/css/news2013.css ::::: */
+
+.list_text li, .search .bar, .focus .list li, .list_dd li, .mod_03 .bd li, .slide .prev, .slide .next { background: rgba(0, 0, 0, 0) url('/template24/images/sp2013.gif') no-repeat scroll 0px 0px; }
+.grid_k01 .main_wrap { margin: 0px 290px 0px 480px; }
+.grid_k01 .col_sub { width: 460px; margin-left: -100%; }
+.grid_k01 .col_extra { width: 270px; margin-left: -270px; }
+.grid_k02 .main_wrap { margin: 0px 280px 0px 0px; width: 920px; overflow: hidden; }
+.grid_k02 .col_sub { width: 270px; margin-left: -270px; }
+.mod_01 { border-width: 2px 1px 1px; border-style: solid; border-color: rgb(4, 76, 130) rgb(207, 207, 207) rgb(207, 207, 207); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.mod_01 .hd { border-bottom: 1px solid rgb(207, 207, 207); background: rgba(0, 0, 0, 0) url('/template24/images/sp_repeat_x_2013.gif') repeat-x scroll 0px -64px; height: 29px; line-height: 29px; padding: 0px 8px; }
+.mod_02 {  }
+.mod_02 .hd { border-bottom: 1px solid rgb(207, 207, 207); }
+.mod_02 .hd li { float: left; padding: 0px 12px; height: 32px; line-height: 32px; font-size: 14px; font-weight: bold; }
+.mod_02 .hd .selected { position: relative; padding-left: 11px; padding-right: 11px; border-top: 2px solid rgb(4, 76, 130); height: 31px; line-height: 28px; margin-bottom: -1px; background-color: rgb(255, 255, 255); border-left: 1px solid rgb(207, 207, 207); border-right: 1px solid rgb(207, 207, 207); }
+.wp { width: 930px; overflow: hidden; }
+.mod_03 { float: left; width: 455px; display: inline; margin-right: 10px; }
+.mod_03 .hd { border-top: 5px solid rgb(211, 211, 211); border-bottom: 1px solid rgb(211, 211, 211); font-size: 16px; padding: 7px 3px; color: rgb(51, 51, 51); }
+.mod_03 .hd .more { display: inline; margin: 4px 0px 0px; font-size: 12px; }
+.mod_03 .hd .more a { margin-left: 8px; }
+.mod_03 .bd { padding: 5px 9px; height: 234px; }
+.mod_03 .bd li { padding-left: 12px; background-position: -853px -253px; font-size: 14px; line-height: 24px; height: 24px; overflow: hidden; }
+.mod_03 .bd .inner { padding: 10px 10px 10px 100px; }
+.mod_03 .bd .topic { font-size: 16px; font-weight: bold; padding: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; margin-bottom: 3px; }
+.mod_03 .bd .img { width: 100px; float: left; display: inline; margin: 4px 15px 0px -100px; font-size: 12px; height: auto; padding-left: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; }
+.mod_03 .bd .img .title { margin-top: 5px; display: block; line-height: 18px; height: 36px; overflow: hidden; cursor: pointer; }
+.mod_03 .bd .img img { vertical-align: top; width: 100px; height: 100px; }
+.mod_03 .bd .ft { border-top: 1px dotted rgb(204, 204, 204); padding-top: 8px; }
+.ft li { width: 415px; float: left; height: 24px; line-height: 24px; overflow: hidden; }
+.list_text { padding: 8px 12px 11px; }
+.list_text li { line-height: 26px; height: 26px; overflow: hidden; font-size: 14px; padding-left: 12px; background-position: -853px -253px; }
+.adv { margin-top: 10px; padding: 5px 10px; border: 1px solid rgb(204, 204, 204); }
+.adv img { display: block; margin: 5px 0px; vertical-align: top; }
+.focus {  }
+.focus h2 { font-size: 18px; font-weight: bold; text-align: center; height: 27px; overflow: hidden; }
+.focus h2 a { color: rgb(204, 0, 0); }
+.focus h2 a:hover { color: rgb(221, 0, 0); }
+.focus .inner li { float: left; width: 200px; display: inline; margin-right: 10px; line-height: 22px; overflow: hidden; height: 22px; }
+.focus .inner { margin-top: 5px; }
+.focus .list { padding-top: 6px; margin-top: 8px; font-size: 14px; border-top: 1px dotted rgb(204, 204, 204); }
+.focus .list li { line-height: 27px; height: 27px; overflow: hidden; padding-left: 12px; background-position: -853px -253px; }
+.list_pic { padding: 10px 0px 10px 5px; }
+.list_pic li { float: left; width: 100px; margin: 8px 16px; display: inline; }
+.list_pic .tit { display: block; height: 32px; line-height: 16px; color: rgb(51, 102, 204); margin-top: 4px; overflow: hidden; cursor: pointer; }
+.list_pic a:hover .tit { color: rgb(221, 0, 0); text-decoration: underline; }
+.list_pic img { vertical-align: top; }
+.list_ph { padding: 5px 0px; background: rgba(0, 0, 0, 0) url('/template24/images/news2013_sorting.png') no-repeat scroll 5px 11px; }
+.list_ph li { height: 30px; line-height: 30px; border-bottom: 1px dotted rgb(204, 204, 204); overflow: hidden; vertical-align: top; padding-left: 30px; }
+.list_ph a { float: left; width: 220px; vertical-align: baseline; }
+/* ::::: http://www.biznewscn.com/templets/css/g2013.css ::::: */
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0px; padding: 0px; }
+body, button, input, select, textarea { font: 12px/1.5 "Microsoft Yahei",arial,宋体; color: rgb(102, 102, 102); }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+ul, ol { list-style: outside none none; }
+a { text-decoration: none; color: rgb(51, 51, 51); transition: color 0.2s ease-in-out 0s; }
+a:hover { text-decoration: underline; color: rgb(221, 0, 0); }
+fieldset, img { border: 0px none; }
+table {  }
+.w-1200 { width: 1200px; margin: 0px auto; }
+.clearfix::after { content: " "; display: block; height: 0px; clear: both; }
+.clearfix, .col-sub, .col-extra {  }
+html {  }
+/* ::::: http://www.biznewscn.com/templets/css/common2013.css ::::: */
+
+.mar10, .marTop10 { margin-top: 10px; }
+.mar15 { margin-top: 15px; }
+.col_main { float: left; width: 100%; }
+.col_sub, .col_extra { float: left; }
+.left { float: left; }
+.right { float: right; }
+.advs img { vertical-align: top; }
+body { background: rgb(255, 255, 255) url('/template24/images/wrapper_bg.png') repeat-y scroll center top; }
+.footer-nav li, .footer-nav .return_top a, #returnTop, .tuangou .s_ing, .tuangou .s_over, .announcement li, .job_btn, .job_btn_2, .tchd .po_ab, .tchd .l, .news_list li, .hotShop .hd, .hotShop .more .ruzhu, .hotShop .more .shangjia, .hotShop .hd h3, .sub_nav li { background: rgba(0, 0, 0, 0) url('/template24/images/common2013_sp.gif') no-repeat scroll 0px 0px; }
+.footer { margin-top: 20px; padding-bottom: 20px; }
+.footer .left { width: 800px; }
+.footer .left p { margin: 4px 0px; }
+.footer-nav { background-color: rgb(247, 247, 247); padding: 6px 0px 5px; margin-bottom: 6px; }
+.footer-nav li { background-position: -499px -185px; float: left; padding: 0px 12px; }
+.footer-nav .first { background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; }
+/* ::::: http://www.biznewscn.com/templets/css/head2013_6.css ::::: */
+
+body { background: rgba(0, 0, 0, 0) url('/template24/images/index2013_6_bg.jpg') no-repeat scroll 50% 0px; }
+.header .inner { padding: 26px 0px 14px; }
+.logo { width: 368px; overflow: hidden; margin-bottom: -15px; margin-top: -10px; }
+.login { width: 255px; margin-top: 15px; }
+.nav { border-bottom: 2px solid rgb(23, 104, 178); background-color: rgb(23, 104, 178); height: 42px; }
+.nav li { float: left; font-size: 18px; font-weight: bold; color: rgb(255, 255, 255); width: 99px; }
+.nav .last { background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; }
+.nav a { color: rgb(255, 255, 255); display: block; padding: 7px 10px; text-align: center; }
+.nav a:hover { color: rgb(221, 0, 0); }
+.nav .site_tel { float: right; padding: 7px 0px; }
+.logo img {  }
+* { margin: 0px; padding: 0px; border: 0px none; list-style: outside none none; }
+body { padding: 20px; background: rgb(238, 238, 238) none repeat scroll 0% 0%; }
+#myfocus { width: 460px; height: 285px; overflow: hidden; background: rgb(51, 51, 51) url('/template24/images/2010626103358712.jpg') no-repeat scroll 0% 0%; position: relative; }
+#myfocus .pics { width: 460px; height: 285px; overflow: hidden; position: relative; }
+#myfocus .pics ul { height: 285px; position: absolute; }
+#myfocus .pics ul li { width: 460px; height: 285px; float: left; position: relative; }
+#myfocus .pics ul li div, #myfocus .pics ul li div span, #myfocus .pics ul li div a { display: block; position: absolute; bottom: 0px; left: 0px; width: 100%; height: 34px; }
+#myfocus .pics ul li div span { opacity: 0.5; background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
+#myfocus .pics ul li div a { line-height: 34px; overflow: hidden; padding-left: 16px; text-decoration: none; font-size: 14px; color: rgb(255, 255, 255); font-weight: bold; }
+#myfocus .mybtn { position: absolute; bottom: 8px; right: 8px; }
+#myfocus .mybtn ul li { float: left; width: 16px; height: 6px; margin-left: 4px; overflow: hidden; border: 1px solid rgb(0, 0, 0); background: rgb(204, 204, 204) none repeat scroll 0% 0%; cursor: pointer; }
+#myfocus .mybtn ul li.current { background: rgb(255, 102, 0) none repeat scroll 0% 0%; }

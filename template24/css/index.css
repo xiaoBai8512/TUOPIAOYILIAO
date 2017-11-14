@@ -1,0 +1,131 @@
+/* ::::: http://www.biznewscn.com/templets/css/index2013_6.css ::::: */
+
+.mod_1 .hd, .mod_2 .hd h3, .mod_2 .hd .jian, .mod_3 .hd .jian, .mod_4 .hd .jian, .estate .picList .text .menu, .fangchan .shou, .fangchan .zu, #fangchan .hot, .wrapper .tchd .po_ab, .tuangou2 .info .btn, .touban .text li, #fangchan .hot, .koubei .text li, .koubei .btn { background: rgba(0, 0, 0, 0) url('/template24/images/index2013_6_sp.gif') no-repeat scroll 0px 0px; }
+.mod_1 .hd { background-position: 0px -523px; background-repeat: repeat-x; }
+.mod_1 .hd li, .mod_1 .hd h3 { padding: 2px 0px 5px; float: left; font-size: 18px; font-weight: normal; width: 96px; color: rgb(0, 135, 189); text-align: center; position: relative; z-index: 2; }
+.mod_1 .hd .sp { display: none; }
+.mod_1 .hd .selected .sp, .mod_1 .hd h3 .sp { display: block; width: 100%; left: 0px; top: 33px; height: 1px; overflow: hidden; background-color: rgb(255, 255, 255); }
+.mod_1 .hd .selected .sp span, .mod_1 .hd h3 .sp span { display: block; height: 1px; overflow: hidden; background-color: rgb(0, 135, 189); margin: 0px 3px; }
+.mod_1 .hd h3 .sp span { margin: 0px 3px 0px 0px; }
+.mod_1 .more { display: inline; margin: 10px 6px 0px 0px; }
+.mod_1 .bd { padding: 10px 0px 0px; }
+.mod_3 .hd {  }
+.mod_3 .hd h3 { color: rgb(0, 135, 189); font-size: 18px; font-weight: normal; padding: 8px 0px 4px 5px; }
+.mod_3 .hd .jian, .mod_4 .hd .jian { display: inline; float: left; width: 11px; height: 11px; background-position: -321px -80px; overflow: hidden; margin: 17px 0px 0px 5px; }
+.mod_3 .hd .more { display: inline; margin: 13px 13px 0px 0px; }
+.mod_3 .bd { padding: 10px; border: 1px solid rgb(238, 238, 238); }
+.mod_4 .hd { margin-top: 10px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; }
+.mod_4 .hd h3 { color: rgb(0, 135, 189); font-size: 14px; font-weight: normal; padding: 2px 0px 2px 8px; width: auto; }
+.mod_4 .hd .jian { margin: 8px 0px 0px 5px; }
+.mod_4 .bd { padding: 10px; }
+.mod_4 .hd .more { margin: 5px 8px 0px 0px; }
+.slide { position: relative; z-index: 1; height: 179px; overflow: hidden; }
+.slide .dot { position: absolute; z-index: 5; bottom: 7px; right: 2px; }
+.slide .dot li { display: inline; float: left; font-size: 14px; line-height: 20px; padding: 2px 8px; margin-right: 5px; cursor: pointer; background-color: rgb(34, 34, 34); color: rgb(255, 255, 255); text-align: center; }
+.slide .dot .on { background-color: rgb(0, 135, 189); }
+.slide .picList li { float: left; position: relative; }
+.slide .picList li img { display: block; width: 460px; height: 179px; }
+.touban .pic li { float: left; display: inline; margin: 7px 10px 0px 14px; width: 90px; }
+.touban .pic .tit { display: block; margin-top: 3px; text-align: center; cursor: pointer; height: 36px; overflow: hidden; }
+.touban .pic img { display: block; width: 90px; height: 90px; vertical-align: top; }
+.touban .pic a:hover .tit { text-decoration: underline; }
+.wrapper .content .focus { padding: 12px 5px 5px; }
+.focus .topic h3 { font-size: 18px; text-align: center; height: 27px; color: rgb(0, 0, 0); line-height: 27px; overflow: hidden; }
+.focus .topic .more { color: rgb(221, 0, 0); }
+.focus .topic .info { color: rgb(119, 119, 119); margin: 5px 0px 10px; line-height: 22px; height: 44px; overflow: hidden; }
+.focus .list { border-top: 1px dotted rgb(221, 221, 221); padding: 6px 0px; }
+.focus .list li { line-height: 26px; height: 26px; overflow: hidden; font-size: 14px; }
+.focus .list em { margin-left: 9px; font-size: 12px; color: rgb(153, 153, 153); }
+.focus .list .cat { color: rgb(119, 119, 119); margin-right: 3px; }
+.focus .list .cat:hover { color: rgb(221, 0, 0); }
+.friendLink { background-color: rgb(243, 243, 243); padding: 10px; }
+.friendLink .hd { color: rgb(34, 34, 34); font-size: 18px; font-weight: normal; border-bottom: 1px solid rgb(218, 218, 218); padding: 8px 0px 8px 8px; background-position: 0px -520px; background-repeat: repeat-x; }
+.wrapper .content .friendLink .bd .pic li { width: 105px; height: 20px; }
+.info { text-indent: 2em; position: relative; }
+.info a { text-align: center; position: absolute; right: 0px; top: 13px; }
+.wrapper .content .koubei { padding: 0px; }
+.koubei .col_1 { width: 198px; }
+.koubei .col_2 { width: 712px; }
+.koubei .col_3 { width: 278px; }
+.koubei .img { padding: 1px 0px 0px 10px; }
+.koubei .img li { float: left; display: inline; text-align: center; }
+.koubei .img img { vertical-align: top; display: block; }
+.koubei .img .tit { display: block; height: 18px; overflow: hidden; margin-top: 5px; cursor: pointer; }
+.koubei .shop_logo li { width: 130px; margin: 10px 10px 0px 0px; }
+.koubei .shop_logo img { width: 130px; height: 57px; }
+.koubei .text { padding: 5px 0px 0px 5px; }
+.koubei .text li { line-height: 24px; height: 24px; overflow: hidden; padding-left: 15px; background-position: -491px -231px; }
+/* ::::: http://www.biznewscn.com/templets/css/g2013.css ::::: */
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0px; padding: 0px; }
+body, button, input, select, textarea { font: 12px/1.5 "Microsoft Yahei",arial,宋体; color: rgb(102, 102, 102); }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; }
+ul, ol { list-style: outside none none; }
+a { text-decoration: none; color: rgb(51, 51, 51); transition: color 0.2s ease-in-out 0s; }
+a:hover { text-decoration: underline; color: rgb(221, 0, 0); }
+fieldset, img { border: 0px none; }
+table {  }
+.w-1200 { width: 1200px; margin: 0px auto; }
+.clearfix::after { content: " "; display: block; height: 0px; clear: both; }
+.clearfix, .col-sub, .col-extra {  }
+html {  }
+/* ::::: http://www.biznewscn.com/templets/css/common2013.css ::::: */
+
+.mar10, .marTop10 { margin-top: 10px; }
+.mar15 { margin-top: 15px; }
+.col_main { float: left; width: 100%; }
+.col_sub, .col_extra { float: left; }
+.left { float: left; }
+.right { float: right; }
+.po_re { position: relative; z-index: 2; }
+.po_ab { position: absolute; }
+.advs img { vertical-align: top; }
+.advs p { margin-top: 1px; }
+.blank10 { height: 10px; overflow: hidden; }
+.grid_01, .grid_02, .grid_03, .grid_04, .grid_05, .grid_06, .grid_07 { margin-top: 10px; text-align: left; width: 100%; }
+.grid_07 .main_wrap { margin: 0px 290px 0px 480px; }
+.grid_07 .col_sub { width: 460px; margin-left: -100%; }
+.grid_07 .col_extra { width: 270px; margin-left: -270px; }
+body { background: rgb(255, 255, 255) url('/template24/images/wrapper_bg.png') repeat-y scroll center top; }
+.footer-nav li, .footer-nav .return_top a, #returnTop, .tuangou .s_ing, .tuangou .s_over, .announcement li, .job_btn, .job_btn_2, .tchd .po_ab, .tchd .l, .news_list li, .hotShop .hd, .hotShop .more .ruzhu, .hotShop .more .shangjia, .hotShop .hd h3, .sub_nav li { background: rgba(0, 0, 0, 0) url('/template24/images/common2013_sp.gif') no-repeat scroll 0px 0px; }
+.wrapper .content .meitu { padding: 10px 0px 10px 14px; }
+.meitu li { float: left; display: inline; margin: 6px 3px 0px 4px; width: 140px; padding-bottom: 6px; }
+.meitu .tit, .meitu .bg { display: block; width: 128px; padding: 0px 2px; bottom: 5px; left: 0px; height: 22px; line-height: 22px; overflow: hidden; }
+.meitu .tit { text-align: center; z-index: 3; color: rgb(255, 255, 255); cursor: pointer; }
+.meitu .tit:hover { color: rgb(255, 255, 255); text-decoration: underline; }
+.meitu .bg { background-color: rgb(0, 0, 0); opacity: 0.6; z-index: 2; }
+.meitu img { vertical-align: top; }
+.meitu a:hover .tit { text-decoration: underline; }
+.bianmin li { float: left; width: 103px; height: 39px; overflow: hidden; padding-top: 5px; background-color: rgb(187, 187, 187); text-align: center; display: inline; margin: 4px 2px 0px; }
+.bianmin a, .bianmin a:hover { color: rgb(255, 255, 255); }
+.announcement .topic { height: 21px; overflow: hidden; margin-bottom: 5px; text-align: center; font-weight: bold; font-size: 14px; }
+.announcement .topic a { color: rgb(255, 51, 0); }
+.announcement li { height: 21px; line-height: 21px; overflow: hidden; background-position: -492px -232px; padding-left: 15px; }
+.announcement em { color: rgb(153, 153, 153); margin-left: 8px; font-size: 12px; }
+.news_list li { height: 24px; line-height: 24px; overflow: hidden; font-size: 14px; background-position: -495px -230px; padding-left: 10px; }
+.news_list em { color: rgb(170, 170, 170); font-size: 12px; margin-left: 8px; }
+.news_list .topic { font-weight: bold; font-size: 16px; text-align: center; margin: 3px 0px 5px; }
+.friendLink .bd { padding: 10px 6px 10px 15px; }
+.friendLink .bd .pic li { width: 107px; float: left; margin-top: 5px; height: 39px; overflow: hidden; }
+.footer { margin-top: 20px; padding-bottom: 20px; }
+.footer .left { width: 800px; }
+.footer .left p { margin: 4px 0px; }
+.footer-nav { background-color: rgb(247, 247, 247); padding: 6px 0px 5px; margin-bottom: 6px; }
+.footer-nav li { background-position: -499px -185px; float: left; padding: 0px 12px; }
+.footer-nav .first { background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; }
+#returnTop { display: block; position: fixed; bottom: -200px; right: 10px; z-index: 999; width: 40px; height: 40px; background-position: 0px 0px; color: rgb(255, 255, 255); overflow: hidden; text-indent: -999em; transition: bottom 0.9s ease 0s; }
+#returnTop:hover { opacity: 0.5; }
+/* ::::: http://www.biznewscn.com/templets/css/head2013_6.css ::::: */
+
+body { background: rgba(0, 0, 0, 0) url('/template24/images/index2013_6_bg.jpg') no-repeat scroll 50% 0px; }
+.header .inner { padding: 26px 0px 14px; }
+.logo { width: 368px; overflow: hidden; margin-bottom: -15px; margin-top: -10px; }
+.login { width: 255px; margin-top: 15px; }
+.nav { border-bottom: 2px solid rgb(23, 104, 178); background-color: rgb(23, 104, 178); height: 42px; }
+.nav li { float: left; font-size: 18px; font-weight: bold; color: rgb(255, 255, 255); width: 99px; }
+.nav .last { background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; }
+.nav a { color: rgb(255, 255, 255); display: block; padding: 7px 10px; text-align: center; }
+.nav a:hover { color: rgb(221, 0, 0); }
+.nav .site_tel { float: right; padding: 7px 0px; }
+.logo img {  }

@@ -1,0 +1,96 @@
+/* ::::: http://www.biznewscn.com/templets/css/v2013.css ::::: */
+
+.col_main { float: left; width: 100%; }
+.col_sub, .col_extra { float: left; }
+.v2013 .grid_02 { margin-top: 5px; text-align: left; }
+.v2013 .grid_02 .main_wrap { margin: 0px 345px 0px 0px; }
+.v2013 .grid_02 .col_sub { width: 325px; margin-left: -325px; }
+.mo_1 { border-top: 5px solid rgb(242, 242, 242); margin-top: 15px; padding: 15px 0px 0px; }
+.mo_1 h3 { font: bold 16px/24px "微软雅黑"; color: rgb(51, 51, 51); }
+.mo_1 .bd { padding: 10px 0px 0px; }
+.paihang { background: rgba(0, 0, 0, 0) url('/template24/images/news_paixu2013.gif') no-repeat scroll 5px 57px; }
+.paihang .bd li { position: relative; z-index: 2; padding: 0px 75px 0px 34px; border-bottom: 1px solid rgb(235, 235, 235); line-height: 38px; height: 38px; overflow: hidden; }
+.paihang .bd .num { display: block; position: absolute; top: 9px; right: 0px; text-align: right; width: 60px; height: 20px; line-height: 20px; color: rgb(147, 0, 0); font-weight: bold; }
+.paihang .bd a { color: rgb(64, 64, 64); }
+.paihang .bd a:hover { color: rgb(255, 51, 0); }
+.news_content { border: 1px solid rgb(237, 237, 237); padding-top: 10px; padding-bottom: 10px; }
+.news_content h2 { font: bold 20px/30px "微软雅黑"; color: rgb(204, 0, 0); text-align: center; }
+.news_content .news_info { text-align: center; color: rgb(153, 153, 153); margin-top: 6px; border-bottom: 1px solid rgb(235, 235, 235); padding-top: 2px; padding-bottom: 4px; background: rgb(237, 246, 252) none repeat scroll 0% 0%; }
+.news_content .news_info em { color: rgb(64, 64, 64); }
+.news_content .news_info .small { font-family: Georgia; font-size: 11px; -moz-text-size-adjust: none; }
+.news_content .news_info .big { font-family: Georgia; font-size: 14px; }
+.news_content .news_info .current { color: rgb(153, 153, 153); }
+.news_content .news_info .current { color: rgb(153, 153, 153); text-decoration: none; cursor: default; }
+.news_content .news_aricle { padding: 5px 22px; font-size: 14px; line-height: 1.7em; word-break: break-all; }
+.news_content .news_aricle img { max-width: 100% !important; height: auto !important; }
+.news_content .news_aricle p { margin: 8px 0px; }
+.news_content .prev_next { padding: 10px; font-size: 14px; color: rgb(153, 153, 153); }
+.news_content .prev_next .left { float: left; line-height: 28px; width: 380px; }
+.news_content .prev_next .left p { width: 380px; overflow: hidden; height: 28px; line-height: 28px; }
+.adv img { vertical-align: top; }
+/* ::::: http://www.biznewscn.com/templets/css/g2013.css ::::: */
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0px; padding: 0px; }
+body, button, input, select, textarea { font: 12px/1.5 "Microsoft Yahei",arial,宋体; color: rgb(102, 102, 102); }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; }
+ul, ol { list-style: outside none none; }
+a { text-decoration: none; color: rgb(51, 51, 51); transition: color 0.2s ease-in-out 0s; }
+a:hover { text-decoration: underline; color: rgb(221, 0, 0); }
+fieldset, img { border: 0px none; }
+.w-1200 { width: 1200px; margin: 0px auto; }
+.clearfix::after { content: " "; display: block; height: 0px; clear: both; }
+.clearfix, .col-sub, .col-extra {  }
+html {  }
+/* ::::: http://www.biznewscn.com/templets/css/common2013.css ::::: */
+
+.mar10, .marTop10 { margin-top: 10px; }
+.col_main { float: left; width: 100%; }
+.col_sub, .col_extra { float: left; }
+.left { float: left; }
+.right { float: right; }
+.advs img { vertical-align: top; }
+.grid_01, .grid_02, .grid_03, .grid_04, .grid_05, .grid_06, .grid_07 { margin-top: 10px; text-align: left; width: 100%; }
+.grid_02 .main_wrap { margin: 0px 280px 0px 0px; }
+.grid_02 .col_sub { width: 270px; margin-left: -270px; }
+body { background: rgb(255, 255, 255) url('/template24/images/wrapper_bg.png') repeat-y scroll center top; }
+.footer-nav li, .footer-nav .return_top a, #returnTop, .tuangou .s_ing, .tuangou .s_over, .announcement li, .job_btn, .job_btn_2, .tchd .po_ab, .tchd .l, .news_list li, .hotShop .hd, .hotShop .more .ruzhu, .hotShop .more .shangjia, .hotShop .hd h3, .sub_nav li { background: rgba(0, 0, 0, 0) url('/template24/images/common2013_sp.gif') no-repeat scroll 0px 0px; }
+.sub_nav { background-color: rgb(255, 255, 255); border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentcolor rgb(235, 235, 235) rgb(235, 235, 235); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 8px 0px 8px 6px; }
+.footer { margin-top: 20px; padding-bottom: 20px; }
+.footer .left { width: 800px; }
+.footer .left p { margin: 4px 0px; }
+.footer-nav { background-color: rgb(247, 247, 247); padding: 6px 0px 5px; margin-bottom: 6px; }
+.footer-nav li { background-position: -499px -185px; float: left; padding: 0px 12px; }
+.footer-nav .first { background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; }
+#returnTop { display: block; position: fixed; bottom: -200px; right: 10px; z-index: 999; width: 40px; height: 40px; background-position: 0px 0px; color: rgb(255, 255, 255); overflow: hidden; text-indent: -999em; transition: bottom 0.9s ease 0s; }
+#returnTop:hover { opacity: 0.5; }
+.breadcrumb { background: rgba(0, 0, 0, 0) url('/template24/images/sp2013.gif') no-repeat scroll -843px 10px; padding: 9px 0px 9px 19px; color: rgb(153, 153, 153); }
+.breadcrumb a { color: rgb(51, 102, 204); }
+.breadcrumb a:hover { color: rgb(221, 0, 0); }
+/* ::::: http://www.biznewscn.com/templets/css/head2013_6.css ::::: */
+
+body { background: rgba(0, 0, 0, 0) url('/template24/images/index2013_6_bg.jpg') no-repeat scroll 50% 0px; }
+.header .inner { padding: 26px 0px 14px; }
+.logo { width: 368px; overflow: hidden; margin-bottom: -15px; margin-top: -10px; }
+.login { width: 255px; margin-top: 15px; }
+.nav { border-bottom: 2px solid rgb(23, 104, 178); background-color: rgb(23, 104, 178); height: 42px; }
+.nav li { float: left; font-size: 18px; font-weight: bold; color: rgb(255, 255, 255); width: 99px; }
+.nav .last { background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; }
+.nav a { color: rgb(255, 255, 255); display: block; padding: 7px 10px; text-align: center; }
+.nav a:hover { color: rgb(221, 0, 0); }
+.nav .site_tel { float: right; padding: 7px 0px; }
+/* ::::: http://www.biznewscn.com/templets/css/share_style0_32.css ::::: */
+
+.bdshare-button-style0-32 .bds_qzone { background-position: 0px -52px; }
+.bdshare-button-style0-32 .bds_tsina { background-position: 0px -104px; }
+.bdshare-button-style0-32 .bds_renren { background-position: 0px -208px; }
+.bdshare-button-style0-32 .bds_tqq { background-position: 0px -260px; }
+.bdshare-button-style0-32 .bds_weixin { background-position: 0px -1612px; }
+.bdshare-button-style0-32 {  }
+.bdshare-button-style0-32::after { content: "."; visibility: hidden; display: block; height: 0px; clear: both; }
+.bdshare-button-style0-32 a { float: left; width: 32px; line-height: 32px; height: 32px; background-image: url('/template24/images/icons_0_32.png'); background-repeat: no-repeat; cursor: pointer; margin: 6px 6px 6px 0px; text-indent: -100em; overflow: hidden; color: rgb(58, 140, 235); }
+.bdshare-button-style0-32 a:hover { color: rgb(51, 51, 51); opacity: 0.8; }
+.bdshare-button-style0-32 .bds_more { color: rgb(51, 51, 51); }
+.logo img {  }
+.dede_pages {  }
+.dede_pages ul { float: left; padding: 12px 0px 12px 16px; }
